@@ -1,8 +1,10 @@
 package com.demoblaze.tests;
 
+import com.demoblaze.datareader.JsonReader;
 import com.demoblaze.datareader.PropertyReader;
 import com.demoblaze.drivers.DriverFactory;
 import com.demoblaze.drivers.DriverManager;
+import com.demoblaze.utils.LogsManager;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
@@ -13,26 +15,27 @@ public class BaseTest {
 
     private String browser;
 
+    private String baseUrl;
+
     @BeforeClass
     public void setUpClass() {
         PropertyReader.loadProperties();
         browser = PropertyReader.getProperty("browser");
+        baseUrl = PropertyReader.getProperty("baseUrl");
     }
 
     @BeforeMethod
     public void setUpMethod() {
         WebDriver driver = DriverFactory.createDriver(browser);
         DriverManager.setDriver(driver);
-    }
-
-    @Test
-    public void testDummy() {
-        DriverManager.getDriver().get(PropertyReader.getProperty("baseUrl"));
-        System.out.println("Page title is: " + DriverManager.getDriver().getTitle());
+        driver.get(baseUrl);
+        LogsManager.info("Navigated to base URL");
     }
 
     @AfterMethod(alwaysRun = true)
     public void tearDown() {
         DriverManager.quitDriver();
+
     }
+
 }
