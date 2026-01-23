@@ -5,6 +5,7 @@ import com.demoblaze.datareader.PropertyReader;
 import java.io.File;
 import java.io.IOException;
 
+//to be used with Allure reports - screenshots
 public class FileUtils {
 
     private static final String USER_DIR = PropertyReader.getProperty("user.dir")+ File.separator;
@@ -27,7 +28,6 @@ public class FileUtils {
         }
     }
 
-    //force delete
     public static void forceDelete(File file) {
         try {
             org.apache.commons.io.FileUtils.forceDeleteOnExit(file);
@@ -37,7 +37,7 @@ public class FileUtils {
         }
     }
 
-    // cleaning Directory
+
     public static void cleanDirectory(File file)
     {
         try {
@@ -54,10 +54,4 @@ public class FileUtils {
         File file = new File(filePath+ fileName);
         return file.exists();
     }
-
-
-
-
-
-
 }
