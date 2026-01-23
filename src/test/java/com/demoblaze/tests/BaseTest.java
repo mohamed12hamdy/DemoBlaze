@@ -11,12 +11,10 @@ import org.testng.annotations.Test;
 
 public class BaseTest {
 
-    private PropertyReader propertyReader;
     private String browser;
 
     @BeforeClass
     public void setUpClass() {
-        propertyReader = new PropertyReader();
         PropertyReader.loadProperties();
         browser = PropertyReader.getProperty("browser");
     }
@@ -29,7 +27,7 @@ public class BaseTest {
 
     @Test
     public void testDummy() {
-        DriverManager.getDriver().get("https://www.demoblaze.com");
+        DriverManager.getDriver().get(PropertyReader.getProperty("baseUrl"));
         System.out.println("Page title is: " + DriverManager.getDriver().getTitle());
     }
 

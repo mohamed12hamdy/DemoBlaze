@@ -7,18 +7,11 @@ public class DriverFactory {
 
     public static WebDriver createDriver(String browser) {
 
-        WebDriver driver;
-
-        switch (browser.toLowerCase()) {
-            case "edge":
-                driver = new EdgeDriver();
-                break;
-
-            case "chrome":
-            default:
-                driver = new ChromeDriver();
-                break;
-        }
+        WebDriver driver = switch (browser.toLowerCase()) {
+            case "edge" -> new EdgeDriver();
+            case "chrome" -> new ChromeDriver();
+            default -> throw new IllegalArgumentException("Unsupported browser: " + browser);
+        };
 
         driver.manage().window().maximize();
         return driver;
