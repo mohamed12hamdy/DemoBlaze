@@ -1,5 +1,6 @@
 package com.demoblaze.datareader;
 
+import com.demoblaze.utils.LogsManager;
 import org.apache.commons.io.FileUtils;
 
 import java.io.File;
@@ -19,14 +20,15 @@ public class PropertyReader {
                 try {
                     properties.load(new FileInputStream(file));
                 } catch (Exception e) {
-                    System.out.println("Error loading properties file: " + file.getName() + " - " + e.getMessage());
+                   LogsManager.error("Failed to load properties from file: " + file.getName(), e.getMessage());
+
                 }
                 properties.putAll(System.getProperties());
                 System.getProperties().putAll(properties);
             });
             return properties;
         } catch (Exception e) {
-            System.out.println("Error loading properties: " + e.getMessage());
+            LogsManager.error("Failed to load properties files", e.getMessage());
             return null;
         }
     }

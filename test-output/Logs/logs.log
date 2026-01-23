@@ -1,0 +1,6 @@
+[DEBUG] - [23-01-2026 20:58:13] [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\midoh\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml"
+[INFO] - [23-01-2026 20:58:14] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\midoh\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+[INFO] - [23-01-2026 20:58:14] [main] [com.demoblaze.utils.LogsManager] - Before Suite: Initialize resources
+[INFO] - [23-01-2026 20:58:14] [main] [com.demoblaze.utils.LogsManager] - Dummy Test executed successfully
