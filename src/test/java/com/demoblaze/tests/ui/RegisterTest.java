@@ -26,8 +26,8 @@ public class RegisterTest extends BaseTest {
 
        String alertText = new RegisterPage(DriverManager.getDriver()).signup(
                 validregisterdata.getJsonData("name") + TimeManager.getSimpleTimestamp(),
-                validregisterdata.getJsonData("password")
-        ).getAlertText();
+                validregisterdata.getJsonData("password")).getAlertMessage();
+
 
         Assert.assertEquals(alertText, "Sign up successful.");
     }
@@ -38,7 +38,7 @@ public class RegisterTest extends BaseTest {
         String alertText = new RegisterPage(DriverManager.getDriver()).signup(
                 Invalidregisterdata.getJsonData("name"),
                 Invalidregisterdata.getJsonData("password")
-        ).getAlertText();
+        ).getAlertMessage();
 
         Assert.assertEquals(alertText, "This user already exist.");
     }

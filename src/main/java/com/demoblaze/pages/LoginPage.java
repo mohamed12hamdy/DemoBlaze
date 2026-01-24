@@ -5,11 +5,12 @@ import com.demoblaze.actions.ElementActions;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
-public class LoginPage {
+public class LoginPage extends BasePage {
 
     private final WebDriver driver;
 
     public LoginPage(WebDriver driver) {
+        super(driver);
         this.driver = driver;
 
     }
@@ -39,7 +40,5 @@ public class LoginPage {
                 .findElement(LoggedUserName)
                 .getText();
     }
-    public String getAlertMessage() {
-        return new AlertActions(driver).getAlertText();
-    }
+
 }

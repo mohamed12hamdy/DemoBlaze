@@ -36,7 +36,7 @@ public class LoginTest extends BaseTest {
         String password = validlogindata.getJsonData("password");
 
         String ActualName = new LoginPage(DriverManager.getDriver()).login(username, password)
-                .getLoggedUserName();
+                            .getLoggedUserName();
 
         Assert.assertTrue(ActualName.contains(username), "Logged in username does not match.");
     }

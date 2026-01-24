@@ -8,7 +8,7 @@ import com.demoblaze.utils.TimeManager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
-public class RegisterPage {
+public class RegisterPage extends BasePage {
 
     private final  WebDriver driver;
 
@@ -17,6 +17,7 @@ public class RegisterPage {
     private final JsonReader Invalidregisterdata;
 
     public RegisterPage(WebDriver driver) {
+        super(driver);
         this.driver = driver;
 
         validregisterdata = new JsonReader("Validregister-data");
@@ -44,9 +45,4 @@ public class RegisterPage {
 
         return this;
     }
-
-    public String getAlertText() {
-        return new AlertActions(driver).getAlertText();
-    }
-
 }

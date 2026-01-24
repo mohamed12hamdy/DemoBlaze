@@ -727,3 +727,908 @@
 [INFO] - [24-01-2026 19:42:34] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.id: nameofuser
 [INFO] - [24-01-2026 19:42:34] [main] [com.demoblaze.utils.LogsManager] - Test Case validLoginTestCase passed
 [INFO] - [24-01-2026 19:42:35] [main] [com.demoblaze.utils.LogsManager] - Test Execution Finished
+[DEBUG] - [24-01-2026 20:23:04] [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\midoh\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml"
+[INFO] - [24-01-2026 20:23:04] [main] [com.demoblaze.utils.LogsManager] - Test Execution started
+[INFO] - [24-01-2026 20:23:04] [main] [com.demoblaze.utils.LogsManager] - Directories cleaned
+[INFO] - [24-01-2026 20:23:04] [main] [com.demoblaze.utils.LogsManager] - Directories created
+[INFO] - [24-01-2026 20:23:04] [main] [com.demoblaze.utils.LogsManager] - Properties loaded
+[INFO] - [24-01-2026 20:23:04] [main] [com.demoblaze.utils.LogsManager] - Allure environment set
+[INFO] - [24-01-2026 20:23:04] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\midoh\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+[INFO] - [24-01-2026 20:23:12] [main] [com.demoblaze.utils.LogsManager] - Navigated to base URL
+[DEBUG] - [24-01-2026 20:23:12] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['name']
+[DEBUG] - [24-01-2026 20:23:12] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['password']
+[INFO] - [24-01-2026 20:23:12] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.id: login2
+[INFO] - [24-01-2026 20:23:12] [main] [com.demoblaze.utils.LogsManager] - initialLocation: (1077, 17)
+[INFO] - [24-01-2026 20:23:12] [main] [com.demoblaze.utils.LogsManager] - finalLocation: (1077, 17)
+[INFO] - [24-01-2026 20:23:12] [main] [com.demoblaze.utils.LogsManager] - Clicked on element: By.id: login2
+[INFO] - [24-01-2026 20:23:13] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.id: loginusername
+[INFO] - [24-01-2026 20:23:13] [main] [com.demoblaze.utils.LogsManager] - Typed text 'm2022001' into element: By.id: loginusername
+[INFO] - [24-01-2026 20:23:13] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.id: loginpassword
+[INFO] - [24-01-2026 20:23:14] [main] [com.demoblaze.utils.LogsManager] - Typed text '1' into element: By.id: loginpassword
+[INFO] - [24-01-2026 20:23:14] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.cssSelector: button[onclick='logIn()']
+[INFO] - [24-01-2026 20:23:14] [main] [com.demoblaze.utils.LogsManager] - initialLocation: (917, 372)
+[INFO] - [24-01-2026 20:23:14] [main] [com.demoblaze.utils.LogsManager] - finalLocation: (917, 372)
+[INFO] - [24-01-2026 20:23:14] [main] [com.demoblaze.utils.LogsManager] - Clicked on element: By.cssSelector: button[onclick='logIn()']
+[INFO] - [24-01-2026 20:23:16] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.id: nameofuser
+[INFO] - [24-01-2026 20:23:16] [main] [com.demoblaze.utils.LogsManager] - Test Case validLoginTestCase passed
+[INFO] - [24-01-2026 20:23:18] [main] [com.demoblaze.utils.LogsManager] - Navigated to base URL
+[INFO] - [24-01-2026 20:23:34] [main] [com.demoblaze.utils.LogsManager] - Test Case logoutTestCase failed
+[INFO] - [24-01-2026 20:23:36] [main] [com.demoblaze.utils.LogsManager] - Test Execution Finished
+[DEBUG] - [24-01-2026 20:25:53] [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\midoh\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml"
+[INFO] - [24-01-2026 20:25:53] [main] [com.demoblaze.utils.LogsManager] - Test Execution started
+[INFO] - [24-01-2026 20:25:53] [main] [com.demoblaze.utils.LogsManager] - Directories cleaned
+[INFO] - [24-01-2026 20:25:53] [main] [com.demoblaze.utils.LogsManager] - Directories created
+[INFO] - [24-01-2026 20:25:53] [main] [com.demoblaze.utils.LogsManager] - Properties loaded
+[INFO] - [24-01-2026 20:25:53] [main] [com.demoblaze.utils.LogsManager] - Allure environment set
+[INFO] - [24-01-2026 20:25:54] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\midoh\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+[INFO] - [24-01-2026 20:25:59] [main] [com.demoblaze.utils.LogsManager] - Navigated to base URL
+[DEBUG] - [24-01-2026 20:25:59] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['name']
+[DEBUG] - [24-01-2026 20:25:59] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['password']
+[INFO] - [24-01-2026 20:25:59] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.id: login2
+[INFO] - [24-01-2026 20:25:59] [main] [com.demoblaze.utils.LogsManager] - initialLocation: (1077, 17)
+[INFO] - [24-01-2026 20:25:59] [main] [com.demoblaze.utils.LogsManager] - finalLocation: (1077, 17)
+[INFO] - [24-01-2026 20:26:00] [main] [com.demoblaze.utils.LogsManager] - Clicked on element: By.id: login2
+[INFO] - [24-01-2026 20:26:00] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.id: loginusername
+[INFO] - [24-01-2026 20:26:00] [main] [com.demoblaze.utils.LogsManager] - Typed text 'm2022001' into element: By.id: loginusername
+[INFO] - [24-01-2026 20:26:01] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.id: loginpassword
+[INFO] - [24-01-2026 20:26:01] [main] [com.demoblaze.utils.LogsManager] - Typed text '1' into element: By.id: loginpassword
+[INFO] - [24-01-2026 20:26:01] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.cssSelector: button[onclick='logIn()']
+[INFO] - [24-01-2026 20:26:01] [main] [com.demoblaze.utils.LogsManager] - initialLocation: (917, 372)
+[INFO] - [24-01-2026 20:26:01] [main] [com.demoblaze.utils.LogsManager] - finalLocation: (917, 372)
+[INFO] - [24-01-2026 20:26:01] [main] [com.demoblaze.utils.LogsManager] - Clicked on element: By.cssSelector: button[onclick='logIn()']
+[INFO] - [24-01-2026 20:26:03] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.id: nameofuser
+[INFO] - [24-01-2026 20:26:03] [main] [com.demoblaze.utils.LogsManager] - Test Case validLoginTestCase passed
+[INFO] - [24-01-2026 20:26:06] [main] [com.demoblaze.utils.LogsManager] - Navigated to base URL
+[INFO] - [24-01-2026 20:26:21] [main] [com.demoblaze.utils.LogsManager] - Test Case logoutTestCase failed
+[INFO] - [24-01-2026 20:26:22] [main] [com.demoblaze.utils.LogsManager] - Test Execution Finished
+[DEBUG] - [24-01-2026 20:34:09] [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\midoh\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml"
+[INFO] - [24-01-2026 20:34:09] [main] [com.demoblaze.utils.LogsManager] - Test Execution started
+[INFO] - [24-01-2026 20:34:09] [main] [com.demoblaze.utils.LogsManager] - Directories cleaned
+[INFO] - [24-01-2026 20:34:09] [main] [com.demoblaze.utils.LogsManager] - Directories created
+[INFO] - [24-01-2026 20:34:09] [main] [com.demoblaze.utils.LogsManager] - Properties loaded
+[INFO] - [24-01-2026 20:34:09] [main] [com.demoblaze.utils.LogsManager] - Allure environment set
+[INFO] - [24-01-2026 20:34:09] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\midoh\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+[INFO] - [24-01-2026 20:34:14] [main] [com.demoblaze.utils.LogsManager] - Navigated to base URL
+[DEBUG] - [24-01-2026 20:34:15] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['name']
+[DEBUG] - [24-01-2026 20:34:15] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['password']
+[INFO] - [24-01-2026 20:34:15] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.id: login2
+[INFO] - [24-01-2026 20:34:15] [main] [com.demoblaze.utils.LogsManager] - initialLocation: (1077, 17)
+[INFO] - [24-01-2026 20:34:15] [main] [com.demoblaze.utils.LogsManager] - finalLocation: (1077, 17)
+[INFO] - [24-01-2026 20:34:15] [main] [com.demoblaze.utils.LogsManager] - Clicked on element: By.id: login2
+[INFO] - [24-01-2026 20:34:16] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.id: loginusername
+[INFO] - [24-01-2026 20:34:16] [main] [com.demoblaze.utils.LogsManager] - Typed text 'm2022001' into element: By.id: loginusername
+[INFO] - [24-01-2026 20:34:16] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.id: loginpassword
+[INFO] - [24-01-2026 20:34:17] [main] [com.demoblaze.utils.LogsManager] - Typed text '1' into element: By.id: loginpassword
+[INFO] - [24-01-2026 20:34:17] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.cssSelector: button[onclick='logIn()']
+[INFO] - [24-01-2026 20:34:17] [main] [com.demoblaze.utils.LogsManager] - initialLocation: (917, 372)
+[INFO] - [24-01-2026 20:34:17] [main] [com.demoblaze.utils.LogsManager] - finalLocation: (917, 372)
+[INFO] - [24-01-2026 20:34:17] [main] [com.demoblaze.utils.LogsManager] - Clicked on element: By.cssSelector: button[onclick='logIn()']
+[INFO] - [24-01-2026 20:34:19] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.id: logout2
+[INFO] - [24-01-2026 20:34:19] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.id: logout2
+[INFO] - [24-01-2026 20:34:19] [main] [com.demoblaze.utils.LogsManager] - initialLocation: (970, 17)
+[INFO] - [24-01-2026 20:34:19] [main] [com.demoblaze.utils.LogsManager] - finalLocation: (970, 17)
+[INFO] - [24-01-2026 20:34:20] [main] [com.demoblaze.utils.LogsManager] - Clicked on element: By.id: logout2
+[INFO] - [24-01-2026 20:34:20] [main] [com.demoblaze.utils.LogsManager] - Clicked logout button
+[INFO] - [24-01-2026 20:34:20] [main] [com.demoblaze.utils.LogsManager] - Test Case logoutTestCase passed
+[INFO] - [24-01-2026 20:34:20] [main] [com.demoblaze.utils.LogsManager] - Test Execution Finished
+[DEBUG] - [24-01-2026 20:36:14] [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\midoh\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml"
+[INFO] - [24-01-2026 20:36:15] [main] [com.demoblaze.utils.LogsManager] - Test Execution started
+[INFO] - [24-01-2026 20:36:15] [main] [com.demoblaze.utils.LogsManager] - Directories cleaned
+[INFO] - [24-01-2026 20:36:15] [main] [com.demoblaze.utils.LogsManager] - Directories created
+[INFO] - [24-01-2026 20:36:15] [main] [com.demoblaze.utils.LogsManager] - Properties loaded
+[INFO] - [24-01-2026 20:36:15] [main] [com.demoblaze.utils.LogsManager] - Allure environment set
+[INFO] - [24-01-2026 20:36:15] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\midoh\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+[INFO] - [24-01-2026 20:36:19] [main] [com.demoblaze.utils.LogsManager] - Navigated to base URL
+[DEBUG] - [24-01-2026 20:36:20] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['name']
+[DEBUG] - [24-01-2026 20:36:20] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['password']
+[INFO] - [24-01-2026 20:36:20] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.id: login2
+[INFO] - [24-01-2026 20:36:20] [main] [com.demoblaze.utils.LogsManager] - initialLocation: (1077, 17)
+[INFO] - [24-01-2026 20:36:20] [main] [com.demoblaze.utils.LogsManager] - finalLocation: (1077, 17)
+[INFO] - [24-01-2026 20:36:20] [main] [com.demoblaze.utils.LogsManager] - Clicked on element: By.id: login2
+[INFO] - [24-01-2026 20:36:21] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.id: loginusername
+[INFO] - [24-01-2026 20:36:21] [main] [com.demoblaze.utils.LogsManager] - Typed text 'm2022001' into element: By.id: loginusername
+[INFO] - [24-01-2026 20:36:21] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.id: loginpassword
+[INFO] - [24-01-2026 20:36:21] [main] [com.demoblaze.utils.LogsManager] - Typed text '1' into element: By.id: loginpassword
+[INFO] - [24-01-2026 20:36:22] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.cssSelector: button[onclick='logIn()']
+[INFO] - [24-01-2026 20:36:22] [main] [com.demoblaze.utils.LogsManager] - initialLocation: (917, 372)
+[INFO] - [24-01-2026 20:36:22] [main] [com.demoblaze.utils.LogsManager] - finalLocation: (917, 372)
+[INFO] - [24-01-2026 20:36:22] [main] [com.demoblaze.utils.LogsManager] - Clicked on element: By.cssSelector: button[onclick='logIn()']
+[INFO] - [24-01-2026 20:36:23] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.id: nameofuser
+[INFO] - [24-01-2026 20:36:24] [main] [com.demoblaze.utils.LogsManager] - Test Case validLoginTestCase passed
+[INFO] - [24-01-2026 20:36:24] [main] [com.demoblaze.utils.LogsManager] - Driver quit successfully
+[INFO] - [24-01-2026 20:36:27] [main] [com.demoblaze.utils.LogsManager] - Navigated to base URL
+[INFO] - [24-01-2026 20:36:42] [main] [com.demoblaze.utils.LogsManager] - Test Case logoutTestCase failed
+[INFO] - [24-01-2026 20:36:43] [main] [com.demoblaze.utils.LogsManager] - Driver quit successfully
+[INFO] - [24-01-2026 20:36:43] [main] [com.demoblaze.utils.LogsManager] - Test Execution Finished
+[DEBUG] - [24-01-2026 20:37:41] [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\midoh\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml"
+[INFO] - [24-01-2026 20:37:41] [main] [com.demoblaze.utils.LogsManager] - Test Execution started
+[INFO] - [24-01-2026 20:37:41] [main] [com.demoblaze.utils.LogsManager] - Directories cleaned
+[INFO] - [24-01-2026 20:37:41] [main] [com.demoblaze.utils.LogsManager] - Directories created
+[INFO] - [24-01-2026 20:37:41] [main] [com.demoblaze.utils.LogsManager] - Properties loaded
+[INFO] - [24-01-2026 20:37:41] [main] [com.demoblaze.utils.LogsManager] - Allure environment set
+[INFO] - [24-01-2026 20:37:42] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\midoh\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+[INFO] - [24-01-2026 20:37:46] [main] [com.demoblaze.utils.LogsManager] - Navigated to base URL
+[DEBUG] - [24-01-2026 20:37:46] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['name']
+[DEBUG] - [24-01-2026 20:37:46] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['password']
+[INFO] - [24-01-2026 20:37:47] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.id: login2
+[INFO] - [24-01-2026 20:37:47] [main] [com.demoblaze.utils.LogsManager] - initialLocation: (1077, 17)
+[INFO] - [24-01-2026 20:37:47] [main] [com.demoblaze.utils.LogsManager] - finalLocation: (1077, 17)
+[INFO] - [24-01-2026 20:37:47] [main] [com.demoblaze.utils.LogsManager] - Clicked on element: By.id: login2
+[INFO] - [24-01-2026 20:37:47] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.id: loginusername
+[INFO] - [24-01-2026 20:37:48] [main] [com.demoblaze.utils.LogsManager] - Typed text 'm2022001' into element: By.id: loginusername
+[INFO] - [24-01-2026 20:37:48] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.id: loginpassword
+[INFO] - [24-01-2026 20:37:48] [main] [com.demoblaze.utils.LogsManager] - Typed text '1' into element: By.id: loginpassword
+[INFO] - [24-01-2026 20:37:48] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.cssSelector: button[onclick='logIn()']
+[INFO] - [24-01-2026 20:37:48] [main] [com.demoblaze.utils.LogsManager] - initialLocation: (917, 372)
+[INFO] - [24-01-2026 20:37:48] [main] [com.demoblaze.utils.LogsManager] - finalLocation: (917, 372)
+[INFO] - [24-01-2026 20:37:49] [main] [com.demoblaze.utils.LogsManager] - Clicked on element: By.cssSelector: button[onclick='logIn()']
+[INFO] - [24-01-2026 20:37:50] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.id: logout2
+[INFO] - [24-01-2026 20:37:50] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.id: logout2
+[INFO] - [24-01-2026 20:37:51] [main] [com.demoblaze.utils.LogsManager] - initialLocation: (970, 17)
+[INFO] - [24-01-2026 20:37:51] [main] [com.demoblaze.utils.LogsManager] - finalLocation: (970, 17)
+[INFO] - [24-01-2026 20:37:51] [main] [com.demoblaze.utils.LogsManager] - Clicked on element: By.id: logout2
+[INFO] - [24-01-2026 20:37:51] [main] [com.demoblaze.utils.LogsManager] - Clicked logout button
+[INFO] - [24-01-2026 20:37:51] [main] [com.demoblaze.utils.LogsManager] - Test Case logoutTestCase passed
+[INFO] - [24-01-2026 20:37:51] [main] [com.demoblaze.utils.LogsManager] - Driver quit successfully
+[INFO] - [24-01-2026 20:37:51] [main] [com.demoblaze.utils.LogsManager] - Test Execution Finished
+[DEBUG] - [24-01-2026 21:29:03] [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\midoh\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml"
+[INFO] - [24-01-2026 21:29:03] [main] [com.demoblaze.utils.LogsManager] - Test Execution started
+[INFO] - [24-01-2026 21:29:03] [main] [com.demoblaze.utils.LogsManager] - Directories cleaned
+[INFO] - [24-01-2026 21:29:03] [main] [com.demoblaze.utils.LogsManager] - Directories created
+[INFO] - [24-01-2026 21:29:03] [main] [com.demoblaze.utils.LogsManager] - Properties loaded
+[INFO] - [24-01-2026 21:29:03] [main] [com.demoblaze.utils.LogsManager] - Allure environment set
+[INFO] - [24-01-2026 21:29:03] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\midoh\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+[INFO] - [24-01-2026 21:29:11] [main] [com.demoblaze.utils.LogsManager] - Navigated to base URL
+[DEBUG] - [24-01-2026 21:29:11] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['name']
+[DEBUG] - [24-01-2026 21:29:11] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['password']
+[INFO] - [24-01-2026 21:29:11] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.id: login2
+[INFO] - [24-01-2026 21:29:12] [main] [com.demoblaze.utils.LogsManager] - initialLocation: (1077, 17)
+[INFO] - [24-01-2026 21:29:12] [main] [com.demoblaze.utils.LogsManager] - finalLocation: (1077, 17)
+[INFO] - [24-01-2026 21:29:12] [main] [com.demoblaze.utils.LogsManager] - Clicked on element: By.id: login2
+[INFO] - [24-01-2026 21:29:12] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.id: loginusername
+[INFO] - [24-01-2026 21:29:12] [main] [com.demoblaze.utils.LogsManager] - Typed text 'm2022005' into element: By.id: loginusername
+[INFO] - [24-01-2026 21:29:18] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.id: loginpassword
+[INFO] - [24-01-2026 21:29:18] [main] [com.demoblaze.utils.LogsManager] - Typed text 'wrongpassword' into element: By.id: loginpassword
+[INFO] - [24-01-2026 21:29:23] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.cssSelector: button[onclick='logIn()']
+[INFO] - [24-01-2026 21:29:23] [main] [com.demoblaze.utils.LogsManager] - initialLocation: (917, 372)
+[INFO] - [24-01-2026 21:29:23] [main] [com.demoblaze.utils.LogsManager] - finalLocation: (917, 372)
+[INFO] - [24-01-2026 21:29:23] [main] [com.demoblaze.utils.LogsManager] - Clicked on element: By.cssSelector: button[onclick='logIn()']
+[ERROR] - [24-01-2026 21:29:23] [main] [com.demoblaze.utils.LogsManager] - Failed to get alert text:
+[ERROR] - [24-01-2026 21:29:24] [main] [com.demoblaze.utils.LogsManager] - Failed to get alert text:
+[ERROR] - [24-01-2026 21:29:24] [main] [com.demoblaze.utils.LogsManager] - Failed to get alert text:
+[ERROR] - [24-01-2026 21:29:24] [main] [com.demoblaze.utils.LogsManager] - Failed to get alert text:
+[INFO] - [24-01-2026 21:29:24] [main] [com.demoblaze.utils.LogsManager] - Test Case invalidLoginBothTestCase passed
+[INFO] - [24-01-2026 21:29:24] [main] [com.demoblaze.utils.LogsManager] - Driver quit successfully
+[INFO] - [24-01-2026 21:29:27] [main] [com.demoblaze.utils.LogsManager] - Navigated to base URL
+[DEBUG] - [24-01-2026 21:29:27] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['name']
+[DEBUG] - [24-01-2026 21:29:27] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['password']
+[INFO] - [24-01-2026 21:29:27] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.id: login2
+[INFO] - [24-01-2026 21:29:27] [main] [com.demoblaze.utils.LogsManager] - initialLocation: (1077, 17)
+[INFO] - [24-01-2026 21:29:27] [main] [com.demoblaze.utils.LogsManager] - finalLocation: (1077, 17)
+[INFO] - [24-01-2026 21:29:27] [main] [com.demoblaze.utils.LogsManager] - Clicked on element: By.id: login2
+[INFO] - [24-01-2026 21:29:28] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.id: loginusername
+[INFO] - [24-01-2026 21:29:28] [main] [com.demoblaze.utils.LogsManager] - Typed text 'm2022002' into element: By.id: loginusername
+[INFO] - [24-01-2026 21:29:28] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.id: loginpassword
+[INFO] - [24-01-2026 21:29:28] [main] [com.demoblaze.utils.LogsManager] - Typed text '1' into element: By.id: loginpassword
+[INFO] - [24-01-2026 21:29:28] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.cssSelector: button[onclick='logIn()']
+[INFO] - [24-01-2026 21:29:28] [main] [com.demoblaze.utils.LogsManager] - initialLocation: (917, 372)
+[INFO] - [24-01-2026 21:29:29] [main] [com.demoblaze.utils.LogsManager] - finalLocation: (917, 372)
+[INFO] - [24-01-2026 21:29:29] [main] [com.demoblaze.utils.LogsManager] - Clicked on element: By.cssSelector: button[onclick='logIn()']
+[ERROR] - [24-01-2026 21:29:29] [main] [com.demoblaze.utils.LogsManager] - Failed to get alert text:
+[ERROR] - [24-01-2026 21:29:29] [main] [com.demoblaze.utils.LogsManager] - Failed to get alert text:
+[ERROR] - [24-01-2026 21:29:29] [main] [com.demoblaze.utils.LogsManager] - Failed to get alert text:
+[ERROR] - [24-01-2026 21:29:29] [main] [com.demoblaze.utils.LogsManager] - Failed to get alert text:
+[INFO] - [24-01-2026 21:29:29] [main] [com.demoblaze.utils.LogsManager] - Test Case invalidLoginNameTestCase passed
+[INFO] - [24-01-2026 21:29:30] [main] [com.demoblaze.utils.LogsManager] - Driver quit successfully
+[INFO] - [24-01-2026 21:29:32] [main] [com.demoblaze.utils.LogsManager] - Navigated to base URL
+[DEBUG] - [24-01-2026 21:29:32] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['name']
+[DEBUG] - [24-01-2026 21:29:32] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['password']
+[INFO] - [24-01-2026 21:29:32] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.id: login2
+[INFO] - [24-01-2026 21:29:32] [main] [com.demoblaze.utils.LogsManager] - initialLocation: (1077, 17)
+[INFO] - [24-01-2026 21:29:32] [main] [com.demoblaze.utils.LogsManager] - finalLocation: (1077, 17)
+[INFO] - [24-01-2026 21:29:32] [main] [com.demoblaze.utils.LogsManager] - Clicked on element: By.id: login2
+[INFO] - [24-01-2026 21:29:33] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.id: loginusername
+[INFO] - [24-01-2026 21:29:33] [main] [com.demoblaze.utils.LogsManager] - Typed text 'm2022001' into element: By.id: loginusername
+[INFO] - [24-01-2026 21:29:33] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.id: loginpassword
+[INFO] - [24-01-2026 21:29:33] [main] [com.demoblaze.utils.LogsManager] - Typed text 'wrongpassword' into element: By.id: loginpassword
+[INFO] - [24-01-2026 21:29:34] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.cssSelector: button[onclick='logIn()']
+[INFO] - [24-01-2026 21:29:34] [main] [com.demoblaze.utils.LogsManager] - initialLocation: (917, 372)
+[INFO] - [24-01-2026 21:29:34] [main] [com.demoblaze.utils.LogsManager] - finalLocation: (917, 372)
+[INFO] - [24-01-2026 21:29:34] [main] [com.demoblaze.utils.LogsManager] - Clicked on element: By.cssSelector: button[onclick='logIn()']
+[ERROR] - [24-01-2026 21:29:34] [main] [com.demoblaze.utils.LogsManager] - Failed to get alert text:
+[ERROR] - [24-01-2026 21:29:34] [main] [com.demoblaze.utils.LogsManager] - Failed to get alert text:
+[ERROR] - [24-01-2026 21:29:34] [main] [com.demoblaze.utils.LogsManager] - Failed to get alert text:
+[ERROR] - [24-01-2026 21:29:34] [main] [com.demoblaze.utils.LogsManager] - Failed to get alert text:
+[ERROR] - [24-01-2026 21:29:34] [main] [com.demoblaze.utils.LogsManager] - Failed to get alert text:
+[ERROR] - [24-01-2026 21:29:34] [main] [com.demoblaze.utils.LogsManager] - Failed to get alert text:
+[INFO] - [24-01-2026 21:29:35] [main] [com.demoblaze.utils.LogsManager] - Test Case invalidLoginPasswordTestCase passed
+[INFO] - [24-01-2026 21:29:35] [main] [com.demoblaze.utils.LogsManager] - Driver quit successfully
+[INFO] - [24-01-2026 21:29:37] [main] [com.demoblaze.utils.LogsManager] - Navigated to base URL
+[DEBUG] - [24-01-2026 21:29:37] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['name']
+[DEBUG] - [24-01-2026 21:29:37] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['password']
+[INFO] - [24-01-2026 21:29:38] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.id: login2
+[INFO] - [24-01-2026 21:29:38] [main] [com.demoblaze.utils.LogsManager] - initialLocation: (1077, 17)
+[INFO] - [24-01-2026 21:29:38] [main] [com.demoblaze.utils.LogsManager] - finalLocation: (1077, 17)
+[INFO] - [24-01-2026 21:29:38] [main] [com.demoblaze.utils.LogsManager] - Clicked on element: By.id: login2
+[INFO] - [24-01-2026 21:29:38] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.id: loginusername
+[INFO] - [24-01-2026 21:29:39] [main] [com.demoblaze.utils.LogsManager] - Typed text 'm2022001' into element: By.id: loginusername
+[INFO] - [24-01-2026 21:29:39] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.id: loginpassword
+[INFO] - [24-01-2026 21:29:39] [main] [com.demoblaze.utils.LogsManager] - Typed text '1' into element: By.id: loginpassword
+[INFO] - [24-01-2026 21:29:39] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.cssSelector: button[onclick='logIn()']
+[INFO] - [24-01-2026 21:29:39] [main] [com.demoblaze.utils.LogsManager] - initialLocation: (917, 372)
+[INFO] - [24-01-2026 21:29:39] [main] [com.demoblaze.utils.LogsManager] - finalLocation: (917, 372)
+[INFO] - [24-01-2026 21:29:39] [main] [com.demoblaze.utils.LogsManager] - Clicked on element: By.cssSelector: button[onclick='logIn()']
+[INFO] - [24-01-2026 21:29:41] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.id: nameofuser
+[INFO] - [24-01-2026 21:29:41] [main] [com.demoblaze.utils.LogsManager] - Test Case validLoginTestCase passed
+[INFO] - [24-01-2026 21:29:41] [main] [com.demoblaze.utils.LogsManager] - Driver quit successfully
+[INFO] - [24-01-2026 21:29:41] [main] [com.demoblaze.utils.LogsManager] - Test Execution Finished
+[DEBUG] - [24-01-2026 21:29:56] [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\midoh\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml"
+[INFO] - [24-01-2026 21:29:56] [main] [com.demoblaze.utils.LogsManager] - Test Execution started
+[INFO] - [24-01-2026 21:29:56] [main] [com.demoblaze.utils.LogsManager] - Directories cleaned
+[INFO] - [24-01-2026 21:29:56] [main] [com.demoblaze.utils.LogsManager] - Directories created
+[INFO] - [24-01-2026 21:29:56] [main] [com.demoblaze.utils.LogsManager] - Properties loaded
+[INFO] - [24-01-2026 21:29:56] [main] [com.demoblaze.utils.LogsManager] - Allure environment set
+[INFO] - [24-01-2026 21:29:57] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\midoh\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+[INFO] - [24-01-2026 21:30:00] [main] [com.demoblaze.utils.LogsManager] - Navigated to base URL
+[DEBUG] - [24-01-2026 21:30:00] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['name']
+[DEBUG] - [24-01-2026 21:30:00] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['password']
+[INFO] - [24-01-2026 21:30:01] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.id: login2
+[INFO] - [24-01-2026 21:30:01] [main] [com.demoblaze.utils.LogsManager] - initialLocation: (1077, 17)
+[INFO] - [24-01-2026 21:30:01] [main] [com.demoblaze.utils.LogsManager] - finalLocation: (1077, 17)
+[INFO] - [24-01-2026 21:30:01] [main] [com.demoblaze.utils.LogsManager] - Clicked on element: By.id: login2
+[INFO] - [24-01-2026 21:30:02] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.id: loginusername
+[INFO] - [24-01-2026 21:30:02] [main] [com.demoblaze.utils.LogsManager] - Typed text 'm2022001' into element: By.id: loginusername
+[INFO] - [24-01-2026 21:30:02] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.id: loginpassword
+[INFO] - [24-01-2026 21:30:02] [main] [com.demoblaze.utils.LogsManager] - Typed text '1' into element: By.id: loginpassword
+[INFO] - [24-01-2026 21:30:03] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.cssSelector: button[onclick='logIn()']
+[INFO] - [24-01-2026 21:30:03] [main] [com.demoblaze.utils.LogsManager] - initialLocation: (917, 372)
+[INFO] - [24-01-2026 21:30:03] [main] [com.demoblaze.utils.LogsManager] - finalLocation: (917, 372)
+[INFO] - [24-01-2026 21:30:03] [main] [com.demoblaze.utils.LogsManager] - Clicked on element: By.cssSelector: button[onclick='logIn()']
+[INFO] - [24-01-2026 21:30:04] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.id: logout2
+[INFO] - [24-01-2026 21:30:05] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.id: logout2
+[INFO] - [24-01-2026 21:30:05] [main] [com.demoblaze.utils.LogsManager] - initialLocation: (970, 17)
+[INFO] - [24-01-2026 21:30:05] [main] [com.demoblaze.utils.LogsManager] - finalLocation: (970, 17)
+[INFO] - [24-01-2026 21:30:05] [main] [com.demoblaze.utils.LogsManager] - Clicked on element: By.id: logout2
+[INFO] - [24-01-2026 21:30:05] [main] [com.demoblaze.utils.LogsManager] - Clicked logout button
+[INFO] - [24-01-2026 21:30:05] [main] [com.demoblaze.utils.LogsManager] - Test Case logoutTestCase passed
+[INFO] - [24-01-2026 21:30:06] [main] [com.demoblaze.utils.LogsManager] - Driver quit successfully
+[INFO] - [24-01-2026 21:30:06] [main] [com.demoblaze.utils.LogsManager] - Test Execution Finished
+[DEBUG] - [24-01-2026 21:30:21] [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\midoh\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml"
+[INFO] - [24-01-2026 21:30:21] [main] [com.demoblaze.utils.LogsManager] - Test Execution started
+[INFO] - [24-01-2026 21:30:21] [main] [com.demoblaze.utils.LogsManager] - Directories cleaned
+[INFO] - [24-01-2026 21:30:21] [main] [com.demoblaze.utils.LogsManager] - Directories created
+[INFO] - [24-01-2026 21:30:21] [main] [com.demoblaze.utils.LogsManager] - Properties loaded
+[INFO] - [24-01-2026 21:30:21] [main] [com.demoblaze.utils.LogsManager] - Allure environment set
+[INFO] - [24-01-2026 21:30:22] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\midoh\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+[INFO] - [24-01-2026 21:30:25] [main] [com.demoblaze.utils.LogsManager] - Navigated to base URL
+[DEBUG] - [24-01-2026 21:30:25] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['name']
+[DEBUG] - [24-01-2026 21:30:25] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['password']
+[INFO] - [24-01-2026 21:30:25] [main] [com.demoblaze.utils.LogsManager] - Registering user: f
+[INFO] - [24-01-2026 21:30:26] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.id: signin2
+[INFO] - [24-01-2026 21:30:26] [main] [com.demoblaze.utils.LogsManager] - initialLocation: (1135, 17)
+[INFO] - [24-01-2026 21:30:26] [main] [com.demoblaze.utils.LogsManager] - finalLocation: (1135, 17)
+[INFO] - [24-01-2026 21:30:26] [main] [com.demoblaze.utils.LogsManager] - Clicked on element: By.id: signin2
+[INFO] - [24-01-2026 21:30:26] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.cssSelector: #sign-username
+[INFO] - [24-01-2026 21:30:26] [main] [com.demoblaze.utils.LogsManager] - Typed text 'f' into element: By.cssSelector: #sign-username
+[INFO] - [24-01-2026 21:30:27] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.cssSelector: #sign-password
+[INFO] - [24-01-2026 21:30:27] [main] [com.demoblaze.utils.LogsManager] - Typed text '1' into element: By.cssSelector: #sign-password
+[INFO] - [24-01-2026 21:30:27] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.cssSelector: button[onclick='register()']
+[INFO] - [24-01-2026 21:30:27] [main] [com.demoblaze.utils.LogsManager] - initialLocation: (906, 372)
+[INFO] - [24-01-2026 21:30:27] [main] [com.demoblaze.utils.LogsManager] - finalLocation: (906, 372)
+[INFO] - [24-01-2026 21:30:27] [main] [com.demoblaze.utils.LogsManager] - Clicked on element: By.cssSelector: button[onclick='register()']
+[ERROR] - [24-01-2026 21:30:27] [main] [com.demoblaze.utils.LogsManager] - Failed to get alert text:
+[ERROR] - [24-01-2026 21:30:27] [main] [com.demoblaze.utils.LogsManager] - Failed to get alert text:
+[ERROR] - [24-01-2026 21:30:28] [main] [com.demoblaze.utils.LogsManager] - Failed to get alert text:
+[ERROR] - [24-01-2026 21:30:28] [main] [com.demoblaze.utils.LogsManager] - Failed to get alert text:
+[INFO] - [24-01-2026 21:30:28] [main] [com.demoblaze.utils.LogsManager] - Test Case invalidRegisterTestCase passed
+[INFO] - [24-01-2026 21:30:28] [main] [com.demoblaze.utils.LogsManager] - Driver quit successfully
+[INFO] - [24-01-2026 21:30:31] [main] [com.demoblaze.utils.LogsManager] - Navigated to base URL
+[DEBUG] - [24-01-2026 21:30:31] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['name']
+[DEBUG] - [24-01-2026 21:30:31] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['password']
+[INFO] - [24-01-2026 21:30:31] [main] [com.demoblaze.utils.LogsManager] - Registering user: John1769283031027
+[INFO] - [24-01-2026 21:30:31] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.id: signin2
+[INFO] - [24-01-2026 21:30:31] [main] [com.demoblaze.utils.LogsManager] - initialLocation: (1135, 17)
+[INFO] - [24-01-2026 21:30:31] [main] [com.demoblaze.utils.LogsManager] - finalLocation: (1135, 17)
+[INFO] - [24-01-2026 21:30:31] [main] [com.demoblaze.utils.LogsManager] - Clicked on element: By.id: signin2
+[INFO] - [24-01-2026 21:30:31] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.cssSelector: #sign-username
+[INFO] - [24-01-2026 21:30:32] [main] [com.demoblaze.utils.LogsManager] - Typed text 'John1769283031027' into element: By.cssSelector: #sign-username
+[INFO] - [24-01-2026 21:30:47] [main] [com.demoblaze.utils.LogsManager] - Test Case validRegisterTestCase failed
+[INFO] - [24-01-2026 21:30:48] [main] [com.demoblaze.utils.LogsManager] - Driver quit successfully
+[INFO] - [24-01-2026 21:30:48] [main] [com.demoblaze.utils.LogsManager] - Test Execution Finished
+[DEBUG] - [24-01-2026 21:31:57] [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\midoh\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml"
+[INFO] - [24-01-2026 21:31:58] [main] [com.demoblaze.utils.LogsManager] - Test Execution started
+[INFO] - [24-01-2026 21:31:58] [main] [com.demoblaze.utils.LogsManager] - Directories cleaned
+[INFO] - [24-01-2026 21:31:58] [main] [com.demoblaze.utils.LogsManager] - Directories created
+[INFO] - [24-01-2026 21:31:58] [main] [com.demoblaze.utils.LogsManager] - Properties loaded
+[INFO] - [24-01-2026 21:31:58] [main] [com.demoblaze.utils.LogsManager] - Allure environment set
+[INFO] - [24-01-2026 21:31:58] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\midoh\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+[INFO] - [24-01-2026 21:32:04] [main] [com.demoblaze.utils.LogsManager] - Navigated to base URL
+[DEBUG] - [24-01-2026 21:32:04] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['name']
+[DEBUG] - [24-01-2026 21:32:04] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['password']
+[INFO] - [24-01-2026 21:32:04] [main] [com.demoblaze.utils.LogsManager] - Registering user: John1769283124972
+[INFO] - [24-01-2026 21:32:05] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.id: signin2
+[INFO] - [24-01-2026 21:32:05] [main] [com.demoblaze.utils.LogsManager] - initialLocation: (1135, 17)
+[INFO] - [24-01-2026 21:32:05] [main] [com.demoblaze.utils.LogsManager] - finalLocation: (1135, 17)
+[INFO] - [24-01-2026 21:32:05] [main] [com.demoblaze.utils.LogsManager] - Clicked on element: By.id: signin2
+[INFO] - [24-01-2026 21:32:06] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.cssSelector: #sign-username
+[INFO] - [24-01-2026 21:32:06] [main] [com.demoblaze.utils.LogsManager] - Typed text 'John1769283124972' into element: By.cssSelector: #sign-username
+[INFO] - [24-01-2026 21:32:06] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.cssSelector: #sign-password
+[INFO] - [24-01-2026 21:32:07] [main] [com.demoblaze.utils.LogsManager] - Typed text 'password123' into element: By.cssSelector: #sign-password
+[INFO] - [24-01-2026 21:32:07] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.cssSelector: button[onclick='register()']
+[INFO] - [24-01-2026 21:32:07] [main] [com.demoblaze.utils.LogsManager] - initialLocation: (906, 372)
+[INFO] - [24-01-2026 21:32:07] [main] [com.demoblaze.utils.LogsManager] - finalLocation: (906, 372)
+[INFO] - [24-01-2026 21:32:07] [main] [com.demoblaze.utils.LogsManager] - Clicked on element: By.cssSelector: button[onclick='register()']
+[ERROR] - [24-01-2026 21:32:07] [main] [com.demoblaze.utils.LogsManager] - Failed to get alert text:
+[ERROR] - [24-01-2026 21:32:08] [main] [com.demoblaze.utils.LogsManager] - Failed to get alert text:
+[ERROR] - [24-01-2026 21:32:08] [main] [com.demoblaze.utils.LogsManager] - Failed to get alert text:
+[ERROR] - [24-01-2026 21:32:08] [main] [com.demoblaze.utils.LogsManager] - Failed to get alert text:
+[INFO] - [24-01-2026 21:32:08] [main] [com.demoblaze.utils.LogsManager] - Test Case validRegisterTestCase passed
+[INFO] - [24-01-2026 21:32:10] [main] [com.demoblaze.utils.LogsManager] - Driver quit successfully
+[INFO] - [24-01-2026 21:32:10] [main] [com.demoblaze.utils.LogsManager] - Test Execution Finished
+[DEBUG] - [24-01-2026 21:32:29] [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\midoh\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml"
+[INFO] - [24-01-2026 21:32:29] [main] [com.demoblaze.utils.LogsManager] - Test Execution started
+[INFO] - [24-01-2026 21:32:29] [main] [com.demoblaze.utils.LogsManager] - Directories cleaned
+[INFO] - [24-01-2026 21:32:29] [main] [com.demoblaze.utils.LogsManager] - Directories created
+[INFO] - [24-01-2026 21:32:29] [main] [com.demoblaze.utils.LogsManager] - Properties loaded
+[INFO] - [24-01-2026 21:32:29] [main] [com.demoblaze.utils.LogsManager] - Allure environment set
+[INFO] - [24-01-2026 21:32:30] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\midoh\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+[INFO] - [24-01-2026 21:32:36] [main] [com.demoblaze.utils.LogsManager] - Navigated to base URL
+[DEBUG] - [24-01-2026 21:32:36] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['name']
+[DEBUG] - [24-01-2026 21:32:36] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['password']
+[INFO] - [24-01-2026 21:32:36] [main] [com.demoblaze.utils.LogsManager] - Registering user: f
+[INFO] - [24-01-2026 21:32:37] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.id: signin2
+[INFO] - [24-01-2026 21:32:38] [main] [com.demoblaze.utils.LogsManager] - initialLocation: (1135, 17)
+[INFO] - [24-01-2026 21:32:38] [main] [com.demoblaze.utils.LogsManager] - finalLocation: (1135, 17)
+[INFO] - [24-01-2026 21:32:38] [main] [com.demoblaze.utils.LogsManager] - Clicked on element: By.id: signin2
+[INFO] - [24-01-2026 21:32:39] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.cssSelector: #sign-username
+[INFO] - [24-01-2026 21:32:39] [main] [com.demoblaze.utils.LogsManager] - Typed text 'f' into element: By.cssSelector: #sign-username
+[INFO] - [24-01-2026 21:32:39] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.cssSelector: #sign-password
+[INFO] - [24-01-2026 21:32:40] [main] [com.demoblaze.utils.LogsManager] - Typed text '1' into element: By.cssSelector: #sign-password
+[INFO] - [24-01-2026 21:32:40] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.cssSelector: button[onclick='register()']
+[INFO] - [24-01-2026 21:32:40] [main] [com.demoblaze.utils.LogsManager] - initialLocation: (906, 372)
+[INFO] - [24-01-2026 21:32:40] [main] [com.demoblaze.utils.LogsManager] - finalLocation: (906, 372)
+[INFO] - [24-01-2026 21:32:40] [main] [com.demoblaze.utils.LogsManager] - Clicked on element: By.cssSelector: button[onclick='register()']
+[ERROR] - [24-01-2026 21:32:40] [main] [com.demoblaze.utils.LogsManager] - Failed to get alert text:
+[ERROR] - [24-01-2026 21:32:40] [main] [com.demoblaze.utils.LogsManager] - Failed to get alert text:
+[ERROR] - [24-01-2026 21:32:40] [main] [com.demoblaze.utils.LogsManager] - Failed to get alert text:
+[ERROR] - [24-01-2026 21:32:41] [main] [com.demoblaze.utils.LogsManager] - Failed to get alert text:
+[ERROR] - [24-01-2026 21:32:41] [main] [com.demoblaze.utils.LogsManager] - Failed to get alert text:
+[INFO] - [24-01-2026 21:32:41] [main] [com.demoblaze.utils.LogsManager] - Test Case invalidRegisterTestCase passed
+[INFO] - [24-01-2026 21:32:41] [main] [com.demoblaze.utils.LogsManager] - Driver quit successfully
+[INFO] - [24-01-2026 21:32:44] [main] [com.demoblaze.utils.LogsManager] - Navigated to base URL
+[DEBUG] - [24-01-2026 21:32:44] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['name']
+[DEBUG] - [24-01-2026 21:32:44] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['password']
+[INFO] - [24-01-2026 21:32:44] [main] [com.demoblaze.utils.LogsManager] - Registering user: John1769283164654
+[INFO] - [24-01-2026 21:32:45] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.id: signin2
+[INFO] - [24-01-2026 21:32:45] [main] [com.demoblaze.utils.LogsManager] - initialLocation: (1135, 17)
+[INFO] - [24-01-2026 21:32:45] [main] [com.demoblaze.utils.LogsManager] - finalLocation: (1135, 17)
+[INFO] - [24-01-2026 21:32:45] [main] [com.demoblaze.utils.LogsManager] - Clicked on element: By.id: signin2
+[INFO] - [24-01-2026 21:32:45] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.cssSelector: #sign-username
+[INFO] - [24-01-2026 21:32:46] [main] [com.demoblaze.utils.LogsManager] - Typed text 'John1769283164654' into element: By.cssSelector: #sign-username
+[INFO] - [24-01-2026 21:32:46] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.cssSelector: #sign-password
+[INFO] - [24-01-2026 21:32:46] [main] [com.demoblaze.utils.LogsManager] - Typed text 'password123' into element: By.cssSelector: #sign-password
+[INFO] - [24-01-2026 21:32:46] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.cssSelector: button[onclick='register()']
+[INFO] - [24-01-2026 21:32:46] [main] [com.demoblaze.utils.LogsManager] - initialLocation: (906, 372)
+[INFO] - [24-01-2026 21:32:46] [main] [com.demoblaze.utils.LogsManager] - finalLocation: (906, 372)
+[INFO] - [24-01-2026 21:32:47] [main] [com.demoblaze.utils.LogsManager] - Clicked on element: By.cssSelector: button[onclick='register()']
+[ERROR] - [24-01-2026 21:32:47] [main] [com.demoblaze.utils.LogsManager] - Failed to get alert text:
+[ERROR] - [24-01-2026 21:32:47] [main] [com.demoblaze.utils.LogsManager] - Failed to get alert text:
+[ERROR] - [24-01-2026 21:32:47] [main] [com.demoblaze.utils.LogsManager] - Failed to get alert text:
+[ERROR] - [24-01-2026 21:32:47] [main] [com.demoblaze.utils.LogsManager] - Failed to get alert text:
+[ERROR] - [24-01-2026 21:32:47] [main] [com.demoblaze.utils.LogsManager] - Failed to get alert text:
+[ERROR] - [24-01-2026 21:32:47] [main] [com.demoblaze.utils.LogsManager] - Failed to get alert text:
+[INFO] - [24-01-2026 21:32:47] [main] [com.demoblaze.utils.LogsManager] - Test Case validRegisterTestCase passed
+[INFO] - [24-01-2026 21:32:48] [main] [com.demoblaze.utils.LogsManager] - Driver quit successfully
+[INFO] - [24-01-2026 21:32:48] [main] [com.demoblaze.utils.LogsManager] - Test Execution Finished
+[DEBUG] - [24-01-2026 21:33:01] [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\midoh\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml"
+[INFO] - [24-01-2026 21:33:01] [main] [com.demoblaze.utils.LogsManager] - Test Execution started
+[INFO] - [24-01-2026 21:33:01] [main] [com.demoblaze.utils.LogsManager] - Directories cleaned
+[INFO] - [24-01-2026 21:33:01] [main] [com.demoblaze.utils.LogsManager] - Directories created
+[INFO] - [24-01-2026 21:33:01] [main] [com.demoblaze.utils.LogsManager] - Properties loaded
+[INFO] - [24-01-2026 21:33:01] [main] [com.demoblaze.utils.LogsManager] - Allure environment set
+[INFO] - [24-01-2026 21:33:01] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\midoh\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+[INFO] - [24-01-2026 21:33:06] [main] [com.demoblaze.utils.LogsManager] - Navigated to base URL
+[DEBUG] - [24-01-2026 21:33:06] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['name']
+[DEBUG] - [24-01-2026 21:33:06] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['password']
+[INFO] - [24-01-2026 21:33:06] [main] [com.demoblaze.utils.LogsManager] - Registering user: f
+[INFO] - [24-01-2026 21:33:06] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.id: signin2
+[INFO] - [24-01-2026 21:33:06] [main] [com.demoblaze.utils.LogsManager] - initialLocation: (1135, 17)
+[INFO] - [24-01-2026 21:33:06] [main] [com.demoblaze.utils.LogsManager] - finalLocation: (1135, 17)
+[INFO] - [24-01-2026 21:33:06] [main] [com.demoblaze.utils.LogsManager] - Clicked on element: By.id: signin2
+[INFO] - [24-01-2026 21:33:07] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.cssSelector: #sign-username
+[INFO] - [24-01-2026 21:33:07] [main] [com.demoblaze.utils.LogsManager] - Typed text 'f' into element: By.cssSelector: #sign-username
+[INFO] - [24-01-2026 21:33:07] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.cssSelector: #sign-password
+[INFO] - [24-01-2026 21:33:07] [main] [com.demoblaze.utils.LogsManager] - Typed text '1' into element: By.cssSelector: #sign-password
+[INFO] - [24-01-2026 21:33:07] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.cssSelector: button[onclick='register()']
+[INFO] - [24-01-2026 21:33:08] [main] [com.demoblaze.utils.LogsManager] - initialLocation: (906, 372)
+[INFO] - [24-01-2026 21:33:08] [main] [com.demoblaze.utils.LogsManager] - finalLocation: (906, 372)
+[INFO] - [24-01-2026 21:33:08] [main] [com.demoblaze.utils.LogsManager] - Clicked on element: By.cssSelector: button[onclick='register()']
+[ERROR] - [24-01-2026 21:33:08] [main] [com.demoblaze.utils.LogsManager] - Failed to get alert text:
+[ERROR] - [24-01-2026 21:33:08] [main] [com.demoblaze.utils.LogsManager] - Failed to get alert text:
+[ERROR] - [24-01-2026 21:33:08] [main] [com.demoblaze.utils.LogsManager] - Failed to get alert text:
+[ERROR] - [24-01-2026 21:33:08] [main] [com.demoblaze.utils.LogsManager] - Failed to get alert text:
+[INFO] - [24-01-2026 21:33:08] [main] [com.demoblaze.utils.LogsManager] - Test Case invalidRegisterTestCase passed
+[INFO] - [24-01-2026 21:33:09] [main] [com.demoblaze.utils.LogsManager] - Driver quit successfully
+[INFO] - [24-01-2026 21:33:11] [main] [com.demoblaze.utils.LogsManager] - Navigated to base URL
+[DEBUG] - [24-01-2026 21:33:11] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['name']
+[DEBUG] - [24-01-2026 21:33:11] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['password']
+[INFO] - [24-01-2026 21:33:11] [main] [com.demoblaze.utils.LogsManager] - Registering user: John1769283191811
+[INFO] - [24-01-2026 21:33:12] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.id: signin2
+[INFO] - [24-01-2026 21:33:12] [main] [com.demoblaze.utils.LogsManager] - initialLocation: (1135, 17)
+[INFO] - [24-01-2026 21:33:12] [main] [com.demoblaze.utils.LogsManager] - finalLocation: (1135, 17)
+[INFO] - [24-01-2026 21:33:12] [main] [com.demoblaze.utils.LogsManager] - Clicked on element: By.id: signin2
+[INFO] - [24-01-2026 21:33:13] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.cssSelector: #sign-username
+[INFO] - [24-01-2026 21:33:13] [main] [com.demoblaze.utils.LogsManager] - Typed text 'John1769283191811' into element: By.cssSelector: #sign-username
+[INFO] - [24-01-2026 21:33:13] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.cssSelector: #sign-password
+[INFO] - [24-01-2026 21:33:14] [main] [com.demoblaze.utils.LogsManager] - Typed text 'password123' into element: By.cssSelector: #sign-password
+[INFO] - [24-01-2026 21:33:14] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.cssSelector: button[onclick='register()']
+[INFO] - [24-01-2026 21:33:14] [main] [com.demoblaze.utils.LogsManager] - initialLocation: (906, 372)
+[INFO] - [24-01-2026 21:33:14] [main] [com.demoblaze.utils.LogsManager] - finalLocation: (906, 372)
+[INFO] - [24-01-2026 21:33:14] [main] [com.demoblaze.utils.LogsManager] - Clicked on element: By.cssSelector: button[onclick='register()']
+[ERROR] - [24-01-2026 21:33:14] [main] [com.demoblaze.utils.LogsManager] - Failed to get alert text:
+[ERROR] - [24-01-2026 21:33:14] [main] [com.demoblaze.utils.LogsManager] - Failed to get alert text:
+[ERROR] - [24-01-2026 21:33:14] [main] [com.demoblaze.utils.LogsManager] - Failed to get alert text:
+[ERROR] - [24-01-2026 21:33:15] [main] [com.demoblaze.utils.LogsManager] - Failed to get alert text:
+[ERROR] - [24-01-2026 21:33:15] [main] [com.demoblaze.utils.LogsManager] - Failed to get alert text:
+[INFO] - [24-01-2026 21:33:15] [main] [com.demoblaze.utils.LogsManager] - Test Case validRegisterTestCase passed
+[INFO] - [24-01-2026 21:33:15] [main] [com.demoblaze.utils.LogsManager] - Driver quit successfully
+[INFO] - [24-01-2026 21:33:15] [main] [com.demoblaze.utils.LogsManager] - Test Execution Finished
+[DEBUG] - [24-01-2026 21:38:25] [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\midoh\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml"
+[INFO] - [24-01-2026 21:38:25] [main] [com.demoblaze.utils.LogsManager] - Test Execution started
+[INFO] - [24-01-2026 21:38:25] [main] [com.demoblaze.utils.LogsManager] - Directories cleaned
+[INFO] - [24-01-2026 21:38:25] [main] [com.demoblaze.utils.LogsManager] - Directories created
+[INFO] - [24-01-2026 21:38:25] [main] [com.demoblaze.utils.LogsManager] - Properties loaded
+[INFO] - [24-01-2026 21:38:25] [main] [com.demoblaze.utils.LogsManager] - Allure environment set
+[INFO] - [24-01-2026 21:38:26] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\midoh\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+[WARN] - [24-01-2026 21:38:26] [main] [org.apache.poi.openxml4j.opc.ZipPackage] - Error in zip file src\test\resources\test-data\productsData.xlsx - falling back to stream processing (i.e. ignoring zip central directory)
+[ERROR] - [24-01-2026 21:38:26] [main] [com.demoblaze.utils.LogsManager] - Error reading excel file: productsData.xlsx | Sheet: Sheet1
+[INFO] - [24-01-2026 21:38:41] [main] [com.demoblaze.utils.LogsManager] - Test Case addItemToCart failed
+[INFO] - [24-01-2026 21:38:41] [main] [com.demoblaze.utils.LogsManager] - Test Execution Finished
+[DEBUG] - [24-01-2026 21:42:10] [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\midoh\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml"
+[INFO] - [24-01-2026 21:42:11] [main] [com.demoblaze.utils.LogsManager] - Test Execution started
+[INFO] - [24-01-2026 21:42:11] [main] [com.demoblaze.utils.LogsManager] - Directories cleaned
+[INFO] - [24-01-2026 21:42:11] [main] [com.demoblaze.utils.LogsManager] - Directories created
+[INFO] - [24-01-2026 21:42:11] [main] [com.demoblaze.utils.LogsManager] - Properties loaded
+[INFO] - [24-01-2026 21:42:11] [main] [com.demoblaze.utils.LogsManager] - Allure environment set
+[INFO] - [24-01-2026 21:42:11] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\midoh\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+[DEBUG] - [24-01-2026 21:42:12] [main] [org.apache.poi.openxml4j.opc.PackageRelationshipCollection] - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] - [24-01-2026 21:42:12] [main] [org.apache.poi.openxml4j.opc.PackageRelationshipCollection] - Parsing relationship: /_rels/.rels
+[DEBUG] - [24-01-2026 21:42:13] [main] [org.apache.poi.openxml4j.opc.ZipPackage] - Save content types part
+[DEBUG] - [24-01-2026 21:42:13] [main] [org.apache.poi.openxml4j.opc.ZipPackage] - Save package relationships
+[DEBUG] - [24-01-2026 21:42:13] [main] [org.apache.poi.openxml4j.opc.ZipPackage] - Save part 'docProps/app.xml'
+[DEBUG] - [24-01-2026 21:42:13] [main] [org.apache.poi.openxml4j.opc.ZipPackage] - Save part 'docProps/core.xml'
+[DEBUG] - [24-01-2026 21:42:13] [main] [org.apache.poi.openxml4j.opc.ZipPackage] - Save part 'xl/sharedStrings.xml'
+[DEBUG] - [24-01-2026 21:42:13] [main] [org.apache.poi.openxml4j.opc.ZipPackage] - Save part 'xl/styles.xml'
+[DEBUG] - [24-01-2026 21:42:13] [main] [org.apache.poi.openxml4j.opc.ZipPackage] - Save part 'xl/theme/theme1.xml'
+[DEBUG] - [24-01-2026 21:42:13] [main] [org.apache.poi.openxml4j.opc.ZipPackage] - Save part 'xl/workbook.xml'
+[DEBUG] - [24-01-2026 21:42:13] [main] [org.apache.poi.openxml4j.opc.ZipPackage] - Save part 'xl/worksheets/sheet1.xml'
+[INFO] - [24-01-2026 21:42:29] [main] [com.demoblaze.utils.LogsManager] - Test Case addItemToCart failed
+[INFO] - [24-01-2026 21:42:29] [main] [com.demoblaze.utils.LogsManager] - Test Execution Finished
+[DEBUG] - [24-01-2026 21:43:14] [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\midoh\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml"
+[INFO] - [24-01-2026 21:43:14] [main] [com.demoblaze.utils.LogsManager] - Test Execution started
+[INFO] - [24-01-2026 21:43:14] [main] [com.demoblaze.utils.LogsManager] - Directories cleaned
+[INFO] - [24-01-2026 21:43:14] [main] [com.demoblaze.utils.LogsManager] - Directories created
+[INFO] - [24-01-2026 21:43:14] [main] [com.demoblaze.utils.LogsManager] - Properties loaded
+[INFO] - [24-01-2026 21:43:14] [main] [com.demoblaze.utils.LogsManager] - Allure environment set
+[INFO] - [24-01-2026 21:43:15] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\midoh\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+[INFO] - [24-01-2026 21:43:20] [main] [com.demoblaze.utils.LogsManager] - Navigated to base URL
+[DEBUG] - [24-01-2026 21:43:22] [main] [org.apache.poi.openxml4j.opc.PackageRelationshipCollection] - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] - [24-01-2026 21:43:22] [main] [org.apache.poi.openxml4j.opc.PackageRelationshipCollection] - Parsing relationship: /_rels/.rels
+[DEBUG] - [24-01-2026 21:43:26] [main] [org.apache.poi.openxml4j.opc.ZipPackage] - Save content types part
+[DEBUG] - [24-01-2026 21:43:26] [main] [org.apache.poi.openxml4j.opc.ZipPackage] - Save package relationships
+[DEBUG] - [24-01-2026 21:43:26] [main] [org.apache.poi.openxml4j.opc.ZipPackage] - Save part 'docProps/app.xml'
+[DEBUG] - [24-01-2026 21:43:26] [main] [org.apache.poi.openxml4j.opc.ZipPackage] - Save part 'docProps/core.xml'
+[DEBUG] - [24-01-2026 21:43:26] [main] [org.apache.poi.openxml4j.opc.ZipPackage] - Save part 'xl/sharedStrings.xml'
+[DEBUG] - [24-01-2026 21:43:26] [main] [org.apache.poi.openxml4j.opc.ZipPackage] - Save part 'xl/styles.xml'
+[DEBUG] - [24-01-2026 21:43:26] [main] [org.apache.poi.openxml4j.opc.ZipPackage] - Save part 'xl/theme/theme1.xml'
+[DEBUG] - [24-01-2026 21:43:26] [main] [org.apache.poi.openxml4j.opc.ZipPackage] - Save part 'xl/workbook.xml'
+[DEBUG] - [24-01-2026 21:43:26] [main] [org.apache.poi.openxml4j.opc.ZipPackage] - Save part 'xl/worksheets/sheet1.xml'
+[INFO] - [24-01-2026 21:43:41] [main] [com.demoblaze.utils.LogsManager] - Test Case addItemToCart failed
+[INFO] - [24-01-2026 21:43:44] [main] [com.demoblaze.utils.LogsManager] - Driver quit successfully
+[INFO] - [24-01-2026 21:43:44] [main] [com.demoblaze.utils.LogsManager] - Test Execution Finished
+[DEBUG] - [24-01-2026 21:51:19] [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\midoh\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml"
+[INFO] - [24-01-2026 21:51:19] [main] [com.demoblaze.utils.LogsManager] - Test Execution started
+[INFO] - [24-01-2026 21:51:19] [main] [com.demoblaze.utils.LogsManager] - Directories cleaned
+[INFO] - [24-01-2026 21:51:19] [main] [com.demoblaze.utils.LogsManager] - Directories created
+[INFO] - [24-01-2026 21:51:19] [main] [com.demoblaze.utils.LogsManager] - Properties loaded
+[INFO] - [24-01-2026 21:51:19] [main] [com.demoblaze.utils.LogsManager] - Allure environment set
+[INFO] - [24-01-2026 21:51:20] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\midoh\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+[INFO] - [24-01-2026 21:51:25] [main] [com.demoblaze.utils.LogsManager] - Navigated to base URL
+[DEBUG] - [24-01-2026 21:51:25] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['name']
+[DEBUG] - [24-01-2026 21:51:26] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['password']
+[INFO] - [24-01-2026 21:51:26] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.id: login2
+[INFO] - [24-01-2026 21:51:26] [main] [com.demoblaze.utils.LogsManager] - initialLocation: (1077, 17)
+[INFO] - [24-01-2026 21:51:26] [main] [com.demoblaze.utils.LogsManager] - finalLocation: (1077, 17)
+[INFO] - [24-01-2026 21:51:27] [main] [com.demoblaze.utils.LogsManager] - Clicked on element: By.id: login2
+[INFO] - [24-01-2026 21:51:27] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.id: loginusername
+[INFO] - [24-01-2026 21:51:28] [main] [com.demoblaze.utils.LogsManager] - Typed text 'm2022001' into element: By.id: loginusername
+[INFO] - [24-01-2026 21:51:28] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.id: loginpassword
+[INFO] - [24-01-2026 21:51:29] [main] [com.demoblaze.utils.LogsManager] - Typed text '1' into element: By.id: loginpassword
+[INFO] - [24-01-2026 21:51:29] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.cssSelector: button[onclick='logIn()']
+[INFO] - [24-01-2026 21:51:29] [main] [com.demoblaze.utils.LogsManager] - initialLocation: (917, 372)
+[INFO] - [24-01-2026 21:51:29] [main] [com.demoblaze.utils.LogsManager] - finalLocation: (917, 372)
+[INFO] - [24-01-2026 21:51:29] [main] [com.demoblaze.utils.LogsManager] - Clicked on element: By.cssSelector: button[onclick='logIn()']
+[DEBUG] - [24-01-2026 21:51:30] [main] [org.apache.poi.openxml4j.opc.PackageRelationshipCollection] - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] - [24-01-2026 21:51:30] [main] [org.apache.poi.openxml4j.opc.PackageRelationshipCollection] - Parsing relationship: /_rels/.rels
+[DEBUG] - [24-01-2026 21:51:32] [main] [org.apache.poi.openxml4j.opc.ZipPackage] - Save content types part
+[DEBUG] - [24-01-2026 21:51:33] [main] [org.apache.poi.openxml4j.opc.ZipPackage] - Save package relationships
+[DEBUG] - [24-01-2026 21:51:33] [main] [org.apache.poi.openxml4j.opc.ZipPackage] - Save part 'docProps/app.xml'
+[DEBUG] - [24-01-2026 21:51:33] [main] [org.apache.poi.openxml4j.opc.ZipPackage] - Save part 'docProps/core.xml'
+[DEBUG] - [24-01-2026 21:51:33] [main] [org.apache.poi.openxml4j.opc.ZipPackage] - Save part 'xl/sharedStrings.xml'
+[DEBUG] - [24-01-2026 21:51:33] [main] [org.apache.poi.openxml4j.opc.ZipPackage] - Save part 'xl/styles.xml'
+[DEBUG] - [24-01-2026 21:51:33] [main] [org.apache.poi.openxml4j.opc.ZipPackage] - Save part 'xl/theme/theme1.xml'
+[DEBUG] - [24-01-2026 21:51:33] [main] [org.apache.poi.openxml4j.opc.ZipPackage] - Save part 'xl/workbook.xml'
+[DEBUG] - [24-01-2026 21:51:33] [main] [org.apache.poi.openxml4j.opc.ZipPackage] - Save part 'xl/worksheets/sheet1.xml'
+[INFO] - [24-01-2026 21:51:48] [main] [com.demoblaze.utils.LogsManager] - Test Case addItemToCart failed
+[INFO] - [24-01-2026 21:51:49] [main] [com.demoblaze.utils.LogsManager] - Driver quit successfully
+[INFO] - [24-01-2026 21:51:49] [main] [com.demoblaze.utils.LogsManager] - Test Execution Finished
+[DEBUG] - [24-01-2026 21:55:22] [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\midoh\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml"
+[INFO] - [24-01-2026 21:55:23] [main] [com.demoblaze.utils.LogsManager] - Test Execution started
+[INFO] - [24-01-2026 21:55:23] [main] [com.demoblaze.utils.LogsManager] - Directories cleaned
+[INFO] - [24-01-2026 21:55:23] [main] [com.demoblaze.utils.LogsManager] - Directories created
+[INFO] - [24-01-2026 21:55:23] [main] [com.demoblaze.utils.LogsManager] - Properties loaded
+[INFO] - [24-01-2026 21:55:23] [main] [com.demoblaze.utils.LogsManager] - Allure environment set
+[INFO] - [24-01-2026 21:55:23] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\midoh\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+[INFO] - [24-01-2026 21:55:28] [main] [com.demoblaze.utils.LogsManager] - Test Case addItemToCart skipped
+[INFO] - [24-01-2026 21:55:28] [main] [com.demoblaze.utils.LogsManager] - Driver quit successfully
+[INFO] - [24-01-2026 21:55:28] [main] [com.demoblaze.utils.LogsManager] - Test Execution Finished
+[DEBUG] - [24-01-2026 21:55:57] [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\midoh\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml"
+[INFO] - [24-01-2026 21:55:57] [main] [com.demoblaze.utils.LogsManager] - Test Execution started
+[INFO] - [24-01-2026 21:55:57] [main] [com.demoblaze.utils.LogsManager] - Directories cleaned
+[INFO] - [24-01-2026 21:55:57] [main] [com.demoblaze.utils.LogsManager] - Directories created
+[INFO] - [24-01-2026 21:55:57] [main] [com.demoblaze.utils.LogsManager] - Properties loaded
+[INFO] - [24-01-2026 21:55:57] [main] [com.demoblaze.utils.LogsManager] - Allure environment set
+[INFO] - [24-01-2026 21:55:57] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\midoh\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+[INFO] - [24-01-2026 21:56:02] [main] [com.demoblaze.utils.LogsManager] - Navigated to base URL
+[DEBUG] - [24-01-2026 21:56:02] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['name']
+[DEBUG] - [24-01-2026 21:56:02] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['password']
+[INFO] - [24-01-2026 21:56:03] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.id: login2
+[INFO] - [24-01-2026 21:56:03] [main] [com.demoblaze.utils.LogsManager] - initialLocation: (1077, 17)
+[INFO] - [24-01-2026 21:56:03] [main] [com.demoblaze.utils.LogsManager] - finalLocation: (1077, 17)
+[INFO] - [24-01-2026 21:56:03] [main] [com.demoblaze.utils.LogsManager] - Clicked on element: By.id: login2
+[INFO] - [24-01-2026 21:56:04] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.id: loginusername
+[INFO] - [24-01-2026 21:56:04] [main] [com.demoblaze.utils.LogsManager] - Typed text 'm2022001' into element: By.id: loginusername
+[INFO] - [24-01-2026 21:56:04] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.id: loginpassword
+[INFO] - [24-01-2026 21:56:05] [main] [com.demoblaze.utils.LogsManager] - Typed text '1' into element: By.id: loginpassword
+[INFO] - [24-01-2026 21:56:05] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.cssSelector: button[onclick='logIn()']
+[INFO] - [24-01-2026 21:56:05] [main] [com.demoblaze.utils.LogsManager] - initialLocation: (917, 372)
+[INFO] - [24-01-2026 21:56:05] [main] [com.demoblaze.utils.LogsManager] - finalLocation: (917, 372)
+[INFO] - [24-01-2026 21:56:05] [main] [com.demoblaze.utils.LogsManager] - Clicked on element: By.cssSelector: button[onclick='logIn()']
+[DEBUG] - [24-01-2026 21:56:07] [main] [org.apache.poi.openxml4j.opc.PackageRelationshipCollection] - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] - [24-01-2026 21:56:07] [main] [org.apache.poi.openxml4j.opc.PackageRelationshipCollection] - Parsing relationship: /_rels/.rels
+[DEBUG] - [24-01-2026 21:56:09] [main] [org.apache.poi.openxml4j.opc.ZipPackage] - Save content types part
+[DEBUG] - [24-01-2026 21:56:09] [main] [org.apache.poi.openxml4j.opc.ZipPackage] - Save package relationships
+[DEBUG] - [24-01-2026 21:56:09] [main] [org.apache.poi.openxml4j.opc.ZipPackage] - Save part 'docProps/app.xml'
+[DEBUG] - [24-01-2026 21:56:09] [main] [org.apache.poi.openxml4j.opc.ZipPackage] - Save part 'docProps/core.xml'
+[DEBUG] - [24-01-2026 21:56:09] [main] [org.apache.poi.openxml4j.opc.ZipPackage] - Save part 'xl/sharedStrings.xml'
+[DEBUG] - [24-01-2026 21:56:09] [main] [org.apache.poi.openxml4j.opc.ZipPackage] - Save part 'xl/styles.xml'
+[DEBUG] - [24-01-2026 21:56:09] [main] [org.apache.poi.openxml4j.opc.ZipPackage] - Save part 'xl/theme/theme1.xml'
+[DEBUG] - [24-01-2026 21:56:09] [main] [org.apache.poi.openxml4j.opc.ZipPackage] - Save part 'xl/workbook.xml'
+[DEBUG] - [24-01-2026 21:56:09] [main] [org.apache.poi.openxml4j.opc.ZipPackage] - Save part 'xl/worksheets/sheet1.xml'
+[ERROR] - [24-01-2026 21:56:09] [main] [com.demoblaze.utils.LogsManager] - Error reading excel file: productsData.xlsx | Sheet: productsData
+[INFO] - [24-01-2026 21:56:10] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.xpath: //a[contains(@href,'idp_=')]
+[INFO] - [24-01-2026 21:56:10] [main] [com.demoblaze.utils.LogsManager] - initialLocation: (491, 442)
+[INFO] - [24-01-2026 21:56:10] [main] [com.demoblaze.utils.LogsManager] - finalLocation: (491, 442)
+[INFO] - [24-01-2026 21:56:10] [main] [com.demoblaze.utils.LogsManager] - Clicked on element: By.xpath: //a[contains(@href,'idp_=')]
+[INFO] - [24-01-2026 21:56:11] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.xpath: //a[text()='Add to cart']
+[INFO] - [24-01-2026 21:56:11] [main] [com.demoblaze.utils.LogsManager] - initialLocation: (636, 413)
+[INFO] - [24-01-2026 21:56:11] [main] [com.demoblaze.utils.LogsManager] - finalLocation: (636, 413)
+[INFO] - [24-01-2026 21:56:11] [main] [com.demoblaze.utils.LogsManager] - Clicked on element: By.xpath: //a[text()='Add to cart']
+[ERROR] - [24-01-2026 21:56:11] [main] [com.demoblaze.utils.LogsManager] - Failed to get alert text:
+[ERROR] - [24-01-2026 21:56:11] [main] [com.demoblaze.utils.LogsManager] - Failed to get alert text:
+[ERROR] - [24-01-2026 21:56:12] [main] [com.demoblaze.utils.LogsManager] - Failed to get alert text:
+[INFO] - [24-01-2026 21:56:12] [main] [com.demoblaze.utils.LogsManager] - Test Case addItemToCart passed
+[INFO] - [24-01-2026 21:56:13] [main] [com.demoblaze.utils.LogsManager] - Driver quit successfully
+[INFO] - [24-01-2026 21:56:13] [main] [com.demoblaze.utils.LogsManager] - Test Execution Finished
+[DEBUG] - [24-01-2026 21:57:03] [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\midoh\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml"
+[INFO] - [24-01-2026 21:57:03] [main] [com.demoblaze.utils.LogsManager] - Test Execution started
+[INFO] - [24-01-2026 21:57:03] [main] [com.demoblaze.utils.LogsManager] - Directories cleaned
+[INFO] - [24-01-2026 21:57:03] [main] [com.demoblaze.utils.LogsManager] - Directories created
+[INFO] - [24-01-2026 21:57:03] [main] [com.demoblaze.utils.LogsManager] - Properties loaded
+[INFO] - [24-01-2026 21:57:03] [main] [com.demoblaze.utils.LogsManager] - Allure environment set
+[INFO] - [24-01-2026 21:57:04] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\midoh\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+[INFO] - [24-01-2026 21:57:10] [main] [com.demoblaze.utils.LogsManager] - Navigated to base URL
+[DEBUG] - [24-01-2026 21:57:10] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['name']
+[DEBUG] - [24-01-2026 21:57:10] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['password']
+[INFO] - [24-01-2026 21:57:10] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.id: login2
+[INFO] - [24-01-2026 21:57:10] [main] [com.demoblaze.utils.LogsManager] - initialLocation: (1077, 17)
+[INFO] - [24-01-2026 21:57:11] [main] [com.demoblaze.utils.LogsManager] - finalLocation: (1077, 17)
+[INFO] - [24-01-2026 21:57:11] [main] [com.demoblaze.utils.LogsManager] - Clicked on element: By.id: login2
+[INFO] - [24-01-2026 21:57:11] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.id: loginusername
+[INFO] - [24-01-2026 21:57:11] [main] [com.demoblaze.utils.LogsManager] - Typed text 'm2022001' into element: By.id: loginusername
+[INFO] - [24-01-2026 21:57:12] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.id: loginpassword
+[INFO] - [24-01-2026 21:57:12] [main] [com.demoblaze.utils.LogsManager] - Typed text '1' into element: By.id: loginpassword
+[INFO] - [24-01-2026 21:57:12] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.cssSelector: button[onclick='logIn()']
+[INFO] - [24-01-2026 21:57:12] [main] [com.demoblaze.utils.LogsManager] - initialLocation: (917, 372)
+[INFO] - [24-01-2026 21:57:12] [main] [com.demoblaze.utils.LogsManager] - finalLocation: (917, 372)
+[INFO] - [24-01-2026 21:57:12] [main] [com.demoblaze.utils.LogsManager] - Clicked on element: By.cssSelector: button[onclick='logIn()']
+[DEBUG] - [24-01-2026 21:57:13] [main] [org.apache.poi.openxml4j.opc.PackageRelationshipCollection] - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] - [24-01-2026 21:57:13] [main] [org.apache.poi.openxml4j.opc.PackageRelationshipCollection] - Parsing relationship: /_rels/.rels
+[DEBUG] - [24-01-2026 21:57:14] [main] [org.apache.poi.openxml4j.opc.ZipPackage] - Save content types part
+[DEBUG] - [24-01-2026 21:57:14] [main] [org.apache.poi.openxml4j.opc.ZipPackage] - Save package relationships
+[DEBUG] - [24-01-2026 21:57:14] [main] [org.apache.poi.openxml4j.opc.ZipPackage] - Save part 'docProps/app.xml'
+[DEBUG] - [24-01-2026 21:57:14] [main] [org.apache.poi.openxml4j.opc.ZipPackage] - Save part 'docProps/core.xml'
+[DEBUG] - [24-01-2026 21:57:14] [main] [org.apache.poi.openxml4j.opc.ZipPackage] - Save part 'xl/sharedStrings.xml'
+[DEBUG] - [24-01-2026 21:57:14] [main] [org.apache.poi.openxml4j.opc.ZipPackage] - Save part 'xl/styles.xml'
+[DEBUG] - [24-01-2026 21:57:14] [main] [org.apache.poi.openxml4j.opc.ZipPackage] - Save part 'xl/theme/theme1.xml'
+[DEBUG] - [24-01-2026 21:57:14] [main] [org.apache.poi.openxml4j.opc.ZipPackage] - Save part 'xl/workbook.xml'
+[DEBUG] - [24-01-2026 21:57:14] [main] [org.apache.poi.openxml4j.opc.ZipPackage] - Save part 'xl/worksheets/sheet1.xml'
+[ERROR] - [24-01-2026 21:57:14] [main] [com.demoblaze.utils.LogsManager] - Error reading excel file: productsData.xlsx | Sheet: productsData
+[INFO] - [24-01-2026 21:57:14] [main] [com.demoblaze.utils.LogsManager] - 
+[INFO] - [24-01-2026 21:57:15] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.xpath: //a[contains(@href,'idp_=')]
+[INFO] - [24-01-2026 21:57:15] [main] [com.demoblaze.utils.LogsManager] - initialLocation: (491, 442)
+[INFO] - [24-01-2026 21:57:15] [main] [com.demoblaze.utils.LogsManager] - finalLocation: (491, 442)
+[INFO] - [24-01-2026 21:57:15] [main] [com.demoblaze.utils.LogsManager] - Clicked on element: By.xpath: //a[contains(@href,'idp_=')]
+[INFO] - [24-01-2026 21:57:16] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.xpath: //a[text()='Add to cart']
+[INFO] - [24-01-2026 21:57:16] [main] [com.demoblaze.utils.LogsManager] - initialLocation: (636, 413)
+[INFO] - [24-01-2026 21:57:16] [main] [com.demoblaze.utils.LogsManager] - finalLocation: (636, 413)
+[INFO] - [24-01-2026 21:57:16] [main] [com.demoblaze.utils.LogsManager] - Clicked on element: By.xpath: //a[text()='Add to cart']
+[ERROR] - [24-01-2026 21:57:16] [main] [com.demoblaze.utils.LogsManager] - Failed to get alert text:
+[ERROR] - [24-01-2026 21:57:16] [main] [com.demoblaze.utils.LogsManager] - Failed to get alert text:
+[ERROR] - [24-01-2026 21:57:16] [main] [com.demoblaze.utils.LogsManager] - Failed to get alert text:
+[ERROR] - [24-01-2026 21:57:16] [main] [com.demoblaze.utils.LogsManager] - Failed to get alert text:
+[INFO] - [24-01-2026 21:57:17] [main] [com.demoblaze.utils.LogsManager] - Test Case addItemToCart passed
+[INFO] - [24-01-2026 21:57:17] [main] [com.demoblaze.utils.LogsManager] - Driver quit successfully
+[INFO] - [24-01-2026 21:57:18] [main] [com.demoblaze.utils.LogsManager] - Test Execution Finished
+[DEBUG] - [24-01-2026 21:58:54] [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\midoh\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml"
+[INFO] - [24-01-2026 21:58:55] [main] [com.demoblaze.utils.LogsManager] - Test Execution started
+[INFO] - [24-01-2026 21:58:55] [main] [com.demoblaze.utils.LogsManager] - Directories cleaned
+[INFO] - [24-01-2026 21:58:55] [main] [com.demoblaze.utils.LogsManager] - Directories created
+[INFO] - [24-01-2026 21:58:55] [main] [com.demoblaze.utils.LogsManager] - Properties loaded
+[INFO] - [24-01-2026 21:58:55] [main] [com.demoblaze.utils.LogsManager] - Allure environment set
+[INFO] - [24-01-2026 21:58:55] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\midoh\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+[INFO] - [24-01-2026 21:59:01] [main] [com.demoblaze.utils.LogsManager] - Navigated to base URL
+[DEBUG] - [24-01-2026 21:59:01] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['name']
+[DEBUG] - [24-01-2026 21:59:01] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['password']
+[INFO] - [24-01-2026 21:59:01] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.id: login2
+[INFO] - [24-01-2026 21:59:02] [main] [com.demoblaze.utils.LogsManager] - initialLocation: (1077, 17)
+[INFO] - [24-01-2026 21:59:02] [main] [com.demoblaze.utils.LogsManager] - finalLocation: (1077, 17)
+[INFO] - [24-01-2026 21:59:02] [main] [com.demoblaze.utils.LogsManager] - Clicked on element: By.id: login2
+[INFO] - [24-01-2026 21:59:02] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.id: loginusername
+[INFO] - [24-01-2026 21:59:02] [main] [com.demoblaze.utils.LogsManager] - Typed text 'm2022001' into element: By.id: loginusername
+[INFO] - [24-01-2026 21:59:03] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.id: loginpassword
+[INFO] - [24-01-2026 21:59:03] [main] [com.demoblaze.utils.LogsManager] - Typed text '1' into element: By.id: loginpassword
+[INFO] - [24-01-2026 21:59:03] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.cssSelector: button[onclick='logIn()']
+[INFO] - [24-01-2026 21:59:03] [main] [com.demoblaze.utils.LogsManager] - initialLocation: (917, 372)
+[INFO] - [24-01-2026 21:59:03] [main] [com.demoblaze.utils.LogsManager] - finalLocation: (917, 372)
+[INFO] - [24-01-2026 21:59:03] [main] [com.demoblaze.utils.LogsManager] - Clicked on element: By.cssSelector: button[onclick='logIn()']
+[DEBUG] - [24-01-2026 21:59:05] [main] [org.apache.poi.openxml4j.opc.PackageRelationshipCollection] - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] - [24-01-2026 21:59:05] [main] [org.apache.poi.openxml4j.opc.PackageRelationshipCollection] - Parsing relationship: /_rels/.rels
+[DEBUG] - [24-01-2026 21:59:07] [main] [org.apache.poi.openxml4j.opc.ZipPackage] - Save content types part
+[DEBUG] - [24-01-2026 21:59:08] [main] [org.apache.poi.openxml4j.opc.ZipPackage] - Save package relationships
+[DEBUG] - [24-01-2026 21:59:08] [main] [org.apache.poi.openxml4j.opc.ZipPackage] - Save part 'docProps/app.xml'
+[DEBUG] - [24-01-2026 21:59:08] [main] [org.apache.poi.openxml4j.opc.ZipPackage] - Save part 'docProps/core.xml'
+[DEBUG] - [24-01-2026 21:59:08] [main] [org.apache.poi.openxml4j.opc.ZipPackage] - Save part 'xl/sharedStrings.xml'
+[DEBUG] - [24-01-2026 21:59:08] [main] [org.apache.poi.openxml4j.opc.ZipPackage] - Save part 'xl/styles.xml'
+[DEBUG] - [24-01-2026 21:59:08] [main] [org.apache.poi.openxml4j.opc.ZipPackage] - Save part 'xl/theme/theme1.xml'
+[DEBUG] - [24-01-2026 21:59:08] [main] [org.apache.poi.openxml4j.opc.ZipPackage] - Save part 'xl/workbook.xml'
+[DEBUG] - [24-01-2026 21:59:08] [main] [org.apache.poi.openxml4j.opc.ZipPackage] - Save part 'xl/worksheets/sheet1.xml'
+[ERROR] - [24-01-2026 21:59:08] [main] [com.demoblaze.utils.LogsManager] - Error reading excel file: productsData.xlsx | Sheet: productsData
+[INFO] - [24-01-2026 21:59:08] [main] [com.demoblaze.utils.LogsManager] - 
+[INFO] - [24-01-2026 21:59:08] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.xpath: //a[contains(@href,'idp_=')]
+[INFO] - [24-01-2026 21:59:08] [main] [com.demoblaze.utils.LogsManager] - initialLocation: (491, 442)
+[INFO] - [24-01-2026 21:59:08] [main] [com.demoblaze.utils.LogsManager] - finalLocation: (491, 442)
+[INFO] - [24-01-2026 21:59:09] [main] [com.demoblaze.utils.LogsManager] - Clicked on element: By.xpath: //a[contains(@href,'idp_=')]
+[INFO] - [24-01-2026 21:59:10] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.xpath: //a[text()='Add to cart']
+[INFO] - [24-01-2026 21:59:10] [main] [com.demoblaze.utils.LogsManager] - initialLocation: (636, 413)
+[INFO] - [24-01-2026 21:59:10] [main] [com.demoblaze.utils.LogsManager] - finalLocation: (636, 413)
+[INFO] - [24-01-2026 21:59:10] [main] [com.demoblaze.utils.LogsManager] - Clicked on element: By.xpath: //a[text()='Add to cart']
+[ERROR] - [24-01-2026 21:59:10] [main] [com.demoblaze.utils.LogsManager] - Failed to get alert text:
+[ERROR] - [24-01-2026 21:59:10] [main] [com.demoblaze.utils.LogsManager] - Failed to get alert text:
+[ERROR] - [24-01-2026 21:59:10] [main] [com.demoblaze.utils.LogsManager] - Failed to get alert text:
+[ERROR] - [24-01-2026 21:59:10] [main] [com.demoblaze.utils.LogsManager] - Failed to get alert text:
+[INFO] - [24-01-2026 21:59:11] [main] [com.demoblaze.utils.LogsManager] - Test Case addItemToCart passed
+[INFO] - [24-01-2026 21:59:11] [main] [com.demoblaze.utils.LogsManager] - Driver quit successfully
+[INFO] - [24-01-2026 21:59:11] [main] [com.demoblaze.utils.LogsManager] - Test Execution Finished
+[DEBUG] - [24-01-2026 22:02:11] [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\midoh\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml"
+[INFO] - [24-01-2026 22:02:11] [main] [com.demoblaze.utils.LogsManager] - Test Execution started
+[INFO] - [24-01-2026 22:02:11] [main] [com.demoblaze.utils.LogsManager] - Directories cleaned
+[INFO] - [24-01-2026 22:02:11] [main] [com.demoblaze.utils.LogsManager] - Directories created
+[INFO] - [24-01-2026 22:02:11] [main] [com.demoblaze.utils.LogsManager] - Properties loaded
+[INFO] - [24-01-2026 22:02:11] [main] [com.demoblaze.utils.LogsManager] - Allure environment set
+[INFO] - [24-01-2026 22:02:12] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\midoh\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+[INFO] - [24-01-2026 22:02:17] [main] [com.demoblaze.utils.LogsManager] - Navigated to base URL
+[DEBUG] - [24-01-2026 22:02:17] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['name']
+[DEBUG] - [24-01-2026 22:02:17] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['password']
+[INFO] - [24-01-2026 22:02:18] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.id: login2
+[INFO] - [24-01-2026 22:02:18] [main] [com.demoblaze.utils.LogsManager] - initialLocation: (1077, 17)
+[INFO] - [24-01-2026 22:02:18] [main] [com.demoblaze.utils.LogsManager] - finalLocation: (1077, 17)
+[INFO] - [24-01-2026 22:02:18] [main] [com.demoblaze.utils.LogsManager] - Clicked on element: By.id: login2
+[INFO] - [24-01-2026 22:02:19] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.id: loginusername
+[INFO] - [24-01-2026 22:02:19] [main] [com.demoblaze.utils.LogsManager] - Typed text 'm2022001' into element: By.id: loginusername
+[INFO] - [24-01-2026 22:02:20] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.id: loginpassword
+[INFO] - [24-01-2026 22:02:20] [main] [com.demoblaze.utils.LogsManager] - Typed text '1' into element: By.id: loginpassword
+[INFO] - [24-01-2026 22:02:20] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.cssSelector: button[onclick='logIn()']
+[INFO] - [24-01-2026 22:02:20] [main] [com.demoblaze.utils.LogsManager] - initialLocation: (917, 372)
+[INFO] - [24-01-2026 22:02:20] [main] [com.demoblaze.utils.LogsManager] - finalLocation: (917, 372)
+[INFO] - [24-01-2026 22:02:21] [main] [com.demoblaze.utils.LogsManager] - Clicked on element: By.cssSelector: button[onclick='logIn()']
+[DEBUG] - [24-01-2026 22:02:22] [main] [org.apache.poi.openxml4j.opc.PackageRelationshipCollection] - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] - [24-01-2026 22:02:22] [main] [org.apache.poi.openxml4j.opc.PackageRelationshipCollection] - Parsing relationship: /_rels/.rels
+[DEBUG] - [24-01-2026 22:02:25] [main] [org.apache.poi.openxml4j.opc.ZipPackage] - Save content types part
+[DEBUG] - [24-01-2026 22:02:25] [main] [org.apache.poi.openxml4j.opc.ZipPackage] - Save package relationships
+[DEBUG] - [24-01-2026 22:02:25] [main] [org.apache.poi.openxml4j.opc.ZipPackage] - Save part 'docProps/app.xml'
+[DEBUG] - [24-01-2026 22:02:25] [main] [org.apache.poi.openxml4j.opc.ZipPackage] - Save part 'docProps/core.xml'
+[DEBUG] - [24-01-2026 22:02:25] [main] [org.apache.poi.openxml4j.opc.ZipPackage] - Save part 'xl/sharedStrings.xml'
+[DEBUG] - [24-01-2026 22:02:25] [main] [org.apache.poi.openxml4j.opc.ZipPackage] - Save part 'xl/styles.xml'
+[DEBUG] - [24-01-2026 22:02:25] [main] [org.apache.poi.openxml4j.opc.ZipPackage] - Save part 'xl/theme/theme1.xml'
+[DEBUG] - [24-01-2026 22:02:25] [main] [org.apache.poi.openxml4j.opc.ZipPackage] - Save part 'xl/workbook.xml'
+[DEBUG] - [24-01-2026 22:02:25] [main] [org.apache.poi.openxml4j.opc.ZipPackage] - Save part 'xl/worksheets/sheet1.xml'
+[ERROR] - [24-01-2026 22:02:25] [main] [com.demoblaze.utils.LogsManager] - Error reading excel file: productsData.xlsx | Sheet: productsData
+[INFO] - [24-01-2026 22:02:25] [main] [com.demoblaze.utils.LogsManager] - 
+[INFO] - [24-01-2026 22:02:26] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.xpath: //a[contains(@href,'idp_=')]
+[INFO] - [24-01-2026 22:02:26] [main] [com.demoblaze.utils.LogsManager] - initialLocation: (491, 442)
+[INFO] - [24-01-2026 22:02:26] [main] [com.demoblaze.utils.LogsManager] - finalLocation: (491, 442)
+[INFO] - [24-01-2026 22:02:27] [main] [com.demoblaze.utils.LogsManager] - Clicked on element: By.xpath: //a[contains(@href,'idp_=')]
+[INFO] - [24-01-2026 22:02:28] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.xpath: //a[text()='Add to cart']
+[INFO] - [24-01-2026 22:02:28] [main] [com.demoblaze.utils.LogsManager] - initialLocation: (636, 413)
+[INFO] - [24-01-2026 22:02:28] [main] [com.demoblaze.utils.LogsManager] - finalLocation: (636, 413)
+[INFO] - [24-01-2026 22:02:29] [main] [com.demoblaze.utils.LogsManager] - Clicked on element: By.xpath: //a[text()='Add to cart']
+[ERROR] - [24-01-2026 22:02:29] [main] [com.demoblaze.utils.LogsManager] - Failed to get alert text:
+[ERROR] - [24-01-2026 22:02:29] [main] [com.demoblaze.utils.LogsManager] - Failed to get alert text:
+[ERROR] - [24-01-2026 22:02:29] [main] [com.demoblaze.utils.LogsManager] - Failed to get alert text:
+[INFO] - [24-01-2026 22:02:29] [main] [com.demoblaze.utils.LogsManager] - Test Case addItemToCart passed
+[INFO] - [24-01-2026 22:02:31] [main] [com.demoblaze.utils.LogsManager] - Driver quit successfully
+[INFO] - [24-01-2026 22:02:31] [main] [com.demoblaze.utils.LogsManager] - Test Execution Finished
+[DEBUG] - [24-01-2026 22:02:53] [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\midoh\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml"
+[INFO] - [24-01-2026 22:02:53] [main] [com.demoblaze.utils.LogsManager] - Test Execution started
+[INFO] - [24-01-2026 22:02:53] [main] [com.demoblaze.utils.LogsManager] - Directories cleaned
+[INFO] - [24-01-2026 22:02:53] [main] [com.demoblaze.utils.LogsManager] - Directories created
+[INFO] - [24-01-2026 22:02:53] [main] [com.demoblaze.utils.LogsManager] - Properties loaded
+[INFO] - [24-01-2026 22:02:53] [main] [com.demoblaze.utils.LogsManager] - Allure environment set
+[INFO] - [24-01-2026 22:02:54] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\midoh\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+[INFO] - [24-01-2026 22:02:57] [main] [com.demoblaze.utils.LogsManager] - Navigated to base URL
+[DEBUG] - [24-01-2026 22:02:58] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['name']
+[DEBUG] - [24-01-2026 22:02:58] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['password']
+[INFO] - [24-01-2026 22:02:59] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.id: login2
+[INFO] - [24-01-2026 22:03:00] [main] [com.demoblaze.utils.LogsManager] - initialLocation: (1077, 17)
+[INFO] - [24-01-2026 22:03:00] [main] [com.demoblaze.utils.LogsManager] - finalLocation: (1077, 17)
+[INFO] - [24-01-2026 22:03:00] [main] [com.demoblaze.utils.LogsManager] - Clicked on element: By.id: login2
+[INFO] - [24-01-2026 22:03:01] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.id: loginusername
+[INFO] - [24-01-2026 22:03:01] [main] [com.demoblaze.utils.LogsManager] - Typed text 'm2022001' into element: By.id: loginusername
+[INFO] - [24-01-2026 22:03:02] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.id: loginpassword
+[INFO] - [24-01-2026 22:03:02] [main] [com.demoblaze.utils.LogsManager] - Typed text '1' into element: By.id: loginpassword
+[INFO] - [24-01-2026 22:03:02] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.cssSelector: button[onclick='logIn()']
+[INFO] - [24-01-2026 22:03:02] [main] [com.demoblaze.utils.LogsManager] - initialLocation: (917, 372)
+[INFO] - [24-01-2026 22:03:02] [main] [com.demoblaze.utils.LogsManager] - finalLocation: (917, 372)
+[INFO] - [24-01-2026 22:03:03] [main] [com.demoblaze.utils.LogsManager] - Clicked on element: By.cssSelector: button[onclick='logIn()']
+[DEBUG] - [24-01-2026 22:03:04] [main] [org.apache.poi.openxml4j.opc.PackageRelationshipCollection] - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] - [24-01-2026 22:03:04] [main] [org.apache.poi.openxml4j.opc.PackageRelationshipCollection] - Parsing relationship: /_rels/.rels
+[DEBUG] - [24-01-2026 22:03:07] [main] [org.apache.poi.openxml4j.opc.ZipPackage] - Save content types part
+[DEBUG] - [24-01-2026 22:03:07] [main] [org.apache.poi.openxml4j.opc.ZipPackage] - Save package relationships
+[DEBUG] - [24-01-2026 22:03:07] [main] [org.apache.poi.openxml4j.opc.ZipPackage] - Save part 'docProps/app.xml'
+[DEBUG] - [24-01-2026 22:03:07] [main] [org.apache.poi.openxml4j.opc.ZipPackage] - Save part 'docProps/core.xml'
+[DEBUG] - [24-01-2026 22:03:07] [main] [org.apache.poi.openxml4j.opc.ZipPackage] - Save part 'xl/sharedStrings.xml'
+[DEBUG] - [24-01-2026 22:03:07] [main] [org.apache.poi.openxml4j.opc.ZipPackage] - Save part 'xl/styles.xml'
+[DEBUG] - [24-01-2026 22:03:07] [main] [org.apache.poi.openxml4j.opc.ZipPackage] - Save part 'xl/theme/theme1.xml'
+[DEBUG] - [24-01-2026 22:03:07] [main] [org.apache.poi.openxml4j.opc.ZipPackage] - Save part 'xl/workbook.xml'
+[DEBUG] - [24-01-2026 22:03:07] [main] [org.apache.poi.openxml4j.opc.ZipPackage] - Save part 'xl/worksheets/sheet1.xml'
+[ERROR] - [24-01-2026 22:03:07] [main] [com.demoblaze.utils.LogsManager] - Error reading excel file: productsData.xlsx | Sheet: productsData
+[INFO] - [24-01-2026 22:03:07] [main] [com.demoblaze.utils.LogsManager] - 
+[INFO] - [24-01-2026 22:03:07] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.xpath: //a[contains(@href,'idp_=')]
+[INFO] - [24-01-2026 22:03:07] [main] [com.demoblaze.utils.LogsManager] - initialLocation: (491, 442)
+[INFO] - [24-01-2026 22:03:07] [main] [com.demoblaze.utils.LogsManager] - finalLocation: (491, 442)
+[INFO] - [24-01-2026 22:03:08] [main] [com.demoblaze.utils.LogsManager] - Clicked on element: By.xpath: //a[contains(@href,'idp_=')]
+[INFO] - [24-01-2026 22:03:09] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.xpath: //a[text()='Add to cart']
+[INFO] - [24-01-2026 22:03:09] [main] [com.demoblaze.utils.LogsManager] - initialLocation: (636, 413)
+[INFO] - [24-01-2026 22:03:09] [main] [com.demoblaze.utils.LogsManager] - finalLocation: (636, 413)
+[INFO] - [24-01-2026 22:03:09] [main] [com.demoblaze.utils.LogsManager] - Clicked on element: By.xpath: //a[text()='Add to cart']
+[ERROR] - [24-01-2026 22:03:09] [main] [com.demoblaze.utils.LogsManager] - Failed to get alert text:
+[ERROR] - [24-01-2026 22:03:09] [main] [com.demoblaze.utils.LogsManager] - Failed to get alert text:
+[ERROR] - [24-01-2026 22:03:10] [main] [com.demoblaze.utils.LogsManager] - Failed to get alert text:
+[INFO] - [24-01-2026 22:03:10] [main] [com.demoblaze.utils.LogsManager] - Test Case addItemToCart passed
+[INFO] - [24-01-2026 22:03:11] [main] [com.demoblaze.utils.LogsManager] - Driver quit successfully
+[INFO] - [24-01-2026 22:03:11] [main] [com.demoblaze.utils.LogsManager] - Test Execution Finished
+[DEBUG] - [24-01-2026 22:04:28] [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\midoh\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml"
+[INFO] - [24-01-2026 22:04:29] [main] [com.demoblaze.utils.LogsManager] - Test Execution started
+[INFO] - [24-01-2026 22:04:29] [main] [com.demoblaze.utils.LogsManager] - Directories cleaned
+[INFO] - [24-01-2026 22:04:29] [main] [com.demoblaze.utils.LogsManager] - Directories created
+[INFO] - [24-01-2026 22:04:29] [main] [com.demoblaze.utils.LogsManager] - Properties loaded
+[INFO] - [24-01-2026 22:04:29] [main] [com.demoblaze.utils.LogsManager] - Allure environment set
+[INFO] - [24-01-2026 22:04:29] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\midoh\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+[DEBUG] - [24-01-2026 22:04:30] [main] [org.apache.poi.openxml4j.opc.PackageRelationshipCollection] - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] - [24-01-2026 22:04:30] [main] [org.apache.poi.openxml4j.opc.PackageRelationshipCollection] - Parsing relationship: /_rels/.rels
+[DEBUG] - [24-01-2026 22:04:31] [main] [org.apache.poi.openxml4j.opc.ZipPackage] - Save content types part
+[DEBUG] - [24-01-2026 22:04:31] [main] [org.apache.poi.openxml4j.opc.ZipPackage] - Save package relationships
+[DEBUG] - [24-01-2026 22:04:31] [main] [org.apache.poi.openxml4j.opc.ZipPackage] - Save part 'docProps/app.xml'
+[DEBUG] - [24-01-2026 22:04:31] [main] [org.apache.poi.openxml4j.opc.ZipPackage] - Save part 'docProps/core.xml'
+[DEBUG] - [24-01-2026 22:04:31] [main] [org.apache.poi.openxml4j.opc.ZipPackage] - Save part 'xl/sharedStrings.xml'
+[DEBUG] - [24-01-2026 22:04:31] [main] [org.apache.poi.openxml4j.opc.ZipPackage] - Save part 'xl/styles.xml'
+[DEBUG] - [24-01-2026 22:04:31] [main] [org.apache.poi.openxml4j.opc.ZipPackage] - Save part 'xl/theme/theme1.xml'
+[DEBUG] - [24-01-2026 22:04:31] [main] [org.apache.poi.openxml4j.opc.ZipPackage] - Save part 'xl/workbook.xml'
+[DEBUG] - [24-01-2026 22:04:31] [main] [org.apache.poi.openxml4j.opc.ZipPackage] - Save part 'xl/worksheets/sheet1.xml'
+[ERROR] - [24-01-2026 22:04:31] [main] [com.demoblaze.utils.LogsManager] - Error reading excel file: productsData.xlsx | Sheet: productsData
+[INFO] - [24-01-2026 22:04:31] [main] [com.demoblaze.utils.LogsManager] - 
+[INFO] - [24-01-2026 22:04:36] [main] [com.demoblaze.utils.LogsManager] - Navigated to base URL
+[DEBUG] - [24-01-2026 22:04:37] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['name']
+[DEBUG] - [24-01-2026 22:04:37] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['password']
+[INFO] - [24-01-2026 22:04:37] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.id: login2
+[INFO] - [24-01-2026 22:04:37] [main] [com.demoblaze.utils.LogsManager] - initialLocation: (1077, 17)
+[INFO] - [24-01-2026 22:04:37] [main] [com.demoblaze.utils.LogsManager] - finalLocation: (1077, 17)
+[INFO] - [24-01-2026 22:04:37] [main] [com.demoblaze.utils.LogsManager] - Clicked on element: By.id: login2
+[INFO] - [24-01-2026 22:04:38] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.id: loginusername
+[INFO] - [24-01-2026 22:04:39] [main] [com.demoblaze.utils.LogsManager] - Typed text 'm2022001' into element: By.id: loginusername
+[INFO] - [24-01-2026 22:04:39] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.id: loginpassword
+[INFO] - [24-01-2026 22:04:39] [main] [com.demoblaze.utils.LogsManager] - Typed text '1' into element: By.id: loginpassword
+[INFO] - [24-01-2026 22:04:40] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.cssSelector: button[onclick='logIn()']
+[INFO] - [24-01-2026 22:04:40] [main] [com.demoblaze.utils.LogsManager] - initialLocation: (917, 372)
+[INFO] - [24-01-2026 22:04:40] [main] [com.demoblaze.utils.LogsManager] - finalLocation: (917, 372)
+[INFO] - [24-01-2026 22:04:40] [main] [com.demoblaze.utils.LogsManager] - Clicked on element: By.cssSelector: button[onclick='logIn()']
+[INFO] - [24-01-2026 22:04:55] [main] [com.demoblaze.utils.LogsManager] - Test Case addItemToCart failed
+[INFO] - [24-01-2026 22:04:56] [main] [com.demoblaze.utils.LogsManager] - Driver quit successfully
+[INFO] - [24-01-2026 22:04:56] [main] [com.demoblaze.utils.LogsManager] - Test Execution Finished
+[DEBUG] - [24-01-2026 22:06:43] [main] [org.apache.poi.openxml4j.opc.PackageRelationshipCollection] - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] - [24-01-2026 22:06:43] [main] [org.apache.poi.openxml4j.opc.PackageRelationshipCollection] - Parsing relationship: /_rels/.rels
+[DEBUG] - [24-01-2026 22:06:45] [main] [org.apache.poi.openxml4j.opc.ZipPackage] - Save content types part
+[DEBUG] - [24-01-2026 22:06:45] [main] [org.apache.poi.openxml4j.opc.ZipPackage] - Save package relationships
+[DEBUG] - [24-01-2026 22:06:45] [main] [org.apache.poi.openxml4j.opc.ZipPackage] - Save part 'docProps/app.xml'
+[DEBUG] - [24-01-2026 22:06:45] [main] [org.apache.poi.openxml4j.opc.ZipPackage] - Save part 'docProps/core.xml'
+[DEBUG] - [24-01-2026 22:06:45] [main] [org.apache.poi.openxml4j.opc.ZipPackage] - Save part 'xl/sharedStrings.xml'
+[DEBUG] - [24-01-2026 22:06:45] [main] [org.apache.poi.openxml4j.opc.ZipPackage] - Save part 'xl/styles.xml'
+[DEBUG] - [24-01-2026 22:06:45] [main] [org.apache.poi.openxml4j.opc.ZipPackage] - Save part 'xl/theme/theme1.xml'
+[DEBUG] - [24-01-2026 22:06:45] [main] [org.apache.poi.openxml4j.opc.ZipPackage] - Save part 'xl/workbook.xml'
+[DEBUG] - [24-01-2026 22:06:45] [main] [org.apache.poi.openxml4j.opc.ZipPackage] - Save part 'xl/worksheets/sheet1.xml'
+[ERROR] - [24-01-2026 22:06:45] [main] [com.demoblaze.utils.LogsManager] - Error reading excel file: productsData.xlsx | Sheet: productsData
+[DEBUG] - [24-01-2026 22:07:12] [main] [org.apache.poi.openxml4j.opc.PackageRelationshipCollection] - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] - [24-01-2026 22:07:12] [main] [org.apache.poi.openxml4j.opc.PackageRelationshipCollection] - Parsing relationship: /_rels/.rels
+[DEBUG] - [24-01-2026 22:07:13] [main] [org.apache.poi.openxml4j.opc.ZipPackage] - Save content types part
+[DEBUG] - [24-01-2026 22:07:13] [main] [org.apache.poi.openxml4j.opc.ZipPackage] - Save package relationships
+[DEBUG] - [24-01-2026 22:07:13] [main] [org.apache.poi.openxml4j.opc.ZipPackage] - Save part 'docProps/app.xml'
+[DEBUG] - [24-01-2026 22:07:13] [main] [org.apache.poi.openxml4j.opc.ZipPackage] - Save part 'docProps/core.xml'
+[DEBUG] - [24-01-2026 22:07:13] [main] [org.apache.poi.openxml4j.opc.ZipPackage] - Save part 'xl/sharedStrings.xml'
+[DEBUG] - [24-01-2026 22:07:13] [main] [org.apache.poi.openxml4j.opc.ZipPackage] - Save part 'xl/styles.xml'
+[DEBUG] - [24-01-2026 22:07:13] [main] [org.apache.poi.openxml4j.opc.ZipPackage] - Save part 'xl/theme/theme1.xml'
+[DEBUG] - [24-01-2026 22:07:13] [main] [org.apache.poi.openxml4j.opc.ZipPackage] - Save part 'xl/workbook.xml'
+[DEBUG] - [24-01-2026 22:07:13] [main] [org.apache.poi.openxml4j.opc.ZipPackage] - Save part 'xl/worksheets/sheet1.xml'
+[ERROR] - [24-01-2026 22:07:13] [main] [com.demoblaze.utils.LogsManager] - Error reading excel file: productsData.xlsx | Sheet: Sheet1
+[DEBUG] - [24-01-2026 22:12:18] [main] [org.apache.poi.openxml4j.opc.PackageRelationshipCollection] - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] - [24-01-2026 22:12:18] [main] [org.apache.poi.openxml4j.opc.PackageRelationshipCollection] - Parsing relationship: /_rels/.rels
+[ERROR] - [24-01-2026 22:12:19] [main] [com.demoblaze.utils.LogsManager] - Error reading excel file:productsData.xlsx
+[WARN] - [24-01-2026 22:13:42] [main] [org.apache.poi.openxml4j.opc.ZipPackage] - Error in zip file src\test\resources\test-dataproductsData.xlsx - falling back to stream processing (i.e. ignoring zip central directory)
+[ERROR] - [24-01-2026 22:13:42] [main] [com.demoblaze.utils.LogsManager] - Error reading excel file:productsData.xlsx
+[DEBUG] - [24-01-2026 22:14:13] [main] [org.apache.poi.openxml4j.opc.PackageRelationshipCollection] - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] - [24-01-2026 22:14:13] [main] [org.apache.poi.openxml4j.opc.PackageRelationshipCollection] - Parsing relationship: /_rels/.rels
+[ERROR] - [24-01-2026 22:14:14] [main] [com.demoblaze.utils.LogsManager] - Error reading excel file:productsData.xlsx

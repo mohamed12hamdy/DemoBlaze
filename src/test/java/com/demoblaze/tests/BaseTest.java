@@ -6,6 +6,7 @@ import com.demoblaze.drivers.DriverFactory;
 import com.demoblaze.drivers.DriverManager;
 import com.demoblaze.utils.LogsManager;
 import org.openqa.selenium.WebDriver;
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
@@ -33,7 +34,8 @@ public class BaseTest {
 
     @AfterMethod(alwaysRun = true)
     public void tearDown() {
-        DriverManager.quitDriver();
 
+        DriverManager.quitDriver();
+        LogsManager.info("Driver quit successfully");
     }
 }
