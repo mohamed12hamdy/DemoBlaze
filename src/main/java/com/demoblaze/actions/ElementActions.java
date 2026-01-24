@@ -2,10 +2,7 @@ package com.demoblaze.actions;
 
 import com.demoblaze.utils.LogsManager;
 import com.demoblaze.utils.WaitManager;
-import org.openqa.selenium.By;
-import org.openqa.selenium.Point;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
 
@@ -122,8 +119,27 @@ public class ElementActions {
     }
 
     public WebElement findElement(By locator) {
-        return driver.findElement(locator);
+        return waitManager.fluentWait().until(driver -> {
+            try {
+                WebElement element = driver.findElement(locator);
+
+                // Scroll للعنصر
+                ((JavascriptExecutor) driver).executeScript(
+                        "arguments[0].scrollIntoView({behavior:'auto',block:'center',inline:'center'});",
+                        element
+                );
+
+                // Hover فوق العنصر
+                new Actions(driver).moveToElement(element).perform();
+
+                LogsManager.info("Found, scrolled, and hovered over element: " + locator);
+                return element; // ارجع العنصر نفسه بعد نجاح كل الخطوات
+            } catch (Exception e) {
+                return null; // retry لحد timeout
+            }
+        });
     }
+
 
     public void scrollToElementJS(By locator) {
         ((org.openqa.selenium.JavascriptExecutor) driver)

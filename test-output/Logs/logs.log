@@ -1,21 +1,297 @@
-[DEBUG] - [24-01-2026 16:08:13] [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\midoh\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml"
-[INFO] - [24-01-2026 16:08:14] [main] [org.testng.internal.Utils] - [TestNG] Running:
+[INFO] - [24-01-2026 16:40:05] [main] [com.demoblaze.utils.LogsManager] - Test Execution started
+[INFO] - [24-01-2026 16:40:05] [main] [com.demoblaze.utils.LogsManager] - Directories cleaned
+[INFO] - [24-01-2026 16:40:05] [main] [com.demoblaze.utils.LogsManager] - Directories created
+[INFO] - [24-01-2026 16:40:05] [main] [com.demoblaze.utils.LogsManager] - Properties loaded
+[INFO] - [24-01-2026 16:40:05] [main] [com.demoblaze.utils.LogsManager] - Allure environment set
+[INFO] - [24-01-2026 16:40:12] [main] [com.demoblaze.utils.LogsManager] - Navigated to base URL
+[DEBUG] - [24-01-2026 16:40:12] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['name']
+[DEBUG] - [24-01-2026 16:40:12] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['password']
+[INFO] - [24-01-2026 16:40:12] [main] [com.demoblaze.utils.LogsManager] - Registering with username: f and password: 1
+[INFO] - [24-01-2026 16:40:12] [main] [com.demoblaze.utils.LogsManager] - initialLocation: (1135, 17)
+[INFO] - [24-01-2026 16:40:12] [main] [com.demoblaze.utils.LogsManager] - finalLocation: (1135, 17)
+[INFO] - [24-01-2026 16:40:13] [main] [com.demoblaze.utils.LogsManager] - Clicked on element: By.id: signin2
+[INFO] - [24-01-2026 16:40:13] [main] [com.demoblaze.utils.LogsManager] - Typed text 'f' into element: By.cssSelector: #sign-username
+[INFO] - [24-01-2026 16:40:13] [main] [com.demoblaze.utils.LogsManager] - Typed text '1' into element: By.cssSelector: #sign-password
+[INFO] - [24-01-2026 16:40:14] [main] [com.demoblaze.utils.LogsManager] - initialLocation: (906, 372)
+[INFO] - [24-01-2026 16:40:14] [main] [com.demoblaze.utils.LogsManager] - finalLocation: (906, 372)
+[INFO] - [24-01-2026 16:40:14] [main] [com.demoblaze.utils.LogsManager] - Clicked on element: By.cssSelector: button[onclick='register()']
+[ERROR] - [24-01-2026 16:40:14] [main] [com.demoblaze.utils.LogsManager] - Failed to get alert text:
+[ERROR] - [24-01-2026 16:40:14] [main] [com.demoblaze.utils.LogsManager] - Failed to get alert text:
+[ERROR] - [24-01-2026 16:40:14] [main] [com.demoblaze.utils.LogsManager] - Failed to get alert text:
+[ERROR] - [24-01-2026 16:40:14] [main] [com.demoblaze.utils.LogsManager] - Failed to get alert text:
+[ERROR] - [24-01-2026 16:40:14] [main] [com.demoblaze.utils.LogsManager] - Failed to get alert text:
+[INFO] - [24-01-2026 16:40:14] [main] [com.demoblaze.utils.LogsManager] - Test Case invalidRegisterTestCase passed
+[INFO] - [24-01-2026 16:40:18] [main] [com.demoblaze.utils.LogsManager] - Navigated to base URL
+[DEBUG] - [24-01-2026 16:40:18] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['name']
+[DEBUG] - [24-01-2026 16:40:18] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['password']
+[INFO] - [24-01-2026 16:40:18] [main] [com.demoblaze.utils.LogsManager] - Registering with username: John1769265618510 and password: password123
+[INFO] - [24-01-2026 16:40:18] [main] [com.demoblaze.utils.LogsManager] - initialLocation: (1135, 17)
+[INFO] - [24-01-2026 16:40:18] [main] [com.demoblaze.utils.LogsManager] - finalLocation: (1135, 17)
+[INFO] - [24-01-2026 16:40:19] [main] [com.demoblaze.utils.LogsManager] - Clicked on element: By.id: signin2
+[INFO] - [24-01-2026 16:40:19] [main] [com.demoblaze.utils.LogsManager] - Typed text 'John1769265618510' into element: By.cssSelector: #sign-username
+[INFO] - [24-01-2026 16:40:19] [main] [com.demoblaze.utils.LogsManager] - Typed text 'password123' into element: By.cssSelector: #sign-password
+[INFO] - [24-01-2026 16:40:19] [main] [com.demoblaze.utils.LogsManager] - initialLocation: (906, 372)
+[INFO] - [24-01-2026 16:40:19] [main] [com.demoblaze.utils.LogsManager] - finalLocation: (906, 372)
+[INFO] - [24-01-2026 16:40:20] [main] [com.demoblaze.utils.LogsManager] - Clicked on element: By.cssSelector: button[onclick='register()']
+[ERROR] - [24-01-2026 16:40:20] [main] [com.demoblaze.utils.LogsManager] - Failed to get alert text:
+[ERROR] - [24-01-2026 16:40:20] [main] [com.demoblaze.utils.LogsManager] - Failed to get alert text:
+[ERROR] - [24-01-2026 16:40:20] [main] [com.demoblaze.utils.LogsManager] - Failed to get alert text:
+[ERROR] - [24-01-2026 16:40:20] [main] [com.demoblaze.utils.LogsManager] - Failed to get alert text:
+[ERROR] - [24-01-2026 16:40:20] [main] [com.demoblaze.utils.LogsManager] - Failed to get alert text:
+[INFO] - [24-01-2026 16:40:20] [main] [com.demoblaze.utils.LogsManager] - Test Case validRegisterTestCase passed
+[INFO] - [24-01-2026 16:40:21] [main] [com.demoblaze.utils.LogsManager] - Test Execution Finished
+[DEBUG] - [24-01-2026 17:44:55] [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\midoh\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml"
+[INFO] - [24-01-2026 17:44:55] [main] [com.demoblaze.utils.LogsManager] - Test Execution started
+[INFO] - [24-01-2026 17:44:55] [main] [com.demoblaze.utils.LogsManager] - Directories cleaned
+[INFO] - [24-01-2026 17:44:55] [main] [com.demoblaze.utils.LogsManager] - Directories created
+[INFO] - [24-01-2026 17:44:55] [main] [com.demoblaze.utils.LogsManager] - Properties loaded
+[INFO] - [24-01-2026 17:44:55] [main] [com.demoblaze.utils.LogsManager] - Allure environment set
+[INFO] - [24-01-2026 17:44:56] [main] [org.testng.internal.Utils] - [TestNG] Running:
   C:\Users\midoh\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
 
-[INFO] - [24-01-2026 16:08:14] [main] [com.demoblaze.utils.LogsManager] - Method onStart: Test Suite execution started: Default Suite
-[INFO] - [24-01-2026 16:08:18] [main] [com.demoblaze.utils.LogsManager] - Navigated to base URL
-[DEBUG] - [24-01-2026 16:08:19] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['name']
-[DEBUG] - [24-01-2026 16:08:19] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['password']
-[INFO] - [24-01-2026 16:08:19] [main] [com.demoblaze.utils.LogsManager] - Registering with username: f and password: 1
-[INFO] - [24-01-2026 16:08:19] [main] [com.demoblaze.utils.LogsManager] - initialLocation: (1135, 17)
-[INFO] - [24-01-2026 16:08:19] [main] [com.demoblaze.utils.LogsManager] - finalLocation: (1135, 17)
-[INFO] - [24-01-2026 16:08:19] [main] [com.demoblaze.utils.LogsManager] - Clicked on element: By.id: signin2
-[INFO] - [24-01-2026 16:08:20] [main] [com.demoblaze.utils.LogsManager] - Typed text 'f' into element: By.cssSelector: #sign-username
-[INFO] - [24-01-2026 16:08:20] [main] [com.demoblaze.utils.LogsManager] - Typed text '1' into element: By.cssSelector: #sign-password
-[INFO] - [24-01-2026 16:08:20] [main] [com.demoblaze.utils.LogsManager] - initialLocation: (906, 372)
-[INFO] - [24-01-2026 16:08:20] [main] [com.demoblaze.utils.LogsManager] - finalLocation: (906, 372)
-[INFO] - [24-01-2026 16:08:20] [main] [com.demoblaze.utils.LogsManager] - Clicked on element: By.cssSelector: button[onclick='register()']
-[ERROR] - [24-01-2026 16:08:20] [main] [com.demoblaze.utils.LogsManager] - Failed to get alert text:
-[ERROR] - [24-01-2026 16:08:21] [main] [com.demoblaze.utils.LogsManager] - Failed to get alert text:
-[ERROR] - [24-01-2026 16:08:21] [main] [com.demoblaze.utils.LogsManager] - Failed to get alert text:
-[INFO] - [24-01-2026 16:08:22] [main] [com.demoblaze.utils.LogsManager] - Method onFinish: Test Suite execution finished: Default Suite
+[ERROR] - [24-01-2026 17:44:56] [main] [com.demoblaze.utils.LogsManager] - Error loading json file:validLogin.json
+[ERROR] - [24-01-2026 17:44:56] [main] [com.demoblaze.utils.LogsManager] - Error loading json file:invalidLogin.json
+[INFO] - [24-01-2026 17:45:03] [main] [com.demoblaze.utils.LogsManager] - Navigated to base URL
+[DEBUG] - [24-01-2026 17:45:04] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['name']
+[ERROR] - [24-01-2026 17:45:04] [main] [com.demoblaze.utils.LogsManager] - Error reading json file for path:name
+[DEBUG] - [24-01-2026 17:45:04] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['password']
+[ERROR] - [24-01-2026 17:45:04] [main] [com.demoblaze.utils.LogsManager] - Error reading json file for path:password
+[INFO] - [24-01-2026 17:45:05] [main] [com.demoblaze.utils.LogsManager] - initialLocation: (1077, 17)
+[INFO] - [24-01-2026 17:45:05] [main] [com.demoblaze.utils.LogsManager] - finalLocation: (1077, 17)
+[INFO] - [24-01-2026 17:45:05] [main] [com.demoblaze.utils.LogsManager] - Clicked on element: By.id: login2
+[INFO] - [24-01-2026 17:45:06] [main] [com.demoblaze.utils.LogsManager] - Typed text '' into element: By.id: loginusername
+[INFO] - [24-01-2026 17:45:07] [main] [com.demoblaze.utils.LogsManager] - Typed text '' into element: By.id: loginpassword
+[INFO] - [24-01-2026 17:45:07] [main] [com.demoblaze.utils.LogsManager] - initialLocation: (917, 372)
+[INFO] - [24-01-2026 17:45:07] [main] [com.demoblaze.utils.LogsManager] - finalLocation: (917, 372)
+[INFO] - [24-01-2026 17:45:07] [main] [com.demoblaze.utils.LogsManager] - Clicked on element: By.cssSelector: button[onclick='logIn()']
+[INFO] - [24-01-2026 17:45:07] [main] [com.demoblaze.utils.LogsManager] - Test Case validLoginTestCase failed
+[INFO] - [24-01-2026 17:45:09] [main] [com.demoblaze.utils.LogsManager] - Test Execution Finished
+[DEBUG] - [24-01-2026 17:45:48] [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\midoh\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml"
+[INFO] - [24-01-2026 17:45:48] [main] [com.demoblaze.utils.LogsManager] - Test Execution started
+[INFO] - [24-01-2026 17:45:48] [main] [com.demoblaze.utils.LogsManager] - Directories cleaned
+[INFO] - [24-01-2026 17:45:48] [main] [com.demoblaze.utils.LogsManager] - Directories created
+[INFO] - [24-01-2026 17:45:48] [main] [com.demoblaze.utils.LogsManager] - Properties loaded
+[INFO] - [24-01-2026 17:45:48] [main] [com.demoblaze.utils.LogsManager] - Allure environment set
+[INFO] - [24-01-2026 17:45:48] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\midoh\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+[ERROR] - [24-01-2026 17:45:48] [main] [com.demoblaze.utils.LogsManager] - Error loading json file:invalidLogin-data
+[INFO] - [24-01-2026 17:45:53] [main] [com.demoblaze.utils.LogsManager] - Navigated to base URL
+[DEBUG] - [24-01-2026 17:45:53] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['name']
+[DEBUG] - [24-01-2026 17:45:53] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['password']
+[INFO] - [24-01-2026 17:45:54] [main] [com.demoblaze.utils.LogsManager] - initialLocation: (1077, 17)
+[INFO] - [24-01-2026 17:45:54] [main] [com.demoblaze.utils.LogsManager] - finalLocation: (1077, 17)
+[INFO] - [24-01-2026 17:45:54] [main] [com.demoblaze.utils.LogsManager] - Clicked on element: By.id: login2
+[INFO] - [24-01-2026 17:45:55] [main] [com.demoblaze.utils.LogsManager] - Typed text 'm2022001' into element: By.id: loginusername
+[INFO] - [24-01-2026 17:45:56] [main] [com.demoblaze.utils.LogsManager] - Typed text '1' into element: By.id: loginpassword
+[INFO] - [24-01-2026 17:45:56] [main] [com.demoblaze.utils.LogsManager] - initialLocation: (917, 372)
+[INFO] - [24-01-2026 17:45:56] [main] [com.demoblaze.utils.LogsManager] - finalLocation: (917, 372)
+[INFO] - [24-01-2026 17:45:56] [main] [com.demoblaze.utils.LogsManager] - Clicked on element: By.cssSelector: button[onclick='logIn()']
+[INFO] - [24-01-2026 17:45:57] [main] [com.demoblaze.utils.LogsManager] - Test Case validLoginTestCase failed
+[INFO] - [24-01-2026 17:45:58] [main] [com.demoblaze.utils.LogsManager] - Test Execution Finished
+[DEBUG] - [24-01-2026 17:48:11] [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\midoh\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml"
+[INFO] - [24-01-2026 17:48:11] [main] [com.demoblaze.utils.LogsManager] - Test Execution started
+[INFO] - [24-01-2026 17:48:11] [main] [com.demoblaze.utils.LogsManager] - Directories cleaned
+[INFO] - [24-01-2026 17:48:11] [main] [com.demoblaze.utils.LogsManager] - Directories created
+[INFO] - [24-01-2026 17:48:11] [main] [com.demoblaze.utils.LogsManager] - Properties loaded
+[INFO] - [24-01-2026 17:48:11] [main] [com.demoblaze.utils.LogsManager] - Allure environment set
+[INFO] - [24-01-2026 17:48:12] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\midoh\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+[ERROR] - [24-01-2026 17:48:12] [main] [com.demoblaze.utils.LogsManager] - Error loading json file:invalidLogin-data
+[INFO] - [24-01-2026 17:48:17] [main] [com.demoblaze.utils.LogsManager] - Navigated to base URL
+[DEBUG] - [24-01-2026 17:48:17] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['name']
+[DEBUG] - [24-01-2026 17:48:17] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['password']
+[INFO] - [24-01-2026 17:48:18] [main] [com.demoblaze.utils.LogsManager] - initialLocation: (1077, 17)
+[INFO] - [24-01-2026 17:48:18] [main] [com.demoblaze.utils.LogsManager] - finalLocation: (1077, 17)
+[INFO] - [24-01-2026 17:48:18] [main] [com.demoblaze.utils.LogsManager] - Clicked on element: By.id: login2
+[INFO] - [24-01-2026 17:48:18] [main] [com.demoblaze.utils.LogsManager] - Typed text 'm2022001' into element: By.id: loginusername
+[INFO] - [24-01-2026 17:48:19] [main] [com.demoblaze.utils.LogsManager] - Typed text '1' into element: By.id: loginpassword
+[INFO] - [24-01-2026 17:48:19] [main] [com.demoblaze.utils.LogsManager] - initialLocation: (917, 372)
+[INFO] - [24-01-2026 17:48:19] [main] [com.demoblaze.utils.LogsManager] - finalLocation: (917, 372)
+[INFO] - [24-01-2026 17:48:19] [main] [com.demoblaze.utils.LogsManager] - Clicked on element: By.cssSelector: button[onclick='logIn()']
+[INFO] - [24-01-2026 17:48:19] [main] [com.demoblaze.utils.LogsManager] - Test Case validLoginTestCase failed
+[INFO] - [24-01-2026 17:48:21] [main] [com.demoblaze.utils.LogsManager] - Test Execution Finished
+[DEBUG] - [24-01-2026 17:52:07] [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\midoh\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml"
+[INFO] - [24-01-2026 17:52:07] [main] [com.demoblaze.utils.LogsManager] - Test Execution started
+[INFO] - [24-01-2026 17:52:07] [main] [com.demoblaze.utils.LogsManager] - Directories cleaned
+[INFO] - [24-01-2026 17:52:07] [main] [com.demoblaze.utils.LogsManager] - Directories created
+[INFO] - [24-01-2026 17:52:07] [main] [com.demoblaze.utils.LogsManager] - Properties loaded
+[INFO] - [24-01-2026 17:52:07] [main] [com.demoblaze.utils.LogsManager] - Allure environment set
+[INFO] - [24-01-2026 17:52:08] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\midoh\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+[ERROR] - [24-01-2026 17:52:08] [main] [com.demoblaze.utils.LogsManager] - Error loading json file:invalidLogin-data
+[INFO] - [24-01-2026 17:52:12] [main] [com.demoblaze.utils.LogsManager] - Navigated to base URL
+[DEBUG] - [24-01-2026 17:52:12] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['name']
+[DEBUG] - [24-01-2026 17:52:13] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['password']
+[INFO] - [24-01-2026 17:52:14] [main] [com.demoblaze.utils.LogsManager] - initialLocation: (1077, 17)
+[INFO] - [24-01-2026 17:52:14] [main] [com.demoblaze.utils.LogsManager] - finalLocation: (1077, 17)
+[INFO] - [24-01-2026 17:52:14] [main] [com.demoblaze.utils.LogsManager] - Clicked on element: By.id: login2
+[INFO] - [24-01-2026 17:52:15] [main] [com.demoblaze.utils.LogsManager] - Typed text 'm2022001' into element: By.id: loginusername
+[INFO] - [24-01-2026 17:52:15] [main] [com.demoblaze.utils.LogsManager] - Typed text '1' into element: By.id: loginpassword
+[INFO] - [24-01-2026 17:52:15] [main] [com.demoblaze.utils.LogsManager] - initialLocation: (917, 372)
+[INFO] - [24-01-2026 17:52:15] [main] [com.demoblaze.utils.LogsManager] - finalLocation: (917, 372)
+[INFO] - [24-01-2026 17:52:16] [main] [com.demoblaze.utils.LogsManager] - Clicked on element: By.cssSelector: button[onclick='logIn()']
+[INFO] - [24-01-2026 17:52:16] [main] [com.demoblaze.utils.LogsManager] - Test Case validLoginTestCase failed
+[INFO] - [24-01-2026 17:52:17] [main] [com.demoblaze.utils.LogsManager] - Test Execution Finished
+[DEBUG] - [24-01-2026 17:54:37] [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\midoh\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml"
+[INFO] - [24-01-2026 17:54:38] [main] [com.demoblaze.utils.LogsManager] - Test Execution started
+[INFO] - [24-01-2026 17:54:38] [main] [com.demoblaze.utils.LogsManager] - Directories cleaned
+[INFO] - [24-01-2026 17:54:38] [main] [com.demoblaze.utils.LogsManager] - Directories created
+[INFO] - [24-01-2026 17:54:38] [main] [com.demoblaze.utils.LogsManager] - Properties loaded
+[INFO] - [24-01-2026 17:54:38] [main] [com.demoblaze.utils.LogsManager] - Allure environment set
+[INFO] - [24-01-2026 17:54:38] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\midoh\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+[INFO] - [24-01-2026 17:54:43] [main] [com.demoblaze.utils.LogsManager] - Navigated to base URL
+[DEBUG] - [24-01-2026 17:54:44] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['name']
+[DEBUG] - [24-01-2026 17:54:44] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['password']
+[INFO] - [24-01-2026 17:54:45] [main] [com.demoblaze.utils.LogsManager] - initialLocation: (1077, 17)
+[INFO] - [24-01-2026 17:54:45] [main] [com.demoblaze.utils.LogsManager] - finalLocation: (1077, 17)
+[INFO] - [24-01-2026 17:54:45] [main] [com.demoblaze.utils.LogsManager] - Clicked on element: By.id: login2
+[INFO] - [24-01-2026 17:54:46] [main] [com.demoblaze.utils.LogsManager] - Typed text 'm2022001' into element: By.id: loginusername
+[INFO] - [24-01-2026 17:54:46] [main] [com.demoblaze.utils.LogsManager] - Typed text '1' into element: By.id: loginpassword
+[INFO] - [24-01-2026 17:54:46] [main] [com.demoblaze.utils.LogsManager] - initialLocation: (917, 372)
+[INFO] - [24-01-2026 17:54:46] [main] [com.demoblaze.utils.LogsManager] - finalLocation: (917, 372)
+[INFO] - [24-01-2026 17:54:46] [main] [com.demoblaze.utils.LogsManager] - Clicked on element: By.cssSelector: button[onclick='logIn()']
+[INFO] - [24-01-2026 17:54:46] [main] [com.demoblaze.utils.LogsManager] - Test Case validLoginTestCase failed
+[INFO] - [24-01-2026 17:54:47] [main] [com.demoblaze.utils.LogsManager] - Test Execution Finished
+[DEBUG] - [24-01-2026 18:08:28] [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\midoh\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml"
+[INFO] - [24-01-2026 18:08:29] [main] [com.demoblaze.utils.LogsManager] - Test Execution started
+[INFO] - [24-01-2026 18:08:29] [main] [com.demoblaze.utils.LogsManager] - Directories cleaned
+[INFO] - [24-01-2026 18:08:29] [main] [com.demoblaze.utils.LogsManager] - Directories created
+[INFO] - [24-01-2026 18:08:29] [main] [com.demoblaze.utils.LogsManager] - Properties loaded
+[INFO] - [24-01-2026 18:08:29] [main] [com.demoblaze.utils.LogsManager] - Allure environment set
+[INFO] - [24-01-2026 18:08:29] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\midoh\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+[INFO] - [24-01-2026 18:08:36] [main] [com.demoblaze.utils.LogsManager] - Navigated to base URL
+[DEBUG] - [24-01-2026 18:08:36] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['name']
+[DEBUG] - [24-01-2026 18:08:36] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['password']
+[INFO] - [24-01-2026 18:08:37] [main] [com.demoblaze.utils.LogsManager] - initialLocation: (1077, 17)
+[INFO] - [24-01-2026 18:08:38] [main] [com.demoblaze.utils.LogsManager] - finalLocation: (1077, 17)
+[INFO] - [24-01-2026 18:08:38] [main] [com.demoblaze.utils.LogsManager] - Clicked on element: By.id: login2
+[INFO] - [24-01-2026 18:08:39] [main] [com.demoblaze.utils.LogsManager] - Typed text 'm2022001' into element: By.id: loginusername
+[INFO] - [24-01-2026 18:08:39] [main] [com.demoblaze.utils.LogsManager] - Typed text '1' into element: By.id: loginpassword
+[INFO] - [24-01-2026 18:08:39] [main] [com.demoblaze.utils.LogsManager] - initialLocation: (917, 372)
+[INFO] - [24-01-2026 18:08:39] [main] [com.demoblaze.utils.LogsManager] - finalLocation: (917, 372)
+[INFO] - [24-01-2026 18:08:39] [main] [com.demoblaze.utils.LogsManager] - Clicked on element: By.cssSelector: button[onclick='logIn()']
+[INFO] - [24-01-2026 18:08:40] [main] [com.demoblaze.utils.LogsManager] - Test Case validLoginTestCase failed
+[INFO] - [24-01-2026 18:08:40] [main] [com.demoblaze.utils.LogsManager] - Test Execution Finished
+[DEBUG] - [24-01-2026 18:29:12] [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\midoh\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml"
+[INFO] - [24-01-2026 18:29:13] [main] [com.demoblaze.utils.LogsManager] - Test Execution started
+[INFO] - [24-01-2026 18:29:13] [main] [com.demoblaze.utils.LogsManager] - Directories cleaned
+[INFO] - [24-01-2026 18:29:13] [main] [com.demoblaze.utils.LogsManager] - Directories created
+[INFO] - [24-01-2026 18:29:13] [main] [com.demoblaze.utils.LogsManager] - Properties loaded
+[INFO] - [24-01-2026 18:29:13] [main] [com.demoblaze.utils.LogsManager] - Allure environment set
+[INFO] - [24-01-2026 18:29:13] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\midoh\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+[INFO] - [24-01-2026 18:29:19] [main] [com.demoblaze.utils.LogsManager] - Navigated to base URL
+[DEBUG] - [24-01-2026 18:29:19] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['name']
+[DEBUG] - [24-01-2026 18:29:19] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['password']
+[INFO] - [24-01-2026 18:29:53] [main] [com.demoblaze.utils.LogsManager] - Test Case validLoginTestCase failed
+[INFO] - [24-01-2026 18:29:54] [main] [com.demoblaze.utils.LogsManager] - Test Execution Finished
+[DEBUG] - [24-01-2026 18:30:48] [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\midoh\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml"
+[INFO] - [24-01-2026 18:30:48] [main] [com.demoblaze.utils.LogsManager] - Test Execution started
+[INFO] - [24-01-2026 18:30:48] [main] [com.demoblaze.utils.LogsManager] - Directories cleaned
+[INFO] - [24-01-2026 18:30:48] [main] [com.demoblaze.utils.LogsManager] - Directories created
+[INFO] - [24-01-2026 18:30:49] [main] [com.demoblaze.utils.LogsManager] - Properties loaded
+[INFO] - [24-01-2026 18:30:49] [main] [com.demoblaze.utils.LogsManager] - Allure environment set
+[INFO] - [24-01-2026 18:30:49] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\midoh\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+[INFO] - [24-01-2026 18:30:54] [main] [com.demoblaze.utils.LogsManager] - Navigated to base URL
+[DEBUG] - [24-01-2026 18:30:54] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['name']
+[DEBUG] - [24-01-2026 18:30:54] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['password']
+[INFO] - [24-01-2026 18:30:55] [main] [com.demoblaze.utils.LogsManager] - initialLocation: (1077, 17)
+[INFO] - [24-01-2026 18:30:55] [main] [com.demoblaze.utils.LogsManager] - finalLocation: (1077, 17)
+[INFO] - [24-01-2026 18:30:55] [main] [com.demoblaze.utils.LogsManager] - Clicked on element: By.id: login2
+[INFO] - [24-01-2026 18:30:56] [main] [com.demoblaze.utils.LogsManager] - Typed text 'm2022001' into element: By.id: loginusername
+[INFO] - [24-01-2026 18:30:56] [main] [com.demoblaze.utils.LogsManager] - Typed text '1' into element: By.id: loginpassword
+[INFO] - [24-01-2026 18:30:56] [main] [com.demoblaze.utils.LogsManager] - initialLocation: (917, 372)
+[INFO] - [24-01-2026 18:30:56] [main] [com.demoblaze.utils.LogsManager] - finalLocation: (917, 372)
+[INFO] - [24-01-2026 18:30:57] [main] [com.demoblaze.utils.LogsManager] - Clicked on element: By.cssSelector: button[onclick='logIn()']
+[INFO] - [24-01-2026 18:30:57] [main] [com.demoblaze.utils.LogsManager] - Test Case validLoginTestCase failed
+[INFO] - [24-01-2026 18:30:58] [main] [com.demoblaze.utils.LogsManager] - Test Execution Finished
+[DEBUG] - [24-01-2026 18:34:12] [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\midoh\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml"
+[INFO] - [24-01-2026 18:34:12] [main] [com.demoblaze.utils.LogsManager] - Test Execution started
+[INFO] - [24-01-2026 18:34:12] [main] [com.demoblaze.utils.LogsManager] - Directories cleaned
+[INFO] - [24-01-2026 18:34:12] [main] [com.demoblaze.utils.LogsManager] - Directories created
+[INFO] - [24-01-2026 18:34:12] [main] [com.demoblaze.utils.LogsManager] - Properties loaded
+[INFO] - [24-01-2026 18:34:12] [main] [com.demoblaze.utils.LogsManager] - Allure environment set
+[INFO] - [24-01-2026 18:34:12] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\midoh\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+[INFO] - [24-01-2026 18:34:18] [main] [com.demoblaze.utils.LogsManager] - Navigated to base URL
+[DEBUG] - [24-01-2026 18:34:18] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['name']
+[DEBUG] - [24-01-2026 18:34:18] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['password']
+[INFO] - [24-01-2026 18:34:19] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.id: login2
+[INFO] - [24-01-2026 18:34:19] [main] [com.demoblaze.utils.LogsManager] - initialLocation: (1077, 17)
+[INFO] - [24-01-2026 18:34:19] [main] [com.demoblaze.utils.LogsManager] - finalLocation: (1077, 17)
+[INFO] - [24-01-2026 18:34:19] [main] [com.demoblaze.utils.LogsManager] - Clicked on element: By.id: login2
+[INFO] - [24-01-2026 18:34:20] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.id: loginusername
+[INFO] - [24-01-2026 18:34:20] [main] [com.demoblaze.utils.LogsManager] - Typed text 'm2022001' into element: By.id: loginusername
+[INFO] - [24-01-2026 18:34:21] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.id: loginpassword
+[INFO] - [24-01-2026 18:34:21] [main] [com.demoblaze.utils.LogsManager] - Typed text '1' into element: By.id: loginpassword
+[INFO] - [24-01-2026 18:34:21] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.cssSelector: button[onclick='logIn()']
+[INFO] - [24-01-2026 18:34:21] [main] [com.demoblaze.utils.LogsManager] - initialLocation: (917, 372)
+[INFO] - [24-01-2026 18:34:21] [main] [com.demoblaze.utils.LogsManager] - finalLocation: (917, 372)
+[INFO] - [24-01-2026 18:34:22] [main] [com.demoblaze.utils.LogsManager] - Clicked on element: By.cssSelector: button[onclick='logIn()']
+[INFO] - [24-01-2026 18:34:23] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.id: nameofuser
+[INFO] - [24-01-2026 18:34:24] [main] [com.demoblaze.utils.LogsManager] - Test Case validLoginTestCase passed
+[INFO] - [24-01-2026 18:34:25] [main] [com.demoblaze.utils.LogsManager] - Test Execution Finished
+[DEBUG] - [24-01-2026 18:34:47] [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\midoh\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml"
+[INFO] - [24-01-2026 18:34:47] [main] [com.demoblaze.utils.LogsManager] - Test Execution started
+[INFO] - [24-01-2026 18:34:47] [main] [com.demoblaze.utils.LogsManager] - Directories cleaned
+[INFO] - [24-01-2026 18:34:47] [main] [com.demoblaze.utils.LogsManager] - Directories created
+[INFO] - [24-01-2026 18:34:47] [main] [com.demoblaze.utils.LogsManager] - Properties loaded
+[INFO] - [24-01-2026 18:34:47] [main] [com.demoblaze.utils.LogsManager] - Allure environment set
+[INFO] - [24-01-2026 18:34:48] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\midoh\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+[INFO] - [24-01-2026 18:34:52] [main] [com.demoblaze.utils.LogsManager] - Navigated to base URL
+[DEBUG] - [24-01-2026 18:34:52] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['name']
+[DEBUG] - [24-01-2026 18:34:52] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['password']
+[INFO] - [24-01-2026 18:34:52] [main] [com.demoblaze.utils.LogsManager] - Registering with username: f and password: 1
+[INFO] - [24-01-2026 18:34:53] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.id: signin2
+[INFO] - [24-01-2026 18:34:53] [main] [com.demoblaze.utils.LogsManager] - initialLocation: (1135, 17)
+[INFO] - [24-01-2026 18:34:53] [main] [com.demoblaze.utils.LogsManager] - finalLocation: (1135, 17)
+[INFO] - [24-01-2026 18:34:53] [main] [com.demoblaze.utils.LogsManager] - Clicked on element: By.id: signin2
+[INFO] - [24-01-2026 18:34:54] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.cssSelector: #sign-username
+[INFO] - [24-01-2026 18:34:54] [main] [com.demoblaze.utils.LogsManager] - Typed text 'f' into element: By.cssSelector: #sign-username
+[INFO] - [24-01-2026 18:34:54] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.cssSelector: #sign-password
+[INFO] - [24-01-2026 18:34:54] [main] [com.demoblaze.utils.LogsManager] - Typed text '1' into element: By.cssSelector: #sign-password
+[INFO] - [24-01-2026 18:34:55] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.cssSelector: button[onclick='register()']
+[INFO] - [24-01-2026 18:34:55] [main] [com.demoblaze.utils.LogsManager] - initialLocation: (906, 372)
+[INFO] - [24-01-2026 18:34:55] [main] [com.demoblaze.utils.LogsManager] - finalLocation: (906, 372)
+[INFO] - [24-01-2026 18:34:55] [main] [com.demoblaze.utils.LogsManager] - Clicked on element: By.cssSelector: button[onclick='register()']
+[ERROR] - [24-01-2026 18:34:55] [main] [com.demoblaze.utils.LogsManager] - Failed to get alert text:
+[ERROR] - [24-01-2026 18:34:55] [main] [com.demoblaze.utils.LogsManager] - Failed to get alert text:
+[ERROR] - [24-01-2026 18:34:55] [main] [com.demoblaze.utils.LogsManager] - Failed to get alert text:
+[ERROR] - [24-01-2026 18:34:55] [main] [com.demoblaze.utils.LogsManager] - Failed to get alert text:
+[ERROR] - [24-01-2026 18:34:56] [main] [com.demoblaze.utils.LogsManager] - Failed to get alert text:
+[INFO] - [24-01-2026 18:34:56] [main] [com.demoblaze.utils.LogsManager] - Test Case invalidRegisterTestCase passed
+[INFO] - [24-01-2026 18:34:59] [main] [com.demoblaze.utils.LogsManager] - Navigated to base URL
+[DEBUG] - [24-01-2026 18:34:59] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['name']
+[DEBUG] - [24-01-2026 18:34:59] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['password']
+[INFO] - [24-01-2026 18:34:59] [main] [com.demoblaze.utils.LogsManager] - Registering with username: John1769272499735 and password: password123
+[INFO] - [24-01-2026 18:35:00] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.id: signin2
+[INFO] - [24-01-2026 18:35:00] [main] [com.demoblaze.utils.LogsManager] - initialLocation: (1135, 17)
+[INFO] - [24-01-2026 18:35:00] [main] [com.demoblaze.utils.LogsManager] - finalLocation: (1135, 17)
+[INFO] - [24-01-2026 18:35:01] [main] [com.demoblaze.utils.LogsManager] - Clicked on element: By.id: signin2
+[INFO] - [24-01-2026 18:35:01] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.cssSelector: #sign-username
+[INFO] - [24-01-2026 18:35:02] [main] [com.demoblaze.utils.LogsManager] - Typed text 'John1769272499735' into element: By.cssSelector: #sign-username
+[INFO] - [24-01-2026 18:35:02] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.cssSelector: #sign-password
+[INFO] - [24-01-2026 18:35:03] [main] [com.demoblaze.utils.LogsManager] - Typed text 'password123' into element: By.cssSelector: #sign-password
+[INFO] - [24-01-2026 18:35:03] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.cssSelector: button[onclick='register()']
+[INFO] - [24-01-2026 18:35:04] [main] [com.demoblaze.utils.LogsManager] - initialLocation: (906, 372)
+[INFO] - [24-01-2026 18:35:04] [main] [com.demoblaze.utils.LogsManager] - finalLocation: (906, 372)
+[INFO] - [24-01-2026 18:35:04] [main] [com.demoblaze.utils.LogsManager] - Clicked on element: By.cssSelector: button[onclick='register()']
+[ERROR] - [24-01-2026 18:35:04] [main] [com.demoblaze.utils.LogsManager] - Failed to get alert text:
+[ERROR] - [24-01-2026 18:35:04] [main] [com.demoblaze.utils.LogsManager] - Failed to get alert text:
+[ERROR] - [24-01-2026 18:35:04] [main] [com.demoblaze.utils.LogsManager] - Failed to get alert text:
+[ERROR] - [24-01-2026 18:35:04] [main] [com.demoblaze.utils.LogsManager] - Failed to get alert text:
+[INFO] - [24-01-2026 18:35:05] [main] [com.demoblaze.utils.LogsManager] - Test Case validRegisterTestCase passed
+[INFO] - [24-01-2026 18:35:05] [main] [com.demoblaze.utils.LogsManager] - Test Execution Finished
