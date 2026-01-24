@@ -123,19 +123,18 @@ public class ElementActions {
             try {
                 WebElement element = driver.findElement(locator);
 
-                // Scroll للعنصر
                 ((JavascriptExecutor) driver).executeScript(
                         "arguments[0].scrollIntoView({behavior:'auto',block:'center',inline:'center'});",
                         element
                 );
 
-                // Hover فوق العنصر
+
                 new Actions(driver).moveToElement(element).perform();
 
                 LogsManager.info("Found, scrolled, and hovered over element: " + locator);
-                return element; // ارجع العنصر نفسه بعد نجاح كل الخطوات
+                return element;
             } catch (Exception e) {
-                return null; // retry لحد timeout
+                return null;
             }
         });
     }

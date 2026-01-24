@@ -1,5 +1,6 @@
 package com.demoblaze.pages;
 
+import com.demoblaze.actions.AlertActions;
 import com.demoblaze.actions.ElementActions;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -7,7 +8,6 @@ import org.openqa.selenium.WebDriver;
 public class LoginPage {
 
     private final WebDriver driver;
-
 
     public LoginPage(WebDriver driver) {
         this.driver = driver;
@@ -38,5 +38,8 @@ public class LoginPage {
         return new ElementActions(driver)
                 .findElement(LoggedUserName)
                 .getText();
+    }
+    public String getAlertMessage() {
+        return new AlertActions(driver).getAlertText();
     }
 }

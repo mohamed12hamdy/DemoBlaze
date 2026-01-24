@@ -295,3 +295,435 @@
 [ERROR] - [24-01-2026 18:35:04] [main] [com.demoblaze.utils.LogsManager] - Failed to get alert text:
 [INFO] - [24-01-2026 18:35:05] [main] [com.demoblaze.utils.LogsManager] - Test Case validRegisterTestCase passed
 [INFO] - [24-01-2026 18:35:05] [main] [com.demoblaze.utils.LogsManager] - Test Execution Finished
+[DEBUG] - [24-01-2026 18:47:45] [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\midoh\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml"
+[INFO] - [24-01-2026 18:47:46] [main] [com.demoblaze.utils.LogsManager] - Test Execution started
+[INFO] - [24-01-2026 18:47:46] [main] [com.demoblaze.utils.LogsManager] - Directories cleaned
+[INFO] - [24-01-2026 18:47:46] [main] [com.demoblaze.utils.LogsManager] - Directories created
+[INFO] - [24-01-2026 18:47:46] [main] [com.demoblaze.utils.LogsManager] - Properties loaded
+[INFO] - [24-01-2026 18:47:46] [main] [com.demoblaze.utils.LogsManager] - Allure environment set
+[INFO] - [24-01-2026 18:47:46] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\midoh\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+[INFO] - [24-01-2026 18:47:52] [main] [com.demoblaze.utils.LogsManager] - Navigated to base URL
+[DEBUG] - [24-01-2026 18:47:52] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['name']
+[DEBUG] - [24-01-2026 18:47:52] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['password']
+[INFO] - [24-01-2026 18:47:52] [main] [com.demoblaze.utils.LogsManager] - Registering user: f
+[INFO] - [24-01-2026 18:47:53] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.id: signin2
+[INFO] - [24-01-2026 18:47:53] [main] [com.demoblaze.utils.LogsManager] - initialLocation: (1135, 17)
+[INFO] - [24-01-2026 18:47:53] [main] [com.demoblaze.utils.LogsManager] - finalLocation: (1135, 17)
+[INFO] - [24-01-2026 18:47:53] [main] [com.demoblaze.utils.LogsManager] - Clicked on element: By.id: signin2
+[INFO] - [24-01-2026 18:47:54] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.cssSelector: #sign-username
+[INFO] - [24-01-2026 18:47:54] [main] [com.demoblaze.utils.LogsManager] - Typed text 'f' into element: By.cssSelector: #sign-username
+[INFO] - [24-01-2026 18:47:54] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.cssSelector: #sign-password
+[INFO] - [24-01-2026 18:47:55] [main] [com.demoblaze.utils.LogsManager] - Typed text '1' into element: By.cssSelector: #sign-password
+[INFO] - [24-01-2026 18:47:55] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.cssSelector: button[onclick='register()']
+[INFO] - [24-01-2026 18:47:55] [main] [com.demoblaze.utils.LogsManager] - initialLocation: (906, 372)
+[INFO] - [24-01-2026 18:47:55] [main] [com.demoblaze.utils.LogsManager] - finalLocation: (906, 372)
+[INFO] - [24-01-2026 18:47:55] [main] [com.demoblaze.utils.LogsManager] - Clicked on element: By.cssSelector: button[onclick='register()']
+[ERROR] - [24-01-2026 18:47:55] [main] [com.demoblaze.utils.LogsManager] - Failed to get alert text:
+[ERROR] - [24-01-2026 18:47:55] [main] [com.demoblaze.utils.LogsManager] - Failed to get alert text:
+[ERROR] - [24-01-2026 18:47:55] [main] [com.demoblaze.utils.LogsManager] - Failed to get alert text:
+[ERROR] - [24-01-2026 18:47:55] [main] [com.demoblaze.utils.LogsManager] - Failed to get alert text:
+[INFO] - [24-01-2026 18:47:55] [main] [com.demoblaze.utils.LogsManager] - Test Case invalidRegisterTestCase passed
+[INFO] - [24-01-2026 18:47:59] [main] [com.demoblaze.utils.LogsManager] - Navigated to base URL
+[DEBUG] - [24-01-2026 18:47:59] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['name']
+[DEBUG] - [24-01-2026 18:47:59] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['password']
+[INFO] - [24-01-2026 18:47:59] [main] [com.demoblaze.utils.LogsManager] - Registering user: John
+[INFO] - [24-01-2026 18:48:00] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.id: signin2
+[INFO] - [24-01-2026 18:48:00] [main] [com.demoblaze.utils.LogsManager] - initialLocation: (1135, 17)
+[INFO] - [24-01-2026 18:48:00] [main] [com.demoblaze.utils.LogsManager] - finalLocation: (1135, 17)
+[INFO] - [24-01-2026 18:48:00] [main] [com.demoblaze.utils.LogsManager] - Clicked on element: By.id: signin2
+[INFO] - [24-01-2026 18:48:01] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.cssSelector: #sign-username
+[INFO] - [24-01-2026 18:48:01] [main] [com.demoblaze.utils.LogsManager] - Typed text 'John' into element: By.cssSelector: #sign-username
+[INFO] - [24-01-2026 18:48:01] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.cssSelector: #sign-password
+[INFO] - [24-01-2026 18:48:02] [main] [com.demoblaze.utils.LogsManager] - Typed text 'password123' into element: By.cssSelector: #sign-password
+[INFO] - [24-01-2026 18:48:02] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.cssSelector: button[onclick='register()']
+[INFO] - [24-01-2026 18:48:02] [main] [com.demoblaze.utils.LogsManager] - initialLocation: (906, 372)
+[INFO] - [24-01-2026 18:48:02] [main] [com.demoblaze.utils.LogsManager] - finalLocation: (906, 372)
+[INFO] - [24-01-2026 18:48:02] [main] [com.demoblaze.utils.LogsManager] - Clicked on element: By.cssSelector: button[onclick='register()']
+[ERROR] - [24-01-2026 18:48:02] [main] [com.demoblaze.utils.LogsManager] - Failed to get alert text:
+[ERROR] - [24-01-2026 18:48:02] [main] [com.demoblaze.utils.LogsManager] - Failed to get alert text:
+[ERROR] - [24-01-2026 18:48:03] [main] [com.demoblaze.utils.LogsManager] - Failed to get alert text:
+[INFO] - [24-01-2026 18:48:03] [main] [com.demoblaze.utils.LogsManager] - Test Case validRegisterTestCase failed
+[INFO] - [24-01-2026 18:48:04] [main] [com.demoblaze.utils.LogsManager] - Test Execution Finished
+[DEBUG] - [24-01-2026 18:49:05] [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\midoh\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml"
+[INFO] - [24-01-2026 18:49:05] [main] [com.demoblaze.utils.LogsManager] - Test Execution started
+[INFO] - [24-01-2026 18:49:05] [main] [com.demoblaze.utils.LogsManager] - Directories cleaned
+[INFO] - [24-01-2026 18:49:05] [main] [com.demoblaze.utils.LogsManager] - Directories created
+[INFO] - [24-01-2026 18:49:05] [main] [com.demoblaze.utils.LogsManager] - Properties loaded
+[INFO] - [24-01-2026 18:49:05] [main] [com.demoblaze.utils.LogsManager] - Allure environment set
+[INFO] - [24-01-2026 18:49:06] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\midoh\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+[INFO] - [24-01-2026 18:49:10] [main] [com.demoblaze.utils.LogsManager] - Navigated to base URL
+[DEBUG] - [24-01-2026 18:49:12] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['name']
+[DEBUG] - [24-01-2026 18:49:12] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['password']
+[INFO] - [24-01-2026 18:49:12] [main] [com.demoblaze.utils.LogsManager] - Registering user: f
+[INFO] - [24-01-2026 18:49:12] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.id: signin2
+[INFO] - [24-01-2026 18:49:12] [main] [com.demoblaze.utils.LogsManager] - initialLocation: (1135, 17)
+[INFO] - [24-01-2026 18:49:12] [main] [com.demoblaze.utils.LogsManager] - finalLocation: (1135, 17)
+[INFO] - [24-01-2026 18:49:13] [main] [com.demoblaze.utils.LogsManager] - Clicked on element: By.id: signin2
+[INFO] - [24-01-2026 18:49:13] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.cssSelector: #sign-username
+[INFO] - [24-01-2026 18:49:13] [main] [com.demoblaze.utils.LogsManager] - Typed text 'f' into element: By.cssSelector: #sign-username
+[INFO] - [24-01-2026 18:49:14] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.cssSelector: #sign-password
+[INFO] - [24-01-2026 18:49:14] [main] [com.demoblaze.utils.LogsManager] - Typed text '1' into element: By.cssSelector: #sign-password
+[INFO] - [24-01-2026 18:49:14] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.cssSelector: button[onclick='register()']
+[INFO] - [24-01-2026 18:49:14] [main] [com.demoblaze.utils.LogsManager] - initialLocation: (906, 372)
+[INFO] - [24-01-2026 18:49:14] [main] [com.demoblaze.utils.LogsManager] - finalLocation: (906, 372)
+[INFO] - [24-01-2026 18:49:14] [main] [com.demoblaze.utils.LogsManager] - Clicked on element: By.cssSelector: button[onclick='register()']
+[ERROR] - [24-01-2026 18:49:14] [main] [com.demoblaze.utils.LogsManager] - Failed to get alert text:
+[ERROR] - [24-01-2026 18:49:15] [main] [com.demoblaze.utils.LogsManager] - Failed to get alert text:
+[ERROR] - [24-01-2026 18:49:15] [main] [com.demoblaze.utils.LogsManager] - Failed to get alert text:
+[ERROR] - [24-01-2026 18:49:15] [main] [com.demoblaze.utils.LogsManager] - Failed to get alert text:
+[ERROR] - [24-01-2026 18:49:15] [main] [com.demoblaze.utils.LogsManager] - Failed to get alert text:
+[INFO] - [24-01-2026 18:49:15] [main] [com.demoblaze.utils.LogsManager] - Test Case invalidRegisterTestCase passed
+[INFO] - [24-01-2026 18:49:18] [main] [com.demoblaze.utils.LogsManager] - Navigated to base URL
+[DEBUG] - [24-01-2026 18:49:18] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['name']
+[DEBUG] - [24-01-2026 18:49:18] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['password']
+[INFO] - [24-01-2026 18:49:18] [main] [com.demoblaze.utils.LogsManager] - Registering user: John1769273358354
+[INFO] - [24-01-2026 18:49:19] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.id: signin2
+[INFO] - [24-01-2026 18:49:19] [main] [com.demoblaze.utils.LogsManager] - initialLocation: (1135, 17)
+[INFO] - [24-01-2026 18:49:19] [main] [com.demoblaze.utils.LogsManager] - finalLocation: (1135, 17)
+[INFO] - [24-01-2026 18:49:19] [main] [com.demoblaze.utils.LogsManager] - Clicked on element: By.id: signin2
+[INFO] - [24-01-2026 18:49:20] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.cssSelector: #sign-username
+[INFO] - [24-01-2026 18:49:20] [main] [com.demoblaze.utils.LogsManager] - Typed text 'John1769273358354' into element: By.cssSelector: #sign-username
+[INFO] - [24-01-2026 18:49:20] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.cssSelector: #sign-password
+[INFO] - [24-01-2026 18:49:21] [main] [com.demoblaze.utils.LogsManager] - Typed text 'password123' into element: By.cssSelector: #sign-password
+[INFO] - [24-01-2026 18:49:21] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.cssSelector: button[onclick='register()']
+[INFO] - [24-01-2026 18:49:21] [main] [com.demoblaze.utils.LogsManager] - initialLocation: (906, 372)
+[INFO] - [24-01-2026 18:49:21] [main] [com.demoblaze.utils.LogsManager] - finalLocation: (906, 372)
+[INFO] - [24-01-2026 18:49:21] [main] [com.demoblaze.utils.LogsManager] - Clicked on element: By.cssSelector: button[onclick='register()']
+[ERROR] - [24-01-2026 18:49:21] [main] [com.demoblaze.utils.LogsManager] - Failed to get alert text:
+[ERROR] - [24-01-2026 18:49:21] [main] [com.demoblaze.utils.LogsManager] - Failed to get alert text:
+[ERROR] - [24-01-2026 18:49:21] [main] [com.demoblaze.utils.LogsManager] - Failed to get alert text:
+[ERROR] - [24-01-2026 18:49:21] [main] [com.demoblaze.utils.LogsManager] - Failed to get alert text:
+[INFO] - [24-01-2026 18:49:22] [main] [com.demoblaze.utils.LogsManager] - Test Case validRegisterTestCase passed
+[INFO] - [24-01-2026 18:49:22] [main] [com.demoblaze.utils.LogsManager] - Test Execution Finished
+[DEBUG] - [24-01-2026 18:50:21] [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\midoh\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml"
+[INFO] - [24-01-2026 18:50:22] [main] [com.demoblaze.utils.LogsManager] - Test Execution started
+[INFO] - [24-01-2026 18:50:22] [main] [com.demoblaze.utils.LogsManager] - Directories cleaned
+[INFO] - [24-01-2026 18:50:22] [main] [com.demoblaze.utils.LogsManager] - Directories created
+[INFO] - [24-01-2026 18:50:22] [main] [com.demoblaze.utils.LogsManager] - Properties loaded
+[INFO] - [24-01-2026 18:50:22] [main] [com.demoblaze.utils.LogsManager] - Allure environment set
+[INFO] - [24-01-2026 18:50:22] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\midoh\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+[INFO] - [24-01-2026 18:50:26] [main] [com.demoblaze.utils.LogsManager] - Navigated to base URL
+[DEBUG] - [24-01-2026 18:50:26] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['name']
+[DEBUG] - [24-01-2026 18:50:26] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['password']
+[INFO] - [24-01-2026 18:50:28] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.id: login2
+[INFO] - [24-01-2026 18:50:28] [main] [com.demoblaze.utils.LogsManager] - initialLocation: (1077, 17)
+[INFO] - [24-01-2026 18:50:28] [main] [com.demoblaze.utils.LogsManager] - finalLocation: (1077, 17)
+[INFO] - [24-01-2026 18:50:28] [main] [com.demoblaze.utils.LogsManager] - Clicked on element: By.id: login2
+[INFO] - [24-01-2026 18:50:29] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.id: loginusername
+[INFO] - [24-01-2026 18:50:29] [main] [com.demoblaze.utils.LogsManager] - Typed text 'm2022001' into element: By.id: loginusername
+[INFO] - [24-01-2026 18:50:30] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.id: loginpassword
+[INFO] - [24-01-2026 18:50:30] [main] [com.demoblaze.utils.LogsManager] - Typed text '1' into element: By.id: loginpassword
+[INFO] - [24-01-2026 18:50:30] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.cssSelector: button[onclick='logIn()']
+[INFO] - [24-01-2026 18:50:30] [main] [com.demoblaze.utils.LogsManager] - initialLocation: (917, 372)
+[INFO] - [24-01-2026 18:50:30] [main] [com.demoblaze.utils.LogsManager] - finalLocation: (917, 372)
+[INFO] - [24-01-2026 18:50:31] [main] [com.demoblaze.utils.LogsManager] - Clicked on element: By.cssSelector: button[onclick='logIn()']
+[INFO] - [24-01-2026 18:50:32] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.id: nameofuser
+[INFO] - [24-01-2026 18:50:32] [main] [com.demoblaze.utils.LogsManager] - Test Case validLoginTestCase passed
+[INFO] - [24-01-2026 18:50:33] [main] [com.demoblaze.utils.LogsManager] - Test Execution Finished
+[DEBUG] - [24-01-2026 19:35:34] [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\midoh\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml"
+[INFO] - [24-01-2026 19:35:35] [main] [com.demoblaze.utils.LogsManager] - Test Execution started
+[INFO] - [24-01-2026 19:35:35] [main] [com.demoblaze.utils.LogsManager] - Directories cleaned
+[INFO] - [24-01-2026 19:35:35] [main] [com.demoblaze.utils.LogsManager] - Directories created
+[INFO] - [24-01-2026 19:35:35] [main] [com.demoblaze.utils.LogsManager] - Properties loaded
+[INFO] - [24-01-2026 19:35:35] [main] [com.demoblaze.utils.LogsManager] - Allure environment set
+[INFO] - [24-01-2026 19:35:35] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\midoh\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+[INFO] - [24-01-2026 19:35:40] [main] [com.demoblaze.utils.LogsManager] - Navigated to base URL
+[DEBUG] - [24-01-2026 19:35:40] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['name']
+[DEBUG] - [24-01-2026 19:35:40] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['password']
+[INFO] - [24-01-2026 19:35:41] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.id: login2
+[INFO] - [24-01-2026 19:35:41] [main] [com.demoblaze.utils.LogsManager] - initialLocation: (1077, 17)
+[INFO] - [24-01-2026 19:35:41] [main] [com.demoblaze.utils.LogsManager] - finalLocation: (1077, 17)
+[INFO] - [24-01-2026 19:35:41] [main] [com.demoblaze.utils.LogsManager] - Clicked on element: By.id: login2
+[INFO] - [24-01-2026 19:35:42] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.id: loginusername
+[INFO] - [24-01-2026 19:35:42] [main] [com.demoblaze.utils.LogsManager] - Typed text 'm2022002' into element: By.id: loginusername
+[INFO] - [24-01-2026 19:35:42] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.id: loginpassword
+[INFO] - [24-01-2026 19:35:42] [main] [com.demoblaze.utils.LogsManager] - Typed text '1' into element: By.id: loginpassword
+[INFO] - [24-01-2026 19:35:43] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.cssSelector: button[onclick='logIn()']
+[INFO] - [24-01-2026 19:35:43] [main] [com.demoblaze.utils.LogsManager] - initialLocation: (917, 372)
+[INFO] - [24-01-2026 19:35:43] [main] [com.demoblaze.utils.LogsManager] - finalLocation: (917, 372)
+[INFO] - [24-01-2026 19:35:43] [main] [com.demoblaze.utils.LogsManager] - Clicked on element: By.cssSelector: button[onclick='logIn()']
+[ERROR] - [24-01-2026 19:35:43] [main] [com.demoblaze.utils.LogsManager] - Failed to get alert text:
+[ERROR] - [24-01-2026 19:35:43] [main] [com.demoblaze.utils.LogsManager] - Failed to get alert text:
+[ERROR] - [24-01-2026 19:35:43] [main] [com.demoblaze.utils.LogsManager] - Failed to get alert text:
+[ERROR] - [24-01-2026 19:35:43] [main] [com.demoblaze.utils.LogsManager] - Failed to get alert text:
+[ERROR] - [24-01-2026 19:35:43] [main] [com.demoblaze.utils.LogsManager] - Failed to get alert text:
+[INFO] - [24-01-2026 19:35:43] [main] [com.demoblaze.utils.LogsManager] - Test Case invalidLoginNameTestCase passed
+[INFO] - [24-01-2026 19:35:44] [main] [com.demoblaze.utils.LogsManager] - Test Execution Finished
+[DEBUG] - [24-01-2026 19:36:14] [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\midoh\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml"
+[INFO] - [24-01-2026 19:36:14] [main] [com.demoblaze.utils.LogsManager] - Test Execution started
+[INFO] - [24-01-2026 19:36:14] [main] [com.demoblaze.utils.LogsManager] - Directories cleaned
+[INFO] - [24-01-2026 19:36:14] [main] [com.demoblaze.utils.LogsManager] - Directories created
+[INFO] - [24-01-2026 19:36:14] [main] [com.demoblaze.utils.LogsManager] - Properties loaded
+[INFO] - [24-01-2026 19:36:14] [main] [com.demoblaze.utils.LogsManager] - Allure environment set
+[INFO] - [24-01-2026 19:36:14] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\midoh\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+[INFO] - [24-01-2026 19:36:19] [main] [com.demoblaze.utils.LogsManager] - Navigated to base URL
+[DEBUG] - [24-01-2026 19:36:20] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['name']
+[DEBUG] - [24-01-2026 19:36:20] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['password']
+[INFO] - [24-01-2026 19:36:20] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.id: login2
+[INFO] - [24-01-2026 19:36:20] [main] [com.demoblaze.utils.LogsManager] - initialLocation: (1077, 17)
+[INFO] - [24-01-2026 19:36:20] [main] [com.demoblaze.utils.LogsManager] - finalLocation: (1077, 17)
+[INFO] - [24-01-2026 19:36:20] [main] [com.demoblaze.utils.LogsManager] - Clicked on element: By.id: login2
+[INFO] - [24-01-2026 19:36:21] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.id: loginusername
+[INFO] - [24-01-2026 19:36:21] [main] [com.demoblaze.utils.LogsManager] - Typed text 'm2022002' into element: By.id: loginusername
+[INFO] - [24-01-2026 19:36:21] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.id: loginpassword
+[INFO] - [24-01-2026 19:36:21] [main] [com.demoblaze.utils.LogsManager] - Typed text '1' into element: By.id: loginpassword
+[INFO] - [24-01-2026 19:36:22] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.cssSelector: button[onclick='logIn()']
+[INFO] - [24-01-2026 19:36:22] [main] [com.demoblaze.utils.LogsManager] - initialLocation: (917, 372)
+[INFO] - [24-01-2026 19:36:22] [main] [com.demoblaze.utils.LogsManager] - finalLocation: (917, 372)
+[INFO] - [24-01-2026 19:36:22] [main] [com.demoblaze.utils.LogsManager] - Clicked on element: By.cssSelector: button[onclick='logIn()']
+[ERROR] - [24-01-2026 19:36:22] [main] [com.demoblaze.utils.LogsManager] - Failed to get alert text:
+[ERROR] - [24-01-2026 19:36:22] [main] [com.demoblaze.utils.LogsManager] - Failed to get alert text:
+[ERROR] - [24-01-2026 19:36:22] [main] [com.demoblaze.utils.LogsManager] - Failed to get alert text:
+[ERROR] - [24-01-2026 19:36:22] [main] [com.demoblaze.utils.LogsManager] - Failed to get alert text:
+[ERROR] - [24-01-2026 19:36:22] [main] [com.demoblaze.utils.LogsManager] - Failed to get alert text:
+[INFO] - [24-01-2026 19:36:23] [main] [com.demoblaze.utils.LogsManager] - Test Case invalidLoginNameTestCase passed
+[INFO] - [24-01-2026 19:36:27] [main] [com.demoblaze.utils.LogsManager] - Navigated to base URL
+[DEBUG] - [24-01-2026 19:36:27] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['name']
+[DEBUG] - [24-01-2026 19:36:27] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['password']
+[INFO] - [24-01-2026 19:36:28] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.id: login2
+[INFO] - [24-01-2026 19:36:28] [main] [com.demoblaze.utils.LogsManager] - initialLocation: (1077, 17)
+[INFO] - [24-01-2026 19:36:28] [main] [com.demoblaze.utils.LogsManager] - finalLocation: (1077, 17)
+[INFO] - [24-01-2026 19:36:28] [main] [com.demoblaze.utils.LogsManager] - Clicked on element: By.id: login2
+[INFO] - [24-01-2026 19:36:28] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.id: loginusername
+[INFO] - [24-01-2026 19:36:29] [main] [com.demoblaze.utils.LogsManager] - Typed text 'm2022001' into element: By.id: loginusername
+[INFO] - [24-01-2026 19:36:29] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.id: loginpassword
+[INFO] - [24-01-2026 19:36:29] [main] [com.demoblaze.utils.LogsManager] - Typed text '1' into element: By.id: loginpassword
+[INFO] - [24-01-2026 19:36:29] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.cssSelector: button[onclick='logIn()']
+[INFO] - [24-01-2026 19:36:29] [main] [com.demoblaze.utils.LogsManager] - initialLocation: (917, 372)
+[INFO] - [24-01-2026 19:36:29] [main] [com.demoblaze.utils.LogsManager] - finalLocation: (917, 372)
+[INFO] - [24-01-2026 19:36:30] [main] [com.demoblaze.utils.LogsManager] - Clicked on element: By.cssSelector: button[onclick='logIn()']
+[INFO] - [24-01-2026 19:36:31] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.id: nameofuser
+[INFO] - [24-01-2026 19:36:31] [main] [com.demoblaze.utils.LogsManager] - Test Case validLoginTestCase passed
+[INFO] - [24-01-2026 19:36:32] [main] [com.demoblaze.utils.LogsManager] - Test Execution Finished
+[DEBUG] - [24-01-2026 19:38:07] [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\midoh\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml"
+[INFO] - [24-01-2026 19:38:08] [main] [com.demoblaze.utils.LogsManager] - Test Execution started
+[INFO] - [24-01-2026 19:38:08] [main] [com.demoblaze.utils.LogsManager] - Directories cleaned
+[INFO] - [24-01-2026 19:38:08] [main] [com.demoblaze.utils.LogsManager] - Directories created
+[INFO] - [24-01-2026 19:38:08] [main] [com.demoblaze.utils.LogsManager] - Properties loaded
+[INFO] - [24-01-2026 19:38:08] [main] [com.demoblaze.utils.LogsManager] - Allure environment set
+[INFO] - [24-01-2026 19:38:08] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\midoh\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+[INFO] - [24-01-2026 19:38:13] [main] [com.demoblaze.utils.LogsManager] - Navigated to base URL
+[DEBUG] - [24-01-2026 19:38:13] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['name']
+[DEBUG] - [24-01-2026 19:38:13] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['password']
+[INFO] - [24-01-2026 19:38:14] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.id: login2
+[INFO] - [24-01-2026 19:38:14] [main] [com.demoblaze.utils.LogsManager] - initialLocation: (1077, 17)
+[INFO] - [24-01-2026 19:38:14] [main] [com.demoblaze.utils.LogsManager] - finalLocation: (1077, 17)
+[INFO] - [24-01-2026 19:38:14] [main] [com.demoblaze.utils.LogsManager] - Clicked on element: By.id: login2
+[INFO] - [24-01-2026 19:38:14] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.id: loginusername
+[INFO] - [24-01-2026 19:38:15] [main] [com.demoblaze.utils.LogsManager] - Typed text 'm2022002' into element: By.id: loginusername
+[INFO] - [24-01-2026 19:38:15] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.id: loginpassword
+[INFO] - [24-01-2026 19:38:15] [main] [com.demoblaze.utils.LogsManager] - Typed text '1' into element: By.id: loginpassword
+[INFO] - [24-01-2026 19:38:15] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.cssSelector: button[onclick='logIn()']
+[INFO] - [24-01-2026 19:38:15] [main] [com.demoblaze.utils.LogsManager] - initialLocation: (917, 372)
+[INFO] - [24-01-2026 19:38:15] [main] [com.demoblaze.utils.LogsManager] - finalLocation: (917, 372)
+[INFO] - [24-01-2026 19:38:15] [main] [com.demoblaze.utils.LogsManager] - Clicked on element: By.cssSelector: button[onclick='logIn()']
+[ERROR] - [24-01-2026 19:38:16] [main] [com.demoblaze.utils.LogsManager] - Failed to get alert text:
+[ERROR] - [24-01-2026 19:38:16] [main] [com.demoblaze.utils.LogsManager] - Failed to get alert text:
+[ERROR] - [24-01-2026 19:38:16] [main] [com.demoblaze.utils.LogsManager] - Failed to get alert text:
+[ERROR] - [24-01-2026 19:38:16] [main] [com.demoblaze.utils.LogsManager] - Failed to get alert text:
+[INFO] - [24-01-2026 19:38:16] [main] [com.demoblaze.utils.LogsManager] - Test Case invalidLoginNameTestCase passed
+[INFO] - [24-01-2026 19:38:19] [main] [com.demoblaze.utils.LogsManager] - Navigated to base URL
+[DEBUG] - [24-01-2026 19:38:19] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['name']
+[DEBUG] - [24-01-2026 19:38:19] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['password']
+[INFO] - [24-01-2026 19:38:19] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.id: login2
+[INFO] - [24-01-2026 19:38:19] [main] [com.demoblaze.utils.LogsManager] - initialLocation: (1077, 17)
+[INFO] - [24-01-2026 19:38:19] [main] [com.demoblaze.utils.LogsManager] - finalLocation: (1077, 17)
+[INFO] - [24-01-2026 19:38:19] [main] [com.demoblaze.utils.LogsManager] - Clicked on element: By.id: login2
+[INFO] - [24-01-2026 19:38:20] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.id: loginusername
+[INFO] - [24-01-2026 19:38:20] [main] [com.demoblaze.utils.LogsManager] - Typed text 'm2022001' into element: By.id: loginusername
+[INFO] - [24-01-2026 19:38:20] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.id: loginpassword
+[INFO] - [24-01-2026 19:38:21] [main] [com.demoblaze.utils.LogsManager] - Typed text 'wrongpassword' into element: By.id: loginpassword
+[INFO] - [24-01-2026 19:38:21] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.cssSelector: button[onclick='logIn()']
+[INFO] - [24-01-2026 19:38:21] [main] [com.demoblaze.utils.LogsManager] - initialLocation: (917, 372)
+[INFO] - [24-01-2026 19:38:21] [main] [com.demoblaze.utils.LogsManager] - finalLocation: (917, 372)
+[INFO] - [24-01-2026 19:38:21] [main] [com.demoblaze.utils.LogsManager] - Clicked on element: By.cssSelector: button[onclick='logIn()']
+[ERROR] - [24-01-2026 19:38:21] [main] [com.demoblaze.utils.LogsManager] - Failed to get alert text:
+[ERROR] - [24-01-2026 19:38:21] [main] [com.demoblaze.utils.LogsManager] - Failed to get alert text:
+[ERROR] - [24-01-2026 19:38:21] [main] [com.demoblaze.utils.LogsManager] - Failed to get alert text:
+[ERROR] - [24-01-2026 19:38:21] [main] [com.demoblaze.utils.LogsManager] - Failed to get alert text:
+[INFO] - [24-01-2026 19:38:21] [main] [com.demoblaze.utils.LogsManager] - Test Case invalidLoginPasswordTestCase failed
+[INFO] - [24-01-2026 19:38:25] [main] [com.demoblaze.utils.LogsManager] - Navigated to base URL
+[DEBUG] - [24-01-2026 19:38:25] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['name']
+[DEBUG] - [24-01-2026 19:38:25] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['password']
+[INFO] - [24-01-2026 19:38:25] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.id: login2
+[INFO] - [24-01-2026 19:38:25] [main] [com.demoblaze.utils.LogsManager] - initialLocation: (1077, 17)
+[INFO] - [24-01-2026 19:38:25] [main] [com.demoblaze.utils.LogsManager] - finalLocation: (1077, 17)
+[INFO] - [24-01-2026 19:38:25] [main] [com.demoblaze.utils.LogsManager] - Clicked on element: By.id: login2
+[INFO] - [24-01-2026 19:38:25] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.id: loginusername
+[INFO] - [24-01-2026 19:38:26] [main] [com.demoblaze.utils.LogsManager] - Typed text 'm2022001' into element: By.id: loginusername
+[INFO] - [24-01-2026 19:38:26] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.id: loginpassword
+[INFO] - [24-01-2026 19:38:26] [main] [com.demoblaze.utils.LogsManager] - Typed text '1' into element: By.id: loginpassword
+[INFO] - [24-01-2026 19:38:26] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.cssSelector: button[onclick='logIn()']
+[INFO] - [24-01-2026 19:38:26] [main] [com.demoblaze.utils.LogsManager] - initialLocation: (917, 372)
+[INFO] - [24-01-2026 19:38:26] [main] [com.demoblaze.utils.LogsManager] - finalLocation: (917, 372)
+[INFO] - [24-01-2026 19:38:27] [main] [com.demoblaze.utils.LogsManager] - Clicked on element: By.cssSelector: button[onclick='logIn()']
+[INFO] - [24-01-2026 19:38:28] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.id: nameofuser
+[INFO] - [24-01-2026 19:38:28] [main] [com.demoblaze.utils.LogsManager] - Test Case validLoginTestCase passed
+[INFO] - [24-01-2026 19:38:28] [main] [com.demoblaze.utils.LogsManager] - Test Execution Finished
+[DEBUG] - [24-01-2026 19:39:54] [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\midoh\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml"
+[INFO] - [24-01-2026 19:39:55] [main] [com.demoblaze.utils.LogsManager] - Test Execution started
+[INFO] - [24-01-2026 19:39:55] [main] [com.demoblaze.utils.LogsManager] - Directories cleaned
+[INFO] - [24-01-2026 19:39:55] [main] [com.demoblaze.utils.LogsManager] - Directories created
+[INFO] - [24-01-2026 19:39:55] [main] [com.demoblaze.utils.LogsManager] - Properties loaded
+[INFO] - [24-01-2026 19:39:55] [main] [com.demoblaze.utils.LogsManager] - Allure environment set
+[INFO] - [24-01-2026 19:39:55] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\midoh\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+[INFO] - [24-01-2026 19:40:00] [main] [com.demoblaze.utils.LogsManager] - Navigated to base URL
+[DEBUG] - [24-01-2026 19:40:00] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['name']
+[DEBUG] - [24-01-2026 19:40:00] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['password']
+[INFO] - [24-01-2026 19:40:00] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.id: login2
+[INFO] - [24-01-2026 19:40:00] [main] [com.demoblaze.utils.LogsManager] - initialLocation: (1077, 17)
+[INFO] - [24-01-2026 19:40:00] [main] [com.demoblaze.utils.LogsManager] - finalLocation: (1077, 17)
+[INFO] - [24-01-2026 19:40:00] [main] [com.demoblaze.utils.LogsManager] - Clicked on element: By.id: login2
+[INFO] - [24-01-2026 19:40:01] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.id: loginusername
+[INFO] - [24-01-2026 19:40:01] [main] [com.demoblaze.utils.LogsManager] - Typed text 'm2022002' into element: By.id: loginusername
+[INFO] - [24-01-2026 19:40:01] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.id: loginpassword
+[INFO] - [24-01-2026 19:40:01] [main] [com.demoblaze.utils.LogsManager] - Typed text '1' into element: By.id: loginpassword
+[INFO] - [24-01-2026 19:40:02] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.cssSelector: button[onclick='logIn()']
+[INFO] - [24-01-2026 19:40:02] [main] [com.demoblaze.utils.LogsManager] - initialLocation: (917, 372)
+[INFO] - [24-01-2026 19:40:02] [main] [com.demoblaze.utils.LogsManager] - finalLocation: (917, 372)
+[INFO] - [24-01-2026 19:40:02] [main] [com.demoblaze.utils.LogsManager] - Clicked on element: By.cssSelector: button[onclick='logIn()']
+[ERROR] - [24-01-2026 19:40:02] [main] [com.demoblaze.utils.LogsManager] - Failed to get alert text:
+[ERROR] - [24-01-2026 19:40:02] [main] [com.demoblaze.utils.LogsManager] - Failed to get alert text:
+[ERROR] - [24-01-2026 19:40:02] [main] [com.demoblaze.utils.LogsManager] - Failed to get alert text:
+[ERROR] - [24-01-2026 19:40:02] [main] [com.demoblaze.utils.LogsManager] - Failed to get alert text:
+[INFO] - [24-01-2026 19:40:02] [main] [com.demoblaze.utils.LogsManager] - Test Case invalidLoginNameTestCase passed
+[INFO] - [24-01-2026 19:40:05] [main] [com.demoblaze.utils.LogsManager] - Navigated to base URL
+[DEBUG] - [24-01-2026 19:40:05] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['name']
+[DEBUG] - [24-01-2026 19:40:05] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['password']
+[INFO] - [24-01-2026 19:40:05] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.id: login2
+[INFO] - [24-01-2026 19:40:05] [main] [com.demoblaze.utils.LogsManager] - initialLocation: (1077, 17)
+[INFO] - [24-01-2026 19:40:05] [main] [com.demoblaze.utils.LogsManager] - finalLocation: (1077, 17)
+[INFO] - [24-01-2026 19:40:06] [main] [com.demoblaze.utils.LogsManager] - Clicked on element: By.id: login2
+[INFO] - [24-01-2026 19:40:06] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.id: loginusername
+[INFO] - [24-01-2026 19:40:06] [main] [com.demoblaze.utils.LogsManager] - Typed text 'm2022001' into element: By.id: loginusername
+[INFO] - [24-01-2026 19:40:07] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.id: loginpassword
+[INFO] - [24-01-2026 19:40:07] [main] [com.demoblaze.utils.LogsManager] - Typed text 'wrongpassword' into element: By.id: loginpassword
+[INFO] - [24-01-2026 19:40:07] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.cssSelector: button[onclick='logIn()']
+[INFO] - [24-01-2026 19:40:07] [main] [com.demoblaze.utils.LogsManager] - initialLocation: (917, 372)
+[INFO] - [24-01-2026 19:40:07] [main] [com.demoblaze.utils.LogsManager] - finalLocation: (917, 372)
+[INFO] - [24-01-2026 19:40:07] [main] [com.demoblaze.utils.LogsManager] - Clicked on element: By.cssSelector: button[onclick='logIn()']
+[ERROR] - [24-01-2026 19:40:07] [main] [com.demoblaze.utils.LogsManager] - Failed to get alert text:
+[ERROR] - [24-01-2026 19:40:07] [main] [com.demoblaze.utils.LogsManager] - Failed to get alert text:
+[ERROR] - [24-01-2026 19:40:07] [main] [com.demoblaze.utils.LogsManager] - Failed to get alert text:
+[ERROR] - [24-01-2026 19:40:07] [main] [com.demoblaze.utils.LogsManager] - Failed to get alert text:
+[INFO] - [24-01-2026 19:40:08] [main] [com.demoblaze.utils.LogsManager] - Test Case invalidLoginPasswordTestCase passed
+[INFO] - [24-01-2026 19:40:10] [main] [com.demoblaze.utils.LogsManager] - Navigated to base URL
+[DEBUG] - [24-01-2026 19:40:10] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['name']
+[DEBUG] - [24-01-2026 19:40:10] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['password']
+[INFO] - [24-01-2026 19:40:11] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.id: login2
+[INFO] - [24-01-2026 19:40:11] [main] [com.demoblaze.utils.LogsManager] - initialLocation: (1077, 17)
+[INFO] - [24-01-2026 19:40:11] [main] [com.demoblaze.utils.LogsManager] - finalLocation: (1077, 17)
+[INFO] - [24-01-2026 19:40:11] [main] [com.demoblaze.utils.LogsManager] - Clicked on element: By.id: login2
+[INFO] - [24-01-2026 19:40:11] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.id: loginusername
+[INFO] - [24-01-2026 19:40:12] [main] [com.demoblaze.utils.LogsManager] - Typed text 'm2022001' into element: By.id: loginusername
+[INFO] - [24-01-2026 19:40:12] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.id: loginpassword
+[INFO] - [24-01-2026 19:40:12] [main] [com.demoblaze.utils.LogsManager] - Typed text '1' into element: By.id: loginpassword
+[INFO] - [24-01-2026 19:40:12] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.cssSelector: button[onclick='logIn()']
+[INFO] - [24-01-2026 19:40:12] [main] [com.demoblaze.utils.LogsManager] - initialLocation: (917, 372)
+[INFO] - [24-01-2026 19:40:12] [main] [com.demoblaze.utils.LogsManager] - finalLocation: (917, 372)
+[INFO] - [24-01-2026 19:40:13] [main] [com.demoblaze.utils.LogsManager] - Clicked on element: By.cssSelector: button[onclick='logIn()']
+[INFO] - [24-01-2026 19:40:14] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.id: nameofuser
+[INFO] - [24-01-2026 19:40:14] [main] [com.demoblaze.utils.LogsManager] - Test Case validLoginTestCase passed
+[INFO] - [24-01-2026 19:40:14] [main] [com.demoblaze.utils.LogsManager] - Test Execution Finished
+[DEBUG] - [24-01-2026 19:41:53] [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\midoh\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml"
+[INFO] - [24-01-2026 19:41:54] [main] [com.demoblaze.utils.LogsManager] - Test Execution started
+[INFO] - [24-01-2026 19:41:54] [main] [com.demoblaze.utils.LogsManager] - Directories cleaned
+[INFO] - [24-01-2026 19:41:54] [main] [com.demoblaze.utils.LogsManager] - Directories created
+[INFO] - [24-01-2026 19:41:54] [main] [com.demoblaze.utils.LogsManager] - Properties loaded
+[INFO] - [24-01-2026 19:41:54] [main] [com.demoblaze.utils.LogsManager] - Allure environment set
+[INFO] - [24-01-2026 19:41:54] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\midoh\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+[INFO] - [24-01-2026 19:41:59] [main] [com.demoblaze.utils.LogsManager] - Navigated to base URL
+[DEBUG] - [24-01-2026 19:41:59] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['name']
+[DEBUG] - [24-01-2026 19:41:59] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['password']
+[INFO] - [24-01-2026 19:41:59] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.id: login2
+[INFO] - [24-01-2026 19:41:59] [main] [com.demoblaze.utils.LogsManager] - initialLocation: (1077, 17)
+[INFO] - [24-01-2026 19:41:59] [main] [com.demoblaze.utils.LogsManager] - finalLocation: (1077, 17)
+[INFO] - [24-01-2026 19:42:00] [main] [com.demoblaze.utils.LogsManager] - Clicked on element: By.id: login2
+[INFO] - [24-01-2026 19:42:05] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.id: loginusername
+[INFO] - [24-01-2026 19:42:05] [main] [com.demoblaze.utils.LogsManager] - Typed text 'm2022005' into element: By.id: loginusername
+[INFO] - [24-01-2026 19:42:11] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.id: loginpassword
+[INFO] - [24-01-2026 19:42:11] [main] [com.demoblaze.utils.LogsManager] - Typed text 'wrongpassword' into element: By.id: loginpassword
+[INFO] - [24-01-2026 19:42:16] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.cssSelector: button[onclick='logIn()']
+[INFO] - [24-01-2026 19:42:16] [main] [com.demoblaze.utils.LogsManager] - initialLocation: (917, 372)
+[INFO] - [24-01-2026 19:42:16] [main] [com.demoblaze.utils.LogsManager] - finalLocation: (917, 372)
+[INFO] - [24-01-2026 19:42:16] [main] [com.demoblaze.utils.LogsManager] - Clicked on element: By.cssSelector: button[onclick='logIn()']
+[ERROR] - [24-01-2026 19:42:16] [main] [com.demoblaze.utils.LogsManager] - Failed to get alert text:
+[ERROR] - [24-01-2026 19:42:16] [main] [com.demoblaze.utils.LogsManager] - Failed to get alert text:
+[ERROR] - [24-01-2026 19:42:16] [main] [com.demoblaze.utils.LogsManager] - Failed to get alert text:
+[ERROR] - [24-01-2026 19:42:17] [main] [com.demoblaze.utils.LogsManager] - Failed to get alert text:
+[ERROR] - [24-01-2026 19:42:17] [main] [com.demoblaze.utils.LogsManager] - Failed to get alert text:
+[INFO] - [24-01-2026 19:42:17] [main] [com.demoblaze.utils.LogsManager] - Test Case invalidLoginBothTestCase passed
+[INFO] - [24-01-2026 19:42:20] [main] [com.demoblaze.utils.LogsManager] - Navigated to base URL
+[DEBUG] - [24-01-2026 19:42:20] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['name']
+[DEBUG] - [24-01-2026 19:42:20] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['password']
+[INFO] - [24-01-2026 19:42:20] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.id: login2
+[INFO] - [24-01-2026 19:42:20] [main] [com.demoblaze.utils.LogsManager] - initialLocation: (1077, 17)
+[INFO] - [24-01-2026 19:42:20] [main] [com.demoblaze.utils.LogsManager] - finalLocation: (1077, 17)
+[INFO] - [24-01-2026 19:42:20] [main] [com.demoblaze.utils.LogsManager] - Clicked on element: By.id: login2
+[INFO] - [24-01-2026 19:42:21] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.id: loginusername
+[INFO] - [24-01-2026 19:42:21] [main] [com.demoblaze.utils.LogsManager] - Typed text 'm2022002' into element: By.id: loginusername
+[INFO] - [24-01-2026 19:42:21] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.id: loginpassword
+[INFO] - [24-01-2026 19:42:21] [main] [com.demoblaze.utils.LogsManager] - Typed text '1' into element: By.id: loginpassword
+[INFO] - [24-01-2026 19:42:22] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.cssSelector: button[onclick='logIn()']
+[INFO] - [24-01-2026 19:42:22] [main] [com.demoblaze.utils.LogsManager] - initialLocation: (917, 372)
+[INFO] - [24-01-2026 19:42:22] [main] [com.demoblaze.utils.LogsManager] - finalLocation: (917, 372)
+[INFO] - [24-01-2026 19:42:22] [main] [com.demoblaze.utils.LogsManager] - Clicked on element: By.cssSelector: button[onclick='logIn()']
+[ERROR] - [24-01-2026 19:42:22] [main] [com.demoblaze.utils.LogsManager] - Failed to get alert text:
+[ERROR] - [24-01-2026 19:42:22] [main] [com.demoblaze.utils.LogsManager] - Failed to get alert text:
+[ERROR] - [24-01-2026 19:42:22] [main] [com.demoblaze.utils.LogsManager] - Failed to get alert text:
+[ERROR] - [24-01-2026 19:42:22] [main] [com.demoblaze.utils.LogsManager] - Failed to get alert text:
+[INFO] - [24-01-2026 19:42:22] [main] [com.demoblaze.utils.LogsManager] - Test Case invalidLoginNameTestCase passed
+[INFO] - [24-01-2026 19:42:25] [main] [com.demoblaze.utils.LogsManager] - Navigated to base URL
+[DEBUG] - [24-01-2026 19:42:25] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['name']
+[DEBUG] - [24-01-2026 19:42:25] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['password']
+[INFO] - [24-01-2026 19:42:26] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.id: login2
+[INFO] - [24-01-2026 19:42:26] [main] [com.demoblaze.utils.LogsManager] - initialLocation: (1077, 17)
+[INFO] - [24-01-2026 19:42:26] [main] [com.demoblaze.utils.LogsManager] - finalLocation: (1077, 17)
+[INFO] - [24-01-2026 19:42:26] [main] [com.demoblaze.utils.LogsManager] - Clicked on element: By.id: login2
+[INFO] - [24-01-2026 19:42:26] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.id: loginusername
+[INFO] - [24-01-2026 19:42:27] [main] [com.demoblaze.utils.LogsManager] - Typed text 'm2022001' into element: By.id: loginusername
+[INFO] - [24-01-2026 19:42:27] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.id: loginpassword
+[INFO] - [24-01-2026 19:42:27] [main] [com.demoblaze.utils.LogsManager] - Typed text 'wrongpassword' into element: By.id: loginpassword
+[INFO] - [24-01-2026 19:42:27] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.cssSelector: button[onclick='logIn()']
+[INFO] - [24-01-2026 19:42:27] [main] [com.demoblaze.utils.LogsManager] - initialLocation: (917, 372)
+[INFO] - [24-01-2026 19:42:27] [main] [com.demoblaze.utils.LogsManager] - finalLocation: (917, 372)
+[INFO] - [24-01-2026 19:42:28] [main] [com.demoblaze.utils.LogsManager] - Clicked on element: By.cssSelector: button[onclick='logIn()']
+[ERROR] - [24-01-2026 19:42:28] [main] [com.demoblaze.utils.LogsManager] - Failed to get alert text:
+[ERROR] - [24-01-2026 19:42:28] [main] [com.demoblaze.utils.LogsManager] - Failed to get alert text:
+[ERROR] - [24-01-2026 19:42:28] [main] [com.demoblaze.utils.LogsManager] - Failed to get alert text:
+[ERROR] - [24-01-2026 19:42:28] [main] [com.demoblaze.utils.LogsManager] - Failed to get alert text:
+[INFO] - [24-01-2026 19:42:28] [main] [com.demoblaze.utils.LogsManager] - Test Case invalidLoginPasswordTestCase passed
+[INFO] - [24-01-2026 19:42:31] [main] [com.demoblaze.utils.LogsManager] - Navigated to base URL
+[DEBUG] - [24-01-2026 19:42:31] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['name']
+[DEBUG] - [24-01-2026 19:42:31] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['password']
+[INFO] - [24-01-2026 19:42:31] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.id: login2
+[INFO] - [24-01-2026 19:42:31] [main] [com.demoblaze.utils.LogsManager] - initialLocation: (1077, 17)
+[INFO] - [24-01-2026 19:42:31] [main] [com.demoblaze.utils.LogsManager] - finalLocation: (1077, 17)
+[INFO] - [24-01-2026 19:42:31] [main] [com.demoblaze.utils.LogsManager] - Clicked on element: By.id: login2
+[INFO] - [24-01-2026 19:42:32] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.id: loginusername
+[INFO] - [24-01-2026 19:42:32] [main] [com.demoblaze.utils.LogsManager] - Typed text 'm2022001' into element: By.id: loginusername
+[INFO] - [24-01-2026 19:42:32] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.id: loginpassword
+[INFO] - [24-01-2026 19:42:32] [main] [com.demoblaze.utils.LogsManager] - Typed text '1' into element: By.id: loginpassword
+[INFO] - [24-01-2026 19:42:33] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.cssSelector: button[onclick='logIn()']
+[INFO] - [24-01-2026 19:42:33] [main] [com.demoblaze.utils.LogsManager] - initialLocation: (917, 372)
+[INFO] - [24-01-2026 19:42:33] [main] [com.demoblaze.utils.LogsManager] - finalLocation: (917, 372)
+[INFO] - [24-01-2026 19:42:33] [main] [com.demoblaze.utils.LogsManager] - Clicked on element: By.cssSelector: button[onclick='logIn()']
+[INFO] - [24-01-2026 19:42:34] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.id: nameofuser
+[INFO] - [24-01-2026 19:42:34] [main] [com.demoblaze.utils.LogsManager] - Test Case validLoginTestCase passed
+[INFO] - [24-01-2026 19:42:35] [main] [com.demoblaze.utils.LogsManager] - Test Execution Finished

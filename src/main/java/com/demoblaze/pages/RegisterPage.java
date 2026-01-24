@@ -1,5 +1,6 @@
 package com.demoblaze.pages;
 
+import com.demoblaze.actions.AlertActions;
 import com.demoblaze.actions.ElementActions;
 import com.demoblaze.datareader.JsonReader;
 import com.demoblaze.utils.LogsManager;
@@ -32,30 +33,20 @@ public class RegisterPage {
     private final By SignupButton = By.cssSelector("button[onclick='register()']");
 
 
-    public void Validsignup() {
+    public RegisterPage signup(String name, String password) {
+        LogsManager.info("Registering user: " + name);
 
-        String name = validregisterdata.getJsonData("name") + TimeManager.getSimpleTimestamp();
-        String password = validregisterdata.getJsonData("password");
-
-
-        LogsManager.info("Registering with username: " + name + " and password: " + password);
-        new ElementActions(driver).click(SignupPage)
+        new ElementActions(driver)
+                .click(SignupPage)
                 .type(UsernameField, name)
                 .type(PasswordField, password)
                 .click(SignupButton);
 
+        return this;
     }
 
-    public void Invalidsignup() {
-
-        String name = Invalidregisterdata.getJsonData("name");
-        String password = Invalidregisterdata.getJsonData("password");
-
-        LogsManager.info("Registering with username: " + name + " and password: " + password);
-        new ElementActions(driver).click(SignupPage)
-                .type(UsernameField, name)
-                .type(PasswordField, password)
-                .click(SignupButton);
+    public String getAlertText() {
+        return new AlertActions(driver).getAlertText();
     }
 
 }
