@@ -12,10 +12,20 @@ public class RegisterTest extends BaseTest {
     @Test
     public void validRegisterTestCase() {
 
-        new RegisterPage(DriverManager.getDriver()).signup();
+        new RegisterPage(DriverManager.getDriver()).Validsignup();
 
         String alertText = new AlertActions(DriverManager.getDriver()).getAlertText();
 
         assert alertText.equals("Sign up successful.");
+    }
+
+    @Test
+    public void invalidRegisterTestCase() {
+
+        new RegisterPage(DriverManager.getDriver()).Invalidsignup();
+
+        String alertText = new AlertActions(DriverManager.getDriver()).getAlertText();
+
+        assert alertText.equals("This user already exist.");
     }
 }

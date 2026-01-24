@@ -1,23 +1,21 @@
-[DEBUG] - [23-01-2026 23:32:26] [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\midoh\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml"
-[INFO] - [23-01-2026 23:32:27] [main] [org.testng.internal.Utils] - [TestNG] Running:
+[DEBUG] - [24-01-2026 16:08:13] [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\midoh\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml"
+[INFO] - [24-01-2026 16:08:14] [main] [org.testng.internal.Utils] - [TestNG] Running:
   C:\Users\midoh\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
 
-[INFO] - [23-01-2026 23:32:27] [main] [com.demoblaze.utils.LogsManager] - Method onStart: Test Suite execution started: Default Suite
-[INFO] - [23-01-2026 23:32:30] [main] [com.demoblaze.utils.LogsManager] - Navigated to base URL
-[DEBUG] - [23-01-2026 23:32:31] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['name']
-[DEBUG] - [23-01-2026 23:32:31] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['password']
-[INFO] - [23-01-2026 23:32:31] [main] [com.demoblaze.utils.LogsManager] - Registering with username: John1769203951048 and password: password123
-[INFO] - [23-01-2026 23:32:31] [main] [com.demoblaze.utils.LogsManager] - initialLocation: (1135, 17)
-[INFO] - [23-01-2026 23:32:31] [main] [com.demoblaze.utils.LogsManager] - finalLocation: (1135, 17)
-[INFO] - [23-01-2026 23:32:32] [main] [com.demoblaze.utils.LogsManager] - Clicked on element: By.id: signin2
-[INFO] - [23-01-2026 23:32:32] [main] [com.demoblaze.utils.LogsManager] - Typed text 'John1769203951048' into element: By.cssSelector: #sign-username
-[INFO] - [23-01-2026 23:32:32] [main] [com.demoblaze.utils.LogsManager] - Typed text 'password123' into element: By.cssSelector: #sign-password
-[INFO] - [23-01-2026 23:32:32] [main] [com.demoblaze.utils.LogsManager] - initialLocation: (906, 372)
-[INFO] - [23-01-2026 23:32:33] [main] [com.demoblaze.utils.LogsManager] - finalLocation: (906, 372)
-[INFO] - [23-01-2026 23:32:33] [main] [com.demoblaze.utils.LogsManager] - Clicked on element: By.cssSelector: button[onclick='register()']
-[ERROR] - [23-01-2026 23:32:33] [main] [com.demoblaze.utils.LogsManager] - Failed to get alert text:
-[ERROR] - [23-01-2026 23:32:33] [main] [com.demoblaze.utils.LogsManager] - Failed to get alert text:
-[ERROR] - [23-01-2026 23:32:33] [main] [com.demoblaze.utils.LogsManager] - Failed to get alert text:
-[ERROR] - [23-01-2026 23:32:33] [main] [com.demoblaze.utils.LogsManager] - Failed to get alert text:
-[ERROR] - [23-01-2026 23:32:33] [main] [com.demoblaze.utils.LogsManager] - Failed to get alert text:
-[INFO] - [23-01-2026 23:32:34] [main] [com.demoblaze.utils.LogsManager] - Method onFinish: Test Suite execution finished: Default Suite
+[INFO] - [24-01-2026 16:08:14] [main] [com.demoblaze.utils.LogsManager] - Method onStart: Test Suite execution started: Default Suite
+[INFO] - [24-01-2026 16:08:18] [main] [com.demoblaze.utils.LogsManager] - Navigated to base URL
+[DEBUG] - [24-01-2026 16:08:19] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['name']
+[DEBUG] - [24-01-2026 16:08:19] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['password']
+[INFO] - [24-01-2026 16:08:19] [main] [com.demoblaze.utils.LogsManager] - Registering with username: f and password: 1
+[INFO] - [24-01-2026 16:08:19] [main] [com.demoblaze.utils.LogsManager] - initialLocation: (1135, 17)
+[INFO] - [24-01-2026 16:08:19] [main] [com.demoblaze.utils.LogsManager] - finalLocation: (1135, 17)
+[INFO] - [24-01-2026 16:08:19] [main] [com.demoblaze.utils.LogsManager] - Clicked on element: By.id: signin2
+[INFO] - [24-01-2026 16:08:20] [main] [com.demoblaze.utils.LogsManager] - Typed text 'f' into element: By.cssSelector: #sign-username
+[INFO] - [24-01-2026 16:08:20] [main] [com.demoblaze.utils.LogsManager] - Typed text '1' into element: By.cssSelector: #sign-password
+[INFO] - [24-01-2026 16:08:20] [main] [com.demoblaze.utils.LogsManager] - initialLocation: (906, 372)
+[INFO] - [24-01-2026 16:08:20] [main] [com.demoblaze.utils.LogsManager] - finalLocation: (906, 372)
+[INFO] - [24-01-2026 16:08:20] [main] [com.demoblaze.utils.LogsManager] - Clicked on element: By.cssSelector: button[onclick='register()']
+[ERROR] - [24-01-2026 16:08:20] [main] [com.demoblaze.utils.LogsManager] - Failed to get alert text:
+[ERROR] - [24-01-2026 16:08:21] [main] [com.demoblaze.utils.LogsManager] - Failed to get alert text:
+[ERROR] - [24-01-2026 16:08:21] [main] [com.demoblaze.utils.LogsManager] - Failed to get alert text:
+[INFO] - [24-01-2026 16:08:22] [main] [com.demoblaze.utils.LogsManager] - Method onFinish: Test Suite execution finished: Default Suite

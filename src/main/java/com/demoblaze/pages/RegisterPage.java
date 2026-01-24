@@ -9,13 +9,18 @@ import org.openqa.selenium.WebDriver;
 
 public class RegisterPage {
 
-    private WebDriver driver;
+    private final  WebDriver driver;
 
-    private JsonReader jsonReader;
+    private final JsonReader validregisterdata;
+
+    private final JsonReader Invalidregisterdata;
 
     public RegisterPage(WebDriver driver) {
         this.driver = driver;
-        jsonReader = new JsonReader("Validregister-data");
+
+        validregisterdata = new JsonReader("Validregister-data");
+
+        Invalidregisterdata = new JsonReader("Invalidregister-data");
     }
 
     private final By SignupPage = By.id("signin2");
@@ -27,18 +32,30 @@ public class RegisterPage {
     private final By SignupButton = By.cssSelector("button[onclick='register()']");
 
 
-    public RegisterPage signup() {
+    public void Validsignup() {
 
-        String name = jsonReader.getJsonData("name") + TimeManager.getSimpleTimestamp();
-        String password = jsonReader.getJsonData("password");
+        String name = validregisterdata.getJsonData("name") + TimeManager.getSimpleTimestamp();
+        String password = validregisterdata.getJsonData("password");
+
 
         LogsManager.info("Registering with username: " + name + " and password: " + password);
-
         new ElementActions(driver).click(SignupPage)
                 .type(UsernameField, name)
                 .type(PasswordField, password)
                 .click(SignupButton);
 
-        return this;
     }
+
+    public void Invalidsignup() {
+
+        String name = Invalidregisterdata.getJsonData("name");
+        String password = Invalidregisterdata.getJsonData("password");
+
+        LogsManager.info("Registering with username: " + name + " and password: " + password);
+        new ElementActions(driver).click(SignupPage)
+                .type(UsernameField, name)
+                .type(PasswordField, password)
+                .click(SignupButton);
+    }
+
 }

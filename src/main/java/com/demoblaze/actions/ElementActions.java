@@ -22,7 +22,7 @@ public class ElementActions {
         this.waitManager = new WaitManager(driver);
     }
 
-    //Clicking
+
     public ElementActions click(By locator) {
         waitManager.fluentWait().until(d ->
                 {
@@ -66,7 +66,7 @@ public class ElementActions {
         );
         return this;
     }
-    //hovering
+
     public ElementActions hover(By locator) {
         waitManager.fluentWait().until(d ->
                 {
@@ -121,20 +121,16 @@ public class ElementActions {
         return this;
     }
 
-
-    //find an element
     public WebElement findElement(By locator) {
         return driver.findElement(locator);
     }
 
-    //function to scroll to an element using js
     public void scrollToElementJS(By locator) {
         ((org.openqa.selenium.JavascriptExecutor) driver)
                 .executeScript(""" 
                         arguments[0].scrollIntoView({behaviour:"auto",block:"center",inline:"center"});""", findElement(locator));
     }
 
-    //select from dropdown
     public ElementActions selectFromDropdown(By locator, String value) {
         waitManager.fluentWait().until(d ->
                 {

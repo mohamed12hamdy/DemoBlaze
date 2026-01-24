@@ -24,7 +24,6 @@ public class JsonReader {
         }
     }
 
-    //valid.username
     public String getJsonData(String jsonPath) {
         try {
             return JsonPath.read(jsonReader, jsonPath);
