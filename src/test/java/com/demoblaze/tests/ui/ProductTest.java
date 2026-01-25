@@ -14,6 +14,7 @@ import org.testng.annotations.Test;
 public class ProductTest extends BaseTest {
 
     private JsonReader validlogindata;
+
     private String productId;
 
     private String[]orderData;
@@ -36,15 +37,35 @@ public class ProductTest extends BaseTest {
                 .addToCart().validateAddToCart();
     }
 
+    // Helper method for login and add to cart
+    private void AddItemToCart() {
+       new productPage(DriverManager.getDriver())
+                .openProductById(productId)
+               .addToCart().validateAddToCart();
+    }
+
     @Test(groups = {"Smoke", "Regression"})
-    public void addItemToCart() {
+    public void addItemToCartTest() {
         loginAndAddItemToCart();
     }
 
-
     @Test(groups = {"Smoke", "Regression"})
-    public void checkoutE2E() {
+    // End-to-End Checkout Test with logged-in user
+    public void checkoutE2ETest() {
         loginAndAddItemToCart();
+        new CheckoutPage(DriverManager.getDriver())
+                .openCart()
+                .placeOrder()
+                .verifyTotalAmount()
+                .fillPlaceOrderForm(orderData[0], orderData[1], orderData[2],
+                        orderData[3], orderData[4], orderData[5])
+                .purchase()
+                .verifyThankYouMessage();
+    }
+
+    @Test(groups = {"Regression"})
+    public void CheckoutGuestUserTest() {
+        AddItemToCart();
         new CheckoutPage(DriverManager.getDriver())
                 .openCart()
                 .placeOrder()

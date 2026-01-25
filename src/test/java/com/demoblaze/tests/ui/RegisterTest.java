@@ -22,7 +22,7 @@ public class RegisterTest extends BaseTest {
     }
 
     @Test(groups = {"Regression"})
-    public void validRegisterTestCase() {
+    public void validRegisterTest() {
 
        String alertText = new RegisterPage(DriverManager.getDriver()).signup(
                 validregisterdata.getJsonData("name") + TimeManager.getSimpleTimestamp(),
@@ -33,7 +33,7 @@ public class RegisterTest extends BaseTest {
     }
 
     @Test(groups = {"Regression"})
-    public void invalidRegisterTestCase() {
+    public void invalidRegisterTest() {
 
         String alertText = new RegisterPage(DriverManager.getDriver()).signup(
                 Invalidregisterdata.getJsonData("name"),

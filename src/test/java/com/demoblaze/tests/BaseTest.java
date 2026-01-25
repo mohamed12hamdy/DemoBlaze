@@ -1,30 +1,38 @@
 package com.demoblaze.tests;
-
-import com.demoblaze.datareader.JsonReader;
 import com.demoblaze.datareader.PropertyReader;
 import com.demoblaze.drivers.DriverFactory;
 import com.demoblaze.drivers.DriverManager;
 import com.demoblaze.utils.LogsManager;
 import org.openqa.selenium.WebDriver;
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeClass;
-import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.*;
 
 public class BaseTest {
 
-    private String browser;
+    protected static String browser;
+    protected static String baseUrl;
 
-    private String baseUrl;
+    protected String email;
 
-    @BeforeClass
-    public void setUpClass() {
+    protected String name;
 
+    protected String message;
+
+    @BeforeSuite(alwaysRun = true)
+    public void setUpSuite() {
         browser = PropertyReader.getProperty("browser");
         baseUrl = PropertyReader.getProperty("baseUrl");
+        LogsManager.info("Properties loaded: browser=" + browser + ", baseUrl=" + baseUrl);
     }
 
-    @BeforeMethod
+    @BeforeGroups("Negative")
+    public void beforeNegativeTests() {
+        LogsManager.info("Starting Negative Test Group");
+        email = PropertyReader.getProperty("email");
+        name = PropertyReader.getProperty("name");
+        message = PropertyReader.getProperty("message");
+    }
+
+    @BeforeMethod(alwaysRun = true)
     public void setUpMethod() {
         WebDriver driver = DriverFactory.createDriver(browser);
         DriverManager.setDriver(driver);
@@ -34,7 +42,6 @@ public class BaseTest {
 
     @AfterMethod(alwaysRun = true)
     public void tearDown() {
-
         DriverManager.quitDriver();
         LogsManager.info("Driver quit successfully");
     }

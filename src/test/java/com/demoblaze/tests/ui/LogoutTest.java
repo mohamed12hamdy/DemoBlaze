@@ -20,7 +20,7 @@ public class LogoutTest extends BaseTest {
     }
 
     @Test(groups = {"Regression"})
-    public void logoutTestCase() {
+    public void logoutTest() {
        new LoginPage(DriverManager.getDriver()).login(validlogindata.getJsonData("name"),
                validlogindata.getJsonData("password"));
 

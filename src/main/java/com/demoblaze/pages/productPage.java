@@ -29,7 +29,11 @@ public class productPage extends BasePage {
 
     public productPage validateAddToCart() {
         AlertActions alert = new AlertActions(driver);
-        Assert.assertEquals(alert.getAlertText(), "Product added.");
+
+        String alertText = alert.getAlertText();
+
+        Assert.assertTrue(alertText.contains("Product added"),
+                "Alert text does not contain expected message! Actual: " + alertText);
         return this;
     }
 

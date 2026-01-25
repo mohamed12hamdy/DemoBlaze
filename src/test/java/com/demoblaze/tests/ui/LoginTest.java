@@ -30,7 +30,7 @@ public class LoginTest extends BaseTest {
     }
 
     @Test(groups = {"Smoke", "Regression"})
-    public void validLoginTestCase() {
+    public void validLoginTest() {
 
         String username = validlogindata.getJsonData("name");
         String password = validlogindata.getJsonData("password");
@@ -42,7 +42,7 @@ public class LoginTest extends BaseTest {
     }
 
     @Test(groups = {"Regression"})
-    public void invalidLoginNameTestCase() {
+    public void invalidLoginNameTest() {
 
         String username = invalidloginNameData.getJsonData("name");
         String password = invalidloginNameData.getJsonData("password");
@@ -56,7 +56,7 @@ public class LoginTest extends BaseTest {
     }
 
     @Test(groups = {"Regression"})
-    public void invalidLoginPasswordTestCase() {
+    public void invalidLoginPasswordTest() {
 
         String username = invalidLoginPasswordData.getJsonData("name");
         String password = invalidLoginPasswordData.getJsonData("password");
@@ -70,7 +70,7 @@ public class LoginTest extends BaseTest {
     }
 
     @Test(groups = {"Regression"})
-    public void invalidLoginBothTestCase() {
+    public void invalidLoginBothTest() {
 
         String username = invalidLoginBothData.getJsonData("name");
         String password = invalidLoginBothData.getJsonData("password");
