@@ -1632,3 +1632,37 @@
 [DEBUG] - [24-01-2026 22:14:13] [main] [org.apache.poi.openxml4j.opc.PackageRelationshipCollection] - Parsing relationship: /xl/_rels/workbook.xml.rels
 [DEBUG] - [24-01-2026 22:14:13] [main] [org.apache.poi.openxml4j.opc.PackageRelationshipCollection] - Parsing relationship: /_rels/.rels
 [ERROR] - [24-01-2026 22:14:14] [main] [com.demoblaze.utils.LogsManager] - Error reading excel file:productsData.xlsx
+[DEBUG] - [25-01-2026 15:38:39] [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\midoh\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml"
+[INFO] - [25-01-2026 15:38:39] [main] [com.demoblaze.utils.LogsManager] - Test Execution started
+[INFO] - [25-01-2026 15:38:39] [main] [com.demoblaze.utils.LogsManager] - Directories cleaned
+[INFO] - [25-01-2026 15:38:39] [main] [com.demoblaze.utils.LogsManager] - Directories created
+[INFO] - [25-01-2026 15:38:39] [main] [com.demoblaze.utils.LogsManager] - Properties loaded
+[INFO] - [25-01-2026 15:38:39] [main] [com.demoblaze.utils.LogsManager] - Allure environment set
+[INFO] - [25-01-2026 15:38:40] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\midoh\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+[INFO] - [25-01-2026 15:38:47] [main] [com.demoblaze.utils.LogsManager] - Navigated to base URL
+[DEBUG] - [25-01-2026 15:38:47] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['name']
+[DEBUG] - [25-01-2026 15:38:47] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['password']
+[INFO] - [25-01-2026 15:38:48] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.id: login2
+[INFO] - [25-01-2026 15:38:48] [main] [com.demoblaze.utils.LogsManager] - initialLocation: (1077, 17)
+[INFO] - [25-01-2026 15:38:48] [main] [com.demoblaze.utils.LogsManager] - finalLocation: (1077, 17)
+[INFO] - [25-01-2026 15:38:48] [main] [com.demoblaze.utils.LogsManager] - Clicked on element: By.id: login2
+[INFO] - [25-01-2026 15:38:49] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.id: loginusername
+[INFO] - [25-01-2026 15:38:49] [main] [com.demoblaze.utils.LogsManager] - Typed text 'm2022001' into element: By.id: loginusername
+[INFO] - [25-01-2026 15:38:49] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.id: loginpassword
+[INFO] - [25-01-2026 15:38:50] [main] [com.demoblaze.utils.LogsManager] - Typed text '1' into element: By.id: loginpassword
+[INFO] - [25-01-2026 15:38:50] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.cssSelector: button[onclick='logIn()']
+[INFO] - [25-01-2026 15:38:50] [main] [com.demoblaze.utils.LogsManager] - initialLocation: (917, 372)
+[INFO] - [25-01-2026 15:38:50] [main] [com.demoblaze.utils.LogsManager] - finalLocation: (917, 372)
+[INFO] - [25-01-2026 15:38:51] [main] [com.demoblaze.utils.LogsManager] - Clicked on element: By.cssSelector: button[onclick='logIn()']
+[INFO] - [25-01-2026 15:38:52] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.id: logout2
+[INFO] - [25-01-2026 15:38:53] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.id: logout2
+[INFO] - [25-01-2026 15:38:53] [main] [com.demoblaze.utils.LogsManager] - initialLocation: (970, 17)
+[INFO] - [25-01-2026 15:38:53] [main] [com.demoblaze.utils.LogsManager] - finalLocation: (970, 17)
+[INFO] - [25-01-2026 15:38:53] [main] [com.demoblaze.utils.LogsManager] - Clicked on element: By.id: logout2
+[INFO] - [25-01-2026 15:38:53] [main] [com.demoblaze.utils.LogsManager] - Clicked logout button
+[INFO] - [25-01-2026 15:38:54] [main] [com.demoblaze.utils.LogsManager] - Found, scrolled, and hovered over element: By.id: login2
+[INFO] - [25-01-2026 15:38:54] [main] [com.demoblaze.utils.LogsManager] - Test Case logoutTestCase passed
+[INFO] - [25-01-2026 15:38:54] [main] [com.demoblaze.utils.LogsManager] - Driver quit successfully
+[INFO] - [25-01-2026 15:38:54] [main] [com.demoblaze.utils.LogsManager] - Test Execution Finished

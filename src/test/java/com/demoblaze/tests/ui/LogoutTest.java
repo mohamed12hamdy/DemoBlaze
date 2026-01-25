@@ -6,14 +6,17 @@ import com.demoblaze.pages.LoginPage;
 import com.demoblaze.pages.LogoutPage;
 import com.demoblaze.tests.BaseTest;
 
+import org.testng.Assert;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 public class LogoutTest extends BaseTest {
 
     private JsonReader validlogindata;
 
-    public LogoutTest() {
-       validlogindata = new JsonReader("validLogin-data");
+    @BeforeClass
+    public void setUpClassLogout() {
+        validlogindata = new JsonReader("validLogin-data");
     }
 
     @Test
@@ -21,7 +24,12 @@ public class LogoutTest extends BaseTest {
        new LoginPage(DriverManager.getDriver()).login(validlogindata.getJsonData("name"),
                validlogindata.getJsonData("password"));
 
-        new LogoutPage(DriverManager.getDriver()).logout();
-    }
+        Assert.assertTrue(
+                new LogoutPage(DriverManager.getDriver())
+                        .logout()
+                        .isLoggedOut(),
+                "User is not logged out successfully"
+        );
 
+    }
 }

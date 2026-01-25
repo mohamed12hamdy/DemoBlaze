@@ -11,16 +11,12 @@ public class ProductTest extends BaseTest {
 
     private  JsonReader validlogindata;
 
-
-
-
     @BeforeClass
     public void setUpClassProduct() {
         validlogindata = new JsonReader("validLogin-data");
 
 
     }
-
     //TODO implement THIS
     @Test
     public void addItemToCart() {
