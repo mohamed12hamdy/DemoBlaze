@@ -1,8 +1,10 @@
 package com.demoblaze.pages;
 
+import com.demoblaze.actions.AlertActions;
 import com.demoblaze.actions.ElementActions;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.testng.Assert;
 
 public class productPage extends BasePage {
 
@@ -23,6 +25,11 @@ public class productPage extends BasePage {
         By addToCartButton = By.xpath("//a[text()='Add to cart']");
         new ElementActions(driver).click(addToCartButton);
         return this;
+    }
+
+    public void validateAddToCart() {
+        AlertActions alert = new AlertActions(driver);
+        Assert.assertEquals(alert.getAlertText(), "Product added.");
     }
 
 }
