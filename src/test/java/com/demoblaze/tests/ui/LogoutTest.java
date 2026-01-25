@@ -19,7 +19,7 @@ public class LogoutTest extends BaseTest {
         validlogindata = new JsonReader("validLogin-data");
     }
 
-    @Test
+    @Test(groups = {"Regression"})
     public void logoutTestCase() {
        new LoginPage(DriverManager.getDriver()).login(validlogindata.getJsonData("name"),
                validlogindata.getJsonData("password"));

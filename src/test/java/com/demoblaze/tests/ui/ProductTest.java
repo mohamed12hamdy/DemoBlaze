@@ -2,7 +2,6 @@ package com.demoblaze.tests.ui;
 
 import com.demoblaze.datareader.CSVReaderHelper;
 import com.demoblaze.datareader.ExcelDataHelper;
-import com.demoblaze.datareader.ExcelReader;
 import com.demoblaze.datareader.JsonReader;
 import com.demoblaze.drivers.DriverManager;
 import com.demoblaze.pages.CheckoutPage;
@@ -37,13 +36,13 @@ public class ProductTest extends BaseTest {
                 .addToCart().validateAddToCart();
     }
 
-    @Test
+    @Test(groups = {"Smoke", "Regression"})
     public void addItemToCart() {
         loginAndAddItemToCart();
     }
 
 
-    @Test
+    @Test(groups = {"Smoke", "Regression"})
     public void checkoutE2E() {
         loginAndAddItemToCart();
         new CheckoutPage(DriverManager.getDriver())
@@ -55,5 +54,4 @@ public class ProductTest extends BaseTest {
                 .purchase()
                 .verifyThankYouMessage();
     }
-
 }

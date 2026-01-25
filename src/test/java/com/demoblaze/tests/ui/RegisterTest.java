@@ -11,9 +11,9 @@ import org.testng.annotations.Test;
 
 public class RegisterTest extends BaseTest {
 
-    private  JsonReader validregisterdata;
+    private JsonReader validregisterdata;
 
-    private  JsonReader Invalidregisterdata;
+    private JsonReader Invalidregisterdata;
 
     @BeforeClass
     public void setUpClassRegister() {
@@ -21,7 +21,7 @@ public class RegisterTest extends BaseTest {
         Invalidregisterdata = new JsonReader("Invalidregister-data");
     }
 
-    @Test
+    @Test(groups = {"Regression"})
     public void validRegisterTestCase() {
 
        String alertText = new RegisterPage(DriverManager.getDriver()).signup(
@@ -32,7 +32,7 @@ public class RegisterTest extends BaseTest {
         Assert.assertEquals(alertText, "Sign up successful.");
     }
 
-    @Test
+    @Test(groups = {"Regression"})
     public void invalidRegisterTestCase() {
 
         String alertText = new RegisterPage(DriverManager.getDriver()).signup(
