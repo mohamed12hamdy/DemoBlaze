@@ -2254,3 +2254,840 @@ Session ID: 295371dffb0330e4bdac7812243b01f8
 [INFO] - [25-01-2026 17:21:42] [main] [com.demoblaze.listeners.TestNGListeners] - Test Case addItemToCart passed
 [INFO] - [25-01-2026 17:21:43] [main] [com.demoblaze.tests.BaseTest] - Driver quit successfully
 [INFO] - [25-01-2026 17:21:43] [main] [com.demoblaze.listeners.TestNGListeners] - Test Execution Finished
+[DEBUG] - [25-01-2026 17:39:17] [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\midoh\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml"
+[INFO] - [25-01-2026 17:39:18] [main] [com.demoblaze.listeners.TestNGListeners] - Test Execution started
+[INFO] - [25-01-2026 17:39:18] [main] [com.demoblaze.listeners.TestNGListeners] - Directories cleaned
+[INFO] - [25-01-2026 17:39:18] [main] [com.demoblaze.listeners.TestNGListeners] - Directories created
+[INFO] - [25-01-2026 17:39:18] [main] [com.demoblaze.listeners.TestNGListeners] - Properties loaded
+[INFO] - [25-01-2026 17:39:18] [main] [com.demoblaze.listeners.TestNGListeners] - Allure environment set
+[INFO] - [25-01-2026 17:39:18] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\midoh\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+[DEBUG] - [25-01-2026 17:39:19] [main] [org.apache.poi.openxml4j.opc.PackageRelationshipCollection] - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] - [25-01-2026 17:39:19] [main] [org.apache.poi.openxml4j.opc.PackageRelationshipCollection] - Parsing relationship: /_rels/.rels
+[INFO] - [25-01-2026 17:39:25] [main] [com.demoblaze.tests.BaseTest] - Navigated to base URL
+[DEBUG] - [25-01-2026 17:39:26] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['name']
+[DEBUG] - [25-01-2026 17:39:26] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['password']
+[INFO] - [25-01-2026 17:39:26] [main] [com.demoblaze.actions.ElementActions] - Found, scrolled, and hovered over element: By.id: login2
+[INFO] - [25-01-2026 17:39:26] [main] [com.demoblaze.actions.ElementActions] - initialLocation: (1077, 17)
+[INFO] - [25-01-2026 17:39:27] [main] [com.demoblaze.actions.ElementActions] - finalLocation: (1077, 17)
+[INFO] - [25-01-2026 17:39:27] [main] [com.demoblaze.actions.ElementActions] - Clicked on element: By.id: login2
+[INFO] - [25-01-2026 17:39:27] [main] [com.demoblaze.actions.ElementActions] - Found, scrolled, and hovered over element: By.id: loginusername
+[INFO] - [25-01-2026 17:39:28] [main] [com.demoblaze.actions.ElementActions] - Typed text 'm2022001' into element: By.id: loginusername
+[INFO] - [25-01-2026 17:39:28] [main] [com.demoblaze.actions.ElementActions] - Found, scrolled, and hovered over element: By.id: loginpassword
+[INFO] - [25-01-2026 17:39:28] [main] [com.demoblaze.actions.ElementActions] - Typed text '1' into element: By.id: loginpassword
+[INFO] - [25-01-2026 17:39:29] [main] [com.demoblaze.actions.ElementActions] - Found, scrolled, and hovered over element: By.cssSelector: button[onclick='logIn()']
+[INFO] - [25-01-2026 17:39:29] [main] [com.demoblaze.actions.ElementActions] - initialLocation: (917, 372)
+[INFO] - [25-01-2026 17:39:29] [main] [com.demoblaze.actions.ElementActions] - finalLocation: (917, 372)
+[INFO] - [25-01-2026 17:39:29] [main] [com.demoblaze.actions.ElementActions] - Clicked on element: By.cssSelector: button[onclick='logIn()']
+[INFO] - [25-01-2026 17:39:30] [main] [com.demoblaze.actions.ElementActions] - Found, scrolled, and hovered over element: By.xpath: //a[contains(@href,'idp_=3')]
+[INFO] - [25-01-2026 17:39:30] [main] [com.demoblaze.actions.ElementActions] - initialLocation: (1046, 442)
+[INFO] - [25-01-2026 17:39:30] [main] [com.demoblaze.actions.ElementActions] - finalLocation: (1046, 442)
+[INFO] - [25-01-2026 17:39:31] [main] [com.demoblaze.actions.ElementActions] - Found, scrolled, and hovered over element: By.xpath: //a[contains(@href,'idp_=3')]
+[INFO] - [25-01-2026 17:39:31] [main] [com.demoblaze.actions.ElementActions] - initialLocation: (1046, 442)
+[INFO] - [25-01-2026 17:39:31] [main] [com.demoblaze.actions.ElementActions] - finalLocation: (1046, 442)
+[INFO] - [25-01-2026 17:39:32] [main] [com.demoblaze.actions.ElementActions] - Clicked on element: By.xpath: //a[contains(@href,'idp_=3')]
+[INFO] - [25-01-2026 17:39:32] [main] [com.demoblaze.actions.ElementActions] - Found, scrolled, and hovered over element: By.xpath: //a[text()='Add to cart']
+[INFO] - [25-01-2026 17:39:32] [main] [com.demoblaze.actions.ElementActions] - initialLocation: (636, 393)
+[INFO] - [25-01-2026 17:39:32] [main] [com.demoblaze.actions.ElementActions] - finalLocation: (636, 393)
+[INFO] - [25-01-2026 17:39:33] [main] [com.demoblaze.actions.ElementActions] - Clicked on element: By.xpath: //a[text()='Add to cart']
+[ERROR] - [25-01-2026 17:39:33] [main] [com.demoblaze.actions.AlertActions] - Failed to get alert text: no such alert
+  (Session info: chrome=144.0.7559.97)
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8cb71107c1cb1178de7d4997bb20bf4a, getAlertText {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 144.0.7559.97, chrome: {chromedriverVersion: 144.0.7559.96 (d7b80622cfab..., userDataDir: C:\Users\midoh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54340}, goog:processID: 12692, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54340/devtoo..., se:cdpVersion: 144.0.7559.97, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8cb71107c1cb1178de7d4997bb20bf4a
+[ERROR] - [25-01-2026 17:39:33] [main] [com.demoblaze.actions.AlertActions] - Failed to get alert text: no such alert
+  (Session info: chrome=144.0.7559.97)
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8cb71107c1cb1178de7d4997bb20bf4a, getAlertText {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 144.0.7559.97, chrome: {chromedriverVersion: 144.0.7559.96 (d7b80622cfab..., userDataDir: C:\Users\midoh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54340}, goog:processID: 12692, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54340/devtoo..., se:cdpVersion: 144.0.7559.97, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8cb71107c1cb1178de7d4997bb20bf4a
+[ERROR] - [25-01-2026 17:39:33] [main] [com.demoblaze.actions.AlertActions] - Failed to get alert text: no such alert
+  (Session info: chrome=144.0.7559.97)
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8cb71107c1cb1178de7d4997bb20bf4a, getAlertText {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 144.0.7559.97, chrome: {chromedriverVersion: 144.0.7559.96 (d7b80622cfab..., userDataDir: C:\Users\midoh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54340}, goog:processID: 12692, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54340/devtoo..., se:cdpVersion: 144.0.7559.97, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8cb71107c1cb1178de7d4997bb20bf4a
+[INFO] - [25-01-2026 17:39:33] [main] [com.demoblaze.listeners.TestNGListeners] - Test Case addItemToCart passed
+[INFO] - [25-01-2026 17:39:35] [main] [com.demoblaze.tests.BaseTest] - Driver quit successfully
+[INFO] - [25-01-2026 17:39:35] [main] [com.demoblaze.listeners.TestNGListeners] - Test Execution Finished
+[DEBUG] - [25-01-2026 17:47:25] [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\midoh\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml"
+[INFO] - [25-01-2026 17:47:26] [main] [com.demoblaze.listeners.TestNGListeners] - Test Execution started
+[INFO] - [25-01-2026 17:47:26] [main] [com.demoblaze.listeners.TestNGListeners] - Directories cleaned
+[INFO] - [25-01-2026 17:47:26] [main] [com.demoblaze.listeners.TestNGListeners] - Directories created
+[INFO] - [25-01-2026 17:47:26] [main] [com.demoblaze.listeners.TestNGListeners] - Properties loaded
+[INFO] - [25-01-2026 17:47:26] [main] [com.demoblaze.listeners.TestNGListeners] - Allure environment set
+[INFO] - [25-01-2026 17:47:26] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\midoh\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+[DEBUG] - [25-01-2026 17:47:27] [main] [org.apache.poi.openxml4j.opc.PackageRelationshipCollection] - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] - [25-01-2026 17:47:27] [main] [org.apache.poi.openxml4j.opc.PackageRelationshipCollection] - Parsing relationship: /_rels/.rels
+[INFO] - [25-01-2026 17:47:35] [main] [com.demoblaze.tests.BaseTest] - Navigated to base URL
+[DEBUG] - [25-01-2026 17:47:36] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['name']
+[DEBUG] - [25-01-2026 17:47:36] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['password']
+[INFO] - [25-01-2026 17:47:36] [main] [com.demoblaze.actions.ElementActions] - Found, scrolled, and hovered over element: By.id: login2
+[INFO] - [25-01-2026 17:47:37] [main] [com.demoblaze.actions.ElementActions] - initialLocation: (1077, 17)
+[INFO] - [25-01-2026 17:47:37] [main] [com.demoblaze.actions.ElementActions] - finalLocation: (1077, 17)
+[INFO] - [25-01-2026 17:47:37] [main] [com.demoblaze.actions.ElementActions] - Clicked on element: By.id: login2
+[INFO] - [25-01-2026 17:47:37] [main] [com.demoblaze.actions.ElementActions] - Found, scrolled, and hovered over element: By.id: loginusername
+[INFO] - [25-01-2026 17:47:38] [main] [com.demoblaze.actions.ElementActions] - Typed text 'm2022001' into element: By.id: loginusername
+[INFO] - [25-01-2026 17:47:38] [main] [com.demoblaze.actions.ElementActions] - Found, scrolled, and hovered over element: By.id: loginpassword
+[INFO] - [25-01-2026 17:47:38] [main] [com.demoblaze.actions.ElementActions] - Typed text '1' into element: By.id: loginpassword
+[INFO] - [25-01-2026 17:47:38] [main] [com.demoblaze.actions.ElementActions] - Found, scrolled, and hovered over element: By.cssSelector: button[onclick='logIn()']
+[INFO] - [25-01-2026 17:47:38] [main] [com.demoblaze.actions.ElementActions] - initialLocation: (917, 372)
+[INFO] - [25-01-2026 17:47:39] [main] [com.demoblaze.actions.ElementActions] - finalLocation: (917, 372)
+[INFO] - [25-01-2026 17:47:39] [main] [com.demoblaze.actions.ElementActions] - Clicked on element: By.cssSelector: button[onclick='logIn()']
+[INFO] - [25-01-2026 17:47:39] [main] [com.demoblaze.actions.ElementActions] - Found, scrolled, and hovered over element: By.xpath: //a[contains(@href,'idp_=3')]
+[INFO] - [25-01-2026 17:47:39] [main] [com.demoblaze.actions.ElementActions] - initialLocation: (1046, 442)
+[INFO] - [25-01-2026 17:47:39] [main] [com.demoblaze.actions.ElementActions] - finalLocation: (1046, 442)
+[INFO] - [25-01-2026 17:47:40] [main] [com.demoblaze.actions.ElementActions] - Found, scrolled, and hovered over element: By.xpath: //a[contains(@href,'idp_=3')]
+[INFO] - [25-01-2026 17:47:40] [main] [com.demoblaze.actions.ElementActions] - initialLocation: (1046, 442)
+[INFO] - [25-01-2026 17:47:40] [main] [com.demoblaze.actions.ElementActions] - finalLocation: (1046, 442)
+[INFO] - [25-01-2026 17:47:41] [main] [com.demoblaze.actions.ElementActions] - Clicked on element: By.xpath: //a[contains(@href,'idp_=3')]
+[INFO] - [25-01-2026 17:47:42] [main] [com.demoblaze.actions.ElementActions] - Found, scrolled, and hovered over element: By.xpath: //a[text()='Add to cart']
+[INFO] - [25-01-2026 17:47:42] [main] [com.demoblaze.actions.ElementActions] - initialLocation: (636, 393)
+[INFO] - [25-01-2026 17:47:42] [main] [com.demoblaze.actions.ElementActions] - finalLocation: (636, 393)
+[INFO] - [25-01-2026 17:47:42] [main] [com.demoblaze.actions.ElementActions] - Clicked on element: By.xpath: //a[text()='Add to cart']
+[ERROR] - [25-01-2026 17:47:42] [main] [com.demoblaze.actions.AlertActions] - Failed to get alert text: no such alert
+  (Session info: chrome=144.0.7559.97)
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1db07dd9aea15abe73256eaec3be05ae, getAlertText {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 144.0.7559.97, chrome: {chromedriverVersion: 144.0.7559.96 (d7b80622cfab..., userDataDir: C:\Users\midoh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65308}, goog:processID: 4160, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65308/devtoo..., se:cdpVersion: 144.0.7559.97, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1db07dd9aea15abe73256eaec3be05ae
+[ERROR] - [25-01-2026 17:47:42] [main] [com.demoblaze.actions.AlertActions] - Failed to get alert text: no such alert
+  (Session info: chrome=144.0.7559.97)
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1db07dd9aea15abe73256eaec3be05ae, getAlertText {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 144.0.7559.97, chrome: {chromedriverVersion: 144.0.7559.96 (d7b80622cfab..., userDataDir: C:\Users\midoh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65308}, goog:processID: 4160, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65308/devtoo..., se:cdpVersion: 144.0.7559.97, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1db07dd9aea15abe73256eaec3be05ae
+[ERROR] - [25-01-2026 17:47:42] [main] [com.demoblaze.actions.AlertActions] - Failed to get alert text: no such alert
+  (Session info: chrome=144.0.7559.97)
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1db07dd9aea15abe73256eaec3be05ae, getAlertText {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 144.0.7559.97, chrome: {chromedriverVersion: 144.0.7559.96 (d7b80622cfab..., userDataDir: C:\Users\midoh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65308}, goog:processID: 4160, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65308/devtoo..., se:cdpVersion: 144.0.7559.97, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1db07dd9aea15abe73256eaec3be05ae
+[ERROR] - [25-01-2026 17:47:42] [main] [com.demoblaze.actions.AlertActions] - Failed to get alert text: no such alert
+  (Session info: chrome=144.0.7559.97)
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1db07dd9aea15abe73256eaec3be05ae, getAlertText {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 144.0.7559.97, chrome: {chromedriverVersion: 144.0.7559.96 (d7b80622cfab..., userDataDir: C:\Users\midoh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65308}, goog:processID: 4160, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65308/devtoo..., se:cdpVersion: 144.0.7559.97, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1db07dd9aea15abe73256eaec3be05ae
+[ERROR] - [25-01-2026 17:47:42] [main] [com.demoblaze.actions.AlertActions] - Failed to get alert text: no such alert
+  (Session info: chrome=144.0.7559.97)
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1db07dd9aea15abe73256eaec3be05ae, getAlertText {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 144.0.7559.97, chrome: {chromedriverVersion: 144.0.7559.96 (d7b80622cfab..., userDataDir: C:\Users\midoh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65308}, goog:processID: 4160, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65308/devtoo..., se:cdpVersion: 144.0.7559.97, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1db07dd9aea15abe73256eaec3be05ae
+[INFO] - [25-01-2026 17:47:42] [main] [com.demoblaze.listeners.TestNGListeners] - Test Case addItemToCart passed
+[INFO] - [25-01-2026 17:47:43] [main] [com.demoblaze.tests.BaseTest] - Driver quit successfully
+[INFO] - [25-01-2026 17:47:43] [main] [com.demoblaze.listeners.TestNGListeners] - Test Execution Finished
+[DEBUG] - [25-01-2026 18:34:18] [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\midoh\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml"
+[INFO] - [25-01-2026 18:34:19] [main] [com.demoblaze.listeners.TestNGListeners] - Test Execution started
+[INFO] - [25-01-2026 18:34:19] [main] [com.demoblaze.listeners.TestNGListeners] - Directories cleaned
+[INFO] - [25-01-2026 18:34:19] [main] [com.demoblaze.listeners.TestNGListeners] - Directories created
+[INFO] - [25-01-2026 18:34:19] [main] [com.demoblaze.listeners.TestNGListeners] - Properties loaded
+[INFO] - [25-01-2026 18:34:19] [main] [com.demoblaze.listeners.TestNGListeners] - Allure environment set
+[INFO] - [25-01-2026 18:34:19] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\midoh\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+[DEBUG] - [25-01-2026 18:34:20] [main] [org.apache.poi.openxml4j.opc.PackageRelationshipCollection] - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] - [25-01-2026 18:34:20] [main] [org.apache.poi.openxml4j.opc.PackageRelationshipCollection] - Parsing relationship: /_rels/.rels
+[INFO] - [25-01-2026 18:34:27] [main] [com.demoblaze.tests.BaseTest] - Navigated to base URL
+[DEBUG] - [25-01-2026 18:34:28] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['name']
+[DEBUG] - [25-01-2026 18:34:28] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['password']
+[INFO] - [25-01-2026 18:34:28] [main] [com.demoblaze.actions.ElementActions] - Found, scrolled, and hovered over element: By.id: login2
+[INFO] - [25-01-2026 18:34:28] [main] [com.demoblaze.actions.ElementActions] - initialLocation: (1077, 17)
+[INFO] - [25-01-2026 18:34:28] [main] [com.demoblaze.actions.ElementActions] - finalLocation: (1077, 17)
+[INFO] - [25-01-2026 18:34:29] [main] [com.demoblaze.actions.ElementActions] - Clicked on element: By.id: login2
+[INFO] - [25-01-2026 18:34:29] [main] [com.demoblaze.actions.ElementActions] - Found, scrolled, and hovered over element: By.id: loginusername
+[INFO] - [25-01-2026 18:34:29] [main] [com.demoblaze.actions.ElementActions] - Typed text 'm2022001' into element: By.id: loginusername
+[INFO] - [25-01-2026 18:34:30] [main] [com.demoblaze.actions.ElementActions] - Found, scrolled, and hovered over element: By.id: loginpassword
+[INFO] - [25-01-2026 18:34:30] [main] [com.demoblaze.actions.ElementActions] - Typed text '1' into element: By.id: loginpassword
+[INFO] - [25-01-2026 18:34:30] [main] [com.demoblaze.actions.ElementActions] - Found, scrolled, and hovered over element: By.cssSelector: button[onclick='logIn()']
+[INFO] - [25-01-2026 18:34:30] [main] [com.demoblaze.actions.ElementActions] - initialLocation: (917, 372)
+[INFO] - [25-01-2026 18:34:31] [main] [com.demoblaze.actions.ElementActions] - finalLocation: (917, 372)
+[INFO] - [25-01-2026 18:34:31] [main] [com.demoblaze.actions.ElementActions] - Clicked on element: By.cssSelector: button[onclick='logIn()']
+[INFO] - [25-01-2026 18:34:32] [main] [com.demoblaze.actions.ElementActions] - Found, scrolled, and hovered over element: By.xpath: //a[contains(@href,'idp_=3')]
+[INFO] - [25-01-2026 18:34:33] [main] [com.demoblaze.actions.ElementActions] - Found, scrolled, and hovered over element: By.xpath: //a[contains(@href,'idp_=3')]
+[INFO] - [25-01-2026 18:34:33] [main] [com.demoblaze.actions.ElementActions] - initialLocation: (1046, 442)
+[INFO] - [25-01-2026 18:34:33] [main] [com.demoblaze.actions.ElementActions] - finalLocation: (1046, 442)
+[INFO] - [25-01-2026 18:34:34] [main] [com.demoblaze.actions.ElementActions] - Clicked on element: By.xpath: //a[contains(@href,'idp_=3')]
+[INFO] - [25-01-2026 18:34:34] [main] [com.demoblaze.actions.ElementActions] - Found, scrolled, and hovered over element: By.xpath: //a[text()='Add to cart']
+[INFO] - [25-01-2026 18:34:34] [main] [com.demoblaze.actions.ElementActions] - initialLocation: (636, 393)
+[INFO] - [25-01-2026 18:34:35] [main] [com.demoblaze.actions.ElementActions] - finalLocation: (636, 393)
+[INFO] - [25-01-2026 18:34:35] [main] [com.demoblaze.actions.ElementActions] - Clicked on element: By.xpath: //a[text()='Add to cart']
+[ERROR] - [25-01-2026 18:34:35] [main] [com.demoblaze.actions.AlertActions] - Failed to get alert text: no such alert
+  (Session info: chrome=144.0.7559.97)
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7c54f7994e315da4208a333727349383, getAlertText {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 144.0.7559.97, chrome: {chromedriverVersion: 144.0.7559.96 (d7b80622cfab..., userDataDir: C:\Users\midoh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56355}, goog:processID: 6136, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56355/devtoo..., se:cdpVersion: 144.0.7559.97, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7c54f7994e315da4208a333727349383
+[ERROR] - [25-01-2026 18:34:35] [main] [com.demoblaze.actions.AlertActions] - Failed to get alert text: no such alert
+  (Session info: chrome=144.0.7559.97)
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7c54f7994e315da4208a333727349383, getAlertText {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 144.0.7559.97, chrome: {chromedriverVersion: 144.0.7559.96 (d7b80622cfab..., userDataDir: C:\Users\midoh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56355}, goog:processID: 6136, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56355/devtoo..., se:cdpVersion: 144.0.7559.97, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7c54f7994e315da4208a333727349383
+[ERROR] - [25-01-2026 18:34:35] [main] [com.demoblaze.actions.AlertActions] - Failed to get alert text: no such alert
+  (Session info: chrome=144.0.7559.97)
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7c54f7994e315da4208a333727349383, getAlertText {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 144.0.7559.97, chrome: {chromedriverVersion: 144.0.7559.96 (d7b80622cfab..., userDataDir: C:\Users\midoh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56355}, goog:processID: 6136, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56355/devtoo..., se:cdpVersion: 144.0.7559.97, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7c54f7994e315da4208a333727349383
+[INFO] - [25-01-2026 18:34:36] [main] [com.demoblaze.actions.ElementActions] - Found, scrolled, and hovered over element: By.id: cartur
+[INFO] - [25-01-2026 18:34:36] [main] [com.demoblaze.actions.ElementActions] - initialLocation: (658, 8)
+[INFO] - [25-01-2026 18:34:36] [main] [com.demoblaze.actions.ElementActions] - finalLocation: (658, 8)
+[INFO] - [25-01-2026 18:34:37] [main] [com.demoblaze.actions.ElementActions] - Clicked on element: By.id: cartur
+[INFO] - [25-01-2026 18:34:37] [main] [com.demoblaze.actions.ElementActions] - Found, scrolled, and hovered over element: By.xpath: //button[text()='Place Order']
+[INFO] - [25-01-2026 18:34:37] [main] [com.demoblaze.actions.ElementActions] - initialLocation: (1018, 133)
+[INFO] - [25-01-2026 18:34:37] [main] [com.demoblaze.actions.ElementActions] - finalLocation: (1018, 133)
+[INFO] - [25-01-2026 18:34:37] [main] [com.demoblaze.actions.ElementActions] - Clicked on element: By.xpath: //button[text()='Place Order']
+[INFO] - [25-01-2026 18:34:38] [main] [com.demoblaze.actions.ElementActions] - Found, scrolled, and hovered over element: By.id: totalp
+[INFO] - [25-01-2026 18:34:38] [main] [com.demoblaze.listeners.TestNGListeners] - Test Case checkoutE2E failed
+[INFO] - [25-01-2026 18:34:40] [main] [com.demoblaze.tests.BaseTest] - Driver quit successfully
+[INFO] - [25-01-2026 18:34:40] [main] [com.demoblaze.listeners.TestNGListeners] - Test Execution Finished
+[DEBUG] - [25-01-2026 18:37:00] [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\midoh\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml"
+[INFO] - [25-01-2026 18:37:01] [main] [com.demoblaze.listeners.TestNGListeners] - Test Execution started
+[INFO] - [25-01-2026 18:37:01] [main] [com.demoblaze.listeners.TestNGListeners] - Directories cleaned
+[INFO] - [25-01-2026 18:37:01] [main] [com.demoblaze.listeners.TestNGListeners] - Directories created
+[INFO] - [25-01-2026 18:37:01] [main] [com.demoblaze.listeners.TestNGListeners] - Properties loaded
+[INFO] - [25-01-2026 18:37:01] [main] [com.demoblaze.listeners.TestNGListeners] - Allure environment set
+[INFO] - [25-01-2026 18:37:01] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\midoh\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+[DEBUG] - [25-01-2026 18:37:02] [main] [org.apache.poi.openxml4j.opc.PackageRelationshipCollection] - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] - [25-01-2026 18:37:02] [main] [org.apache.poi.openxml4j.opc.PackageRelationshipCollection] - Parsing relationship: /_rels/.rels
+[INFO] - [25-01-2026 18:37:09] [main] [com.demoblaze.tests.BaseTest] - Navigated to base URL
+[DEBUG] - [25-01-2026 18:37:09] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['name']
+[DEBUG] - [25-01-2026 18:37:09] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['password']
+[INFO] - [25-01-2026 18:37:10] [main] [com.demoblaze.actions.ElementActions] - Found, scrolled, and hovered over element: By.id: login2
+[INFO] - [25-01-2026 18:37:10] [main] [com.demoblaze.actions.ElementActions] - initialLocation: (1077, 17)
+[INFO] - [25-01-2026 18:37:10] [main] [com.demoblaze.actions.ElementActions] - finalLocation: (1077, 17)
+[INFO] - [25-01-2026 18:37:10] [main] [com.demoblaze.actions.ElementActions] - Clicked on element: By.id: login2
+[INFO] - [25-01-2026 18:37:11] [main] [com.demoblaze.actions.ElementActions] - Found, scrolled, and hovered over element: By.id: loginusername
+[INFO] - [25-01-2026 18:37:11] [main] [com.demoblaze.actions.ElementActions] - Typed text 'm2022001' into element: By.id: loginusername
+[INFO] - [25-01-2026 18:37:11] [main] [com.demoblaze.actions.ElementActions] - Found, scrolled, and hovered over element: By.id: loginpassword
+[INFO] - [25-01-2026 18:37:11] [main] [com.demoblaze.actions.ElementActions] - Typed text '1' into element: By.id: loginpassword
+[INFO] - [25-01-2026 18:37:11] [main] [com.demoblaze.actions.ElementActions] - Found, scrolled, and hovered over element: By.cssSelector: button[onclick='logIn()']
+[INFO] - [25-01-2026 18:37:11] [main] [com.demoblaze.actions.ElementActions] - initialLocation: (917, 372)
+[INFO] - [25-01-2026 18:37:12] [main] [com.demoblaze.actions.ElementActions] - finalLocation: (917, 372)
+[INFO] - [25-01-2026 18:37:12] [main] [com.demoblaze.actions.ElementActions] - Clicked on element: By.cssSelector: button[onclick='logIn()']
+[INFO] - [25-01-2026 18:37:12] [main] [com.demoblaze.actions.ElementActions] - Found, scrolled, and hovered over element: By.xpath: //a[contains(@href,'idp_=3')]
+[INFO] - [25-01-2026 18:37:12] [main] [com.demoblaze.actions.ElementActions] - initialLocation: (1046, 442)
+[INFO] - [25-01-2026 18:37:12] [main] [com.demoblaze.actions.ElementActions] - finalLocation: (1046, 442)
+[INFO] - [25-01-2026 18:37:13] [main] [com.demoblaze.actions.ElementActions] - Found, scrolled, and hovered over element: By.xpath: //a[contains(@href,'idp_=3')]
+[INFO] - [25-01-2026 18:37:13] [main] [com.demoblaze.actions.ElementActions] - initialLocation: (1046, 442)
+[INFO] - [25-01-2026 18:37:14] [main] [com.demoblaze.actions.ElementActions] - finalLocation: (1046, 442)
+[INFO] - [25-01-2026 18:37:14] [main] [com.demoblaze.actions.ElementActions] - Clicked on element: By.xpath: //a[contains(@href,'idp_=3')]
+[INFO] - [25-01-2026 18:37:15] [main] [com.demoblaze.actions.ElementActions] - Found, scrolled, and hovered over element: By.xpath: //a[text()='Add to cart']
+[INFO] - [25-01-2026 18:37:15] [main] [com.demoblaze.actions.ElementActions] - initialLocation: (636, 393)
+[INFO] - [25-01-2026 18:37:15] [main] [com.demoblaze.actions.ElementActions] - finalLocation: (636, 393)
+[INFO] - [25-01-2026 18:37:15] [main] [com.demoblaze.actions.ElementActions] - Clicked on element: By.xpath: //a[text()='Add to cart']
+[ERROR] - [25-01-2026 18:37:15] [main] [com.demoblaze.actions.AlertActions] - Failed to get alert text: no such alert
+  (Session info: chrome=144.0.7559.97)
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [369ae6c97e5a1debd47da639b7555de7, getAlertText {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 144.0.7559.97, chrome: {chromedriverVersion: 144.0.7559.96 (d7b80622cfab..., userDataDir: C:\Users\midoh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58684}, goog:processID: 9812, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58684/devtoo..., se:cdpVersion: 144.0.7559.97, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 369ae6c97e5a1debd47da639b7555de7
+[ERROR] - [25-01-2026 18:37:15] [main] [com.demoblaze.actions.AlertActions] - Failed to get alert text: no such alert
+  (Session info: chrome=144.0.7559.97)
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [369ae6c97e5a1debd47da639b7555de7, getAlertText {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 144.0.7559.97, chrome: {chromedriverVersion: 144.0.7559.96 (d7b80622cfab..., userDataDir: C:\Users\midoh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58684}, goog:processID: 9812, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58684/devtoo..., se:cdpVersion: 144.0.7559.97, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 369ae6c97e5a1debd47da639b7555de7
+[ERROR] - [25-01-2026 18:37:15] [main] [com.demoblaze.actions.AlertActions] - Failed to get alert text: no such alert
+  (Session info: chrome=144.0.7559.97)
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [369ae6c97e5a1debd47da639b7555de7, getAlertText {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 144.0.7559.97, chrome: {chromedriverVersion: 144.0.7559.96 (d7b80622cfab..., userDataDir: C:\Users\midoh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58684}, goog:processID: 9812, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58684/devtoo..., se:cdpVersion: 144.0.7559.97, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 369ae6c97e5a1debd47da639b7555de7
+[ERROR] - [25-01-2026 18:37:15] [main] [com.demoblaze.actions.AlertActions] - Failed to get alert text: no such alert
+  (Session info: chrome=144.0.7559.97)
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [369ae6c97e5a1debd47da639b7555de7, getAlertText {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 144.0.7559.97, chrome: {chromedriverVersion: 144.0.7559.96 (d7b80622cfab..., userDataDir: C:\Users\midoh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58684}, goog:processID: 9812, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58684/devtoo..., se:cdpVersion: 144.0.7559.97, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 369ae6c97e5a1debd47da639b7555de7
+[INFO] - [25-01-2026 18:37:16] [main] [com.demoblaze.actions.ElementActions] - Found, scrolled, and hovered over element: By.id: cartur
+[INFO] - [25-01-2026 18:37:16] [main] [com.demoblaze.actions.ElementActions] - initialLocation: (658, 8)
+[INFO] - [25-01-2026 18:37:16] [main] [com.demoblaze.actions.ElementActions] - finalLocation: (658, 8)
+[INFO] - [25-01-2026 18:37:17] [main] [com.demoblaze.actions.ElementActions] - Clicked on element: By.id: cartur
+[INFO] - [25-01-2026 18:37:17] [main] [com.demoblaze.actions.ElementActions] - Found, scrolled, and hovered over element: By.xpath: //button[text()='Place Order']
+[INFO] - [25-01-2026 18:37:17] [main] [com.demoblaze.actions.ElementActions] - initialLocation: (1018, 133)
+[INFO] - [25-01-2026 18:37:17] [main] [com.demoblaze.actions.ElementActions] - finalLocation: (1018, 133)
+[INFO] - [25-01-2026 18:37:17] [main] [com.demoblaze.actions.ElementActions] - Clicked on element: By.xpath: //button[text()='Place Order']
+[INFO] - [25-01-2026 18:37:17] [main] [com.demoblaze.actions.ElementActions] - Found, scrolled, and hovered over element: By.id: totalp
+[INFO] - [25-01-2026 18:37:18] [main] [com.demoblaze.actions.ElementActions] - Found, scrolled, and hovered over element: By.id: name
+[INFO] - [25-01-2026 18:37:18] [main] [com.demoblaze.actions.ElementActions] - Typed text 'John Doe' into element: By.id: name
+[INFO] - [25-01-2026 18:37:18] [main] [com.demoblaze.actions.ElementActions] - Found, scrolled, and hovered over element: By.id: country
+[INFO] - [25-01-2026 18:37:18] [main] [com.demoblaze.actions.ElementActions] - Typed text 'USA' into element: By.id: country
+[INFO] - [25-01-2026 18:37:18] [main] [com.demoblaze.actions.ElementActions] - Found, scrolled, and hovered over element: By.id: city
+[INFO] - [25-01-2026 18:37:19] [main] [com.demoblaze.actions.ElementActions] - Typed text 'New York' into element: By.id: city
+[INFO] - [25-01-2026 18:37:19] [main] [com.demoblaze.actions.ElementActions] - Found, scrolled, and hovered over element: By.id: card
+[INFO] - [25-01-2026 18:37:19] [main] [com.demoblaze.actions.ElementActions] - Typed text '1234567890123456' into element: By.id: card
+[INFO] - [25-01-2026 18:37:19] [main] [com.demoblaze.actions.ElementActions] - Found, scrolled, and hovered over element: By.id: month
+[INFO] - [25-01-2026 18:37:19] [main] [com.demoblaze.actions.ElementActions] - Typed text '12' into element: By.id: month
+[INFO] - [25-01-2026 18:37:20] [main] [com.demoblaze.actions.ElementActions] - Found, scrolled, and hovered over element: By.id: year
+[INFO] - [25-01-2026 18:37:20] [main] [com.demoblaze.actions.ElementActions] - Typed text '2025' into element: By.id: year
+[INFO] - [25-01-2026 18:37:20] [main] [com.demoblaze.actions.ElementActions] - Found, scrolled, and hovered over element: By.tagName: h2
+[INFO] - [25-01-2026 18:37:20] [main] [com.demoblaze.listeners.TestNGListeners] - Test Case checkoutE2E failed
+[INFO] - [25-01-2026 18:37:20] [main] [com.demoblaze.tests.BaseTest] - Driver quit successfully
+[INFO] - [25-01-2026 18:37:21] [main] [com.demoblaze.listeners.TestNGListeners] - Test Execution Finished
+[DEBUG] - [25-01-2026 18:39:19] [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\midoh\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml"
+[INFO] - [25-01-2026 18:39:20] [main] [com.demoblaze.listeners.TestNGListeners] - Test Execution started
+[INFO] - [25-01-2026 18:39:20] [main] [com.demoblaze.listeners.TestNGListeners] - Directories cleaned
+[INFO] - [25-01-2026 18:39:20] [main] [com.demoblaze.listeners.TestNGListeners] - Directories created
+[INFO] - [25-01-2026 18:39:20] [main] [com.demoblaze.listeners.TestNGListeners] - Properties loaded
+[INFO] - [25-01-2026 18:39:20] [main] [com.demoblaze.listeners.TestNGListeners] - Allure environment set
+[INFO] - [25-01-2026 18:39:20] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\midoh\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+[DEBUG] - [25-01-2026 18:39:21] [main] [org.apache.poi.openxml4j.opc.PackageRelationshipCollection] - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] - [25-01-2026 18:39:21] [main] [org.apache.poi.openxml4j.opc.PackageRelationshipCollection] - Parsing relationship: /_rels/.rels
+[INFO] - [25-01-2026 18:39:26] [main] [com.demoblaze.tests.BaseTest] - Navigated to base URL
+[DEBUG] - [25-01-2026 18:39:26] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['name']
+[DEBUG] - [25-01-2026 18:39:26] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['password']
+[INFO] - [25-01-2026 18:39:27] [main] [com.demoblaze.actions.ElementActions] - Found, scrolled, and hovered over element: By.id: login2
+[INFO] - [25-01-2026 18:39:27] [main] [com.demoblaze.actions.ElementActions] - initialLocation: (1077, 17)
+[INFO] - [25-01-2026 18:39:27] [main] [com.demoblaze.actions.ElementActions] - finalLocation: (1077, 17)
+[INFO] - [25-01-2026 18:39:27] [main] [com.demoblaze.actions.ElementActions] - Clicked on element: By.id: login2
+[INFO] - [25-01-2026 18:39:28] [main] [com.demoblaze.actions.ElementActions] - Found, scrolled, and hovered over element: By.id: loginusername
+[INFO] - [25-01-2026 18:39:28] [main] [com.demoblaze.actions.ElementActions] - Typed text 'm2022001' into element: By.id: loginusername
+[INFO] - [25-01-2026 18:39:28] [main] [com.demoblaze.actions.ElementActions] - Found, scrolled, and hovered over element: By.id: loginpassword
+[INFO] - [25-01-2026 18:39:28] [main] [com.demoblaze.actions.ElementActions] - Typed text '1' into element: By.id: loginpassword
+[INFO] - [25-01-2026 18:39:29] [main] [com.demoblaze.actions.ElementActions] - Found, scrolled, and hovered over element: By.cssSelector: button[onclick='logIn()']
+[INFO] - [25-01-2026 18:39:29] [main] [com.demoblaze.actions.ElementActions] - initialLocation: (917, 372)
+[INFO] - [25-01-2026 18:39:29] [main] [com.demoblaze.actions.ElementActions] - finalLocation: (917, 372)
+[INFO] - [25-01-2026 18:39:29] [main] [com.demoblaze.actions.ElementActions] - Clicked on element: By.cssSelector: button[onclick='logIn()']
+[INFO] - [25-01-2026 18:39:29] [main] [com.demoblaze.actions.ElementActions] - Found, scrolled, and hovered over element: By.xpath: //a[contains(@href,'idp_=3')]
+[INFO] - [25-01-2026 18:39:29] [main] [com.demoblaze.actions.ElementActions] - initialLocation: (1046, 442)
+[INFO] - [25-01-2026 18:39:29] [main] [com.demoblaze.actions.ElementActions] - finalLocation: (1046, 442)
+[INFO] - [25-01-2026 18:39:30] [main] [com.demoblaze.actions.ElementActions] - Found, scrolled, and hovered over element: By.xpath: //a[contains(@href,'idp_=3')]
+[INFO] - [25-01-2026 18:39:30] [main] [com.demoblaze.actions.ElementActions] - initialLocation: (1046, 442)
+[INFO] - [25-01-2026 18:39:30] [main] [com.demoblaze.actions.ElementActions] - finalLocation: (1046, 442)
+[INFO] - [25-01-2026 18:39:31] [main] [com.demoblaze.actions.ElementActions] - Clicked on element: By.xpath: //a[contains(@href,'idp_=3')]
+[INFO] - [25-01-2026 18:39:31] [main] [com.demoblaze.actions.ElementActions] - Found, scrolled, and hovered over element: By.xpath: //a[text()='Add to cart']
+[INFO] - [25-01-2026 18:39:32] [main] [com.demoblaze.actions.ElementActions] - initialLocation: (636, 393)
+[INFO] - [25-01-2026 18:39:32] [main] [com.demoblaze.actions.ElementActions] - finalLocation: (636, 393)
+[INFO] - [25-01-2026 18:39:32] [main] [com.demoblaze.actions.ElementActions] - Clicked on element: By.xpath: //a[text()='Add to cart']
+[ERROR] - [25-01-2026 18:39:32] [main] [com.demoblaze.actions.AlertActions] - Failed to get alert text: no such alert
+  (Session info: chrome=144.0.7559.97)
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fd89a3c661fc5b1065f96a176d08e5f3, getAlertText {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 144.0.7559.97, chrome: {chromedriverVersion: 144.0.7559.96 (d7b80622cfab..., userDataDir: C:\Users\midoh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53271}, goog:processID: 2164, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53271/devtoo..., se:cdpVersion: 144.0.7559.97, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fd89a3c661fc5b1065f96a176d08e5f3
+[ERROR] - [25-01-2026 18:39:32] [main] [com.demoblaze.actions.AlertActions] - Failed to get alert text: no such alert
+  (Session info: chrome=144.0.7559.97)
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fd89a3c661fc5b1065f96a176d08e5f3, getAlertText {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 144.0.7559.97, chrome: {chromedriverVersion: 144.0.7559.96 (d7b80622cfab..., userDataDir: C:\Users\midoh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53271}, goog:processID: 2164, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53271/devtoo..., se:cdpVersion: 144.0.7559.97, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fd89a3c661fc5b1065f96a176d08e5f3
+[ERROR] - [25-01-2026 18:39:32] [main] [com.demoblaze.actions.AlertActions] - Failed to get alert text: no such alert
+  (Session info: chrome=144.0.7559.97)
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fd89a3c661fc5b1065f96a176d08e5f3, getAlertText {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 144.0.7559.97, chrome: {chromedriverVersion: 144.0.7559.96 (d7b80622cfab..., userDataDir: C:\Users\midoh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53271}, goog:processID: 2164, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53271/devtoo..., se:cdpVersion: 144.0.7559.97, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fd89a3c661fc5b1065f96a176d08e5f3
+[INFO] - [25-01-2026 18:39:32] [main] [com.demoblaze.actions.ElementActions] - Found, scrolled, and hovered over element: By.id: cartur
+[INFO] - [25-01-2026 18:39:33] [main] [com.demoblaze.actions.ElementActions] - initialLocation: (658, 8)
+[INFO] - [25-01-2026 18:39:33] [main] [com.demoblaze.actions.ElementActions] - finalLocation: (658, 8)
+[INFO] - [25-01-2026 18:39:33] [main] [com.demoblaze.actions.ElementActions] - Clicked on element: By.id: cartur
+[INFO] - [25-01-2026 18:39:34] [main] [com.demoblaze.actions.ElementActions] - Found, scrolled, and hovered over element: By.xpath: //button[text()='Place Order']
+[INFO] - [25-01-2026 18:39:34] [main] [com.demoblaze.actions.ElementActions] - initialLocation: (1018, 133)
+[INFO] - [25-01-2026 18:39:34] [main] [com.demoblaze.actions.ElementActions] - finalLocation: (1018, 133)
+[INFO] - [25-01-2026 18:39:34] [main] [com.demoblaze.actions.ElementActions] - Clicked on element: By.xpath: //button[text()='Place Order']
+[INFO] - [25-01-2026 18:39:34] [main] [com.demoblaze.actions.ElementActions] - Found, scrolled, and hovered over element: By.id: totalp
+[INFO] - [25-01-2026 18:39:34] [main] [com.demoblaze.actions.ElementActions] - Found, scrolled, and hovered over element: By.id: name
+[INFO] - [25-01-2026 18:39:35] [main] [com.demoblaze.actions.ElementActions] - Typed text 'John Doe' into element: By.id: name
+[INFO] - [25-01-2026 18:39:35] [main] [com.demoblaze.actions.ElementActions] - Found, scrolled, and hovered over element: By.id: country
+[INFO] - [25-01-2026 18:39:35] [main] [com.demoblaze.actions.ElementActions] - Typed text 'USA' into element: By.id: country
+[INFO] - [25-01-2026 18:39:35] [main] [com.demoblaze.actions.ElementActions] - Found, scrolled, and hovered over element: By.id: city
+[INFO] - [25-01-2026 18:39:35] [main] [com.demoblaze.actions.ElementActions] - Typed text 'New York' into element: By.id: city
+[INFO] - [25-01-2026 18:39:36] [main] [com.demoblaze.actions.ElementActions] - Found, scrolled, and hovered over element: By.id: card
+[INFO] - [25-01-2026 18:39:36] [main] [com.demoblaze.actions.ElementActions] - Typed text '1234567890123456' into element: By.id: card
+[INFO] - [25-01-2026 18:39:36] [main] [com.demoblaze.actions.ElementActions] - Found, scrolled, and hovered over element: By.id: month
+[INFO] - [25-01-2026 18:39:36] [main] [com.demoblaze.actions.ElementActions] - Typed text '12' into element: By.id: month
+[INFO] - [25-01-2026 18:39:37] [main] [com.demoblaze.actions.ElementActions] - Found, scrolled, and hovered over element: By.id: year
+[INFO] - [25-01-2026 18:39:37] [main] [com.demoblaze.actions.ElementActions] - Typed text '2025' into element: By.id: year
+[INFO] - [25-01-2026 18:39:52] [main] [com.demoblaze.listeners.TestNGListeners] - Test Case checkoutE2E failed
+[INFO] - [25-01-2026 18:39:53] [main] [com.demoblaze.tests.BaseTest] - Driver quit successfully
+[INFO] - [25-01-2026 18:39:53] [main] [com.demoblaze.listeners.TestNGListeners] - Test Execution Finished
+[DEBUG] - [25-01-2026 18:40:07] [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\midoh\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml"
+[INFO] - [25-01-2026 18:40:07] [main] [com.demoblaze.listeners.TestNGListeners] - Test Execution started
+[INFO] - [25-01-2026 18:40:07] [main] [com.demoblaze.listeners.TestNGListeners] - Directories cleaned
+[INFO] - [25-01-2026 18:40:07] [main] [com.demoblaze.listeners.TestNGListeners] - Directories created
+[INFO] - [25-01-2026 18:40:07] [main] [com.demoblaze.listeners.TestNGListeners] - Properties loaded
+[INFO] - [25-01-2026 18:40:07] [main] [com.demoblaze.listeners.TestNGListeners] - Allure environment set
+[INFO] - [25-01-2026 18:40:07] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\midoh\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+[DEBUG] - [25-01-2026 18:40:08] [main] [org.apache.poi.openxml4j.opc.PackageRelationshipCollection] - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] - [25-01-2026 18:40:08] [main] [org.apache.poi.openxml4j.opc.PackageRelationshipCollection] - Parsing relationship: /_rels/.rels
+[INFO] - [25-01-2026 18:40:12] [main] [com.demoblaze.tests.BaseTest] - Navigated to base URL
+[DEBUG] - [25-01-2026 18:40:12] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['name']
+[DEBUG] - [25-01-2026 18:40:12] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['password']
+[INFO] - [25-01-2026 18:40:13] [main] [com.demoblaze.actions.ElementActions] - Found, scrolled, and hovered over element: By.id: login2
+[INFO] - [25-01-2026 18:40:13] [main] [com.demoblaze.actions.ElementActions] - initialLocation: (1077, 17)
+[INFO] - [25-01-2026 18:40:13] [main] [com.demoblaze.actions.ElementActions] - finalLocation: (1077, 17)
+[INFO] - [25-01-2026 18:40:13] [main] [com.demoblaze.actions.ElementActions] - Clicked on element: By.id: login2
+[INFO] - [25-01-2026 18:40:14] [main] [com.demoblaze.actions.ElementActions] - Found, scrolled, and hovered over element: By.id: loginusername
+[INFO] - [25-01-2026 18:40:14] [main] [com.demoblaze.actions.ElementActions] - Typed text 'm2022001' into element: By.id: loginusername
+[INFO] - [25-01-2026 18:40:14] [main] [com.demoblaze.actions.ElementActions] - Found, scrolled, and hovered over element: By.id: loginpassword
+[INFO] - [25-01-2026 18:40:14] [main] [com.demoblaze.actions.ElementActions] - Typed text '1' into element: By.id: loginpassword
+[INFO] - [25-01-2026 18:40:15] [main] [com.demoblaze.actions.ElementActions] - Found, scrolled, and hovered over element: By.cssSelector: button[onclick='logIn()']
+[INFO] - [25-01-2026 18:40:15] [main] [com.demoblaze.actions.ElementActions] - initialLocation: (917, 372)
+[INFO] - [25-01-2026 18:40:15] [main] [com.demoblaze.actions.ElementActions] - finalLocation: (917, 372)
+[INFO] - [25-01-2026 18:40:15] [main] [com.demoblaze.actions.ElementActions] - Clicked on element: By.cssSelector: button[onclick='logIn()']
+[INFO] - [25-01-2026 18:40:15] [main] [com.demoblaze.actions.ElementActions] - Found, scrolled, and hovered over element: By.xpath: //a[contains(@href,'idp_=3')]
+[INFO] - [25-01-2026 18:40:15] [main] [com.demoblaze.actions.ElementActions] - initialLocation: (1046, 442)
+[INFO] - [25-01-2026 18:40:15] [main] [com.demoblaze.actions.ElementActions] - finalLocation: (1046, 442)
+[INFO] - [25-01-2026 18:40:16] [main] [com.demoblaze.actions.ElementActions] - Found, scrolled, and hovered over element: By.xpath: //a[contains(@href,'idp_=3')]
+[INFO] - [25-01-2026 18:40:16] [main] [com.demoblaze.actions.ElementActions] - initialLocation: (1046, 442)
+[INFO] - [25-01-2026 18:40:16] [main] [com.demoblaze.actions.ElementActions] - finalLocation: (1046, 442)
+[INFO] - [25-01-2026 18:40:17] [main] [com.demoblaze.actions.ElementActions] - Clicked on element: By.xpath: //a[contains(@href,'idp_=3')]
+[INFO] - [25-01-2026 18:40:18] [main] [com.demoblaze.actions.ElementActions] - Found, scrolled, and hovered over element: By.xpath: //a[text()='Add to cart']
+[INFO] - [25-01-2026 18:40:18] [main] [com.demoblaze.actions.ElementActions] - initialLocation: (636, 393)
+[INFO] - [25-01-2026 18:40:18] [main] [com.demoblaze.actions.ElementActions] - finalLocation: (636, 393)
+[INFO] - [25-01-2026 18:40:18] [main] [com.demoblaze.actions.ElementActions] - Clicked on element: By.xpath: //a[text()='Add to cart']
+[ERROR] - [25-01-2026 18:40:18] [main] [com.demoblaze.actions.AlertActions] - Failed to get alert text: no such alert
+  (Session info: chrome=144.0.7559.97)
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8a5415a15878c067282aee261c4fc7ed, getAlertText {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 144.0.7559.97, chrome: {chromedriverVersion: 144.0.7559.96 (d7b80622cfab..., userDataDir: C:\Users\midoh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49201}, goog:processID: 17540, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49201/devtoo..., se:cdpVersion: 144.0.7559.97, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8a5415a15878c067282aee261c4fc7ed
+[ERROR] - [25-01-2026 18:40:18] [main] [com.demoblaze.actions.AlertActions] - Failed to get alert text: no such alert
+  (Session info: chrome=144.0.7559.97)
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8a5415a15878c067282aee261c4fc7ed, getAlertText {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 144.0.7559.97, chrome: {chromedriverVersion: 144.0.7559.96 (d7b80622cfab..., userDataDir: C:\Users\midoh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49201}, goog:processID: 17540, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49201/devtoo..., se:cdpVersion: 144.0.7559.97, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8a5415a15878c067282aee261c4fc7ed
+[ERROR] - [25-01-2026 18:40:18] [main] [com.demoblaze.actions.AlertActions] - Failed to get alert text: no such alert
+  (Session info: chrome=144.0.7559.97)
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8a5415a15878c067282aee261c4fc7ed, getAlertText {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 144.0.7559.97, chrome: {chromedriverVersion: 144.0.7559.96 (d7b80622cfab..., userDataDir: C:\Users\midoh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49201}, goog:processID: 17540, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49201/devtoo..., se:cdpVersion: 144.0.7559.97, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8a5415a15878c067282aee261c4fc7ed
+[ERROR] - [25-01-2026 18:40:18] [main] [com.demoblaze.actions.AlertActions] - Failed to get alert text: no such alert
+  (Session info: chrome=144.0.7559.97)
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8a5415a15878c067282aee261c4fc7ed, getAlertText {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 144.0.7559.97, chrome: {chromedriverVersion: 144.0.7559.96 (d7b80622cfab..., userDataDir: C:\Users\midoh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49201}, goog:processID: 17540, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49201/devtoo..., se:cdpVersion: 144.0.7559.97, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8a5415a15878c067282aee261c4fc7ed
+[INFO] - [25-01-2026 18:40:19] [main] [com.demoblaze.actions.ElementActions] - Found, scrolled, and hovered over element: By.id: cartur
+[INFO] - [25-01-2026 18:40:19] [main] [com.demoblaze.actions.ElementActions] - initialLocation: (658, 8)
+[INFO] - [25-01-2026 18:40:19] [main] [com.demoblaze.actions.ElementActions] - finalLocation: (658, 8)
+[INFO] - [25-01-2026 18:40:20] [main] [com.demoblaze.actions.ElementActions] - Clicked on element: By.id: cartur
+[INFO] - [25-01-2026 18:40:20] [main] [com.demoblaze.actions.ElementActions] - Found, scrolled, and hovered over element: By.xpath: //button[text()='Place Order']
+[INFO] - [25-01-2026 18:40:20] [main] [com.demoblaze.actions.ElementActions] - initialLocation: (1018, 133)
+[INFO] - [25-01-2026 18:40:20] [main] [com.demoblaze.actions.ElementActions] - finalLocation: (1018, 133)
+[INFO] - [25-01-2026 18:40:20] [main] [com.demoblaze.actions.ElementActions] - Clicked on element: By.xpath: //button[text()='Place Order']
+[INFO] - [25-01-2026 18:40:20] [main] [com.demoblaze.actions.ElementActions] - Found, scrolled, and hovered over element: By.id: totalp
+[INFO] - [25-01-2026 18:40:21] [main] [com.demoblaze.actions.ElementActions] - Found, scrolled, and hovered over element: By.id: name
+[INFO] - [25-01-2026 18:40:21] [main] [com.demoblaze.actions.ElementActions] - Typed text 'John Doe' into element: By.id: name
+[INFO] - [25-01-2026 18:40:21] [main] [com.demoblaze.actions.ElementActions] - Found, scrolled, and hovered over element: By.id: country
+[INFO] - [25-01-2026 18:40:21] [main] [com.demoblaze.actions.ElementActions] - Typed text 'USA' into element: By.id: country
+[INFO] - [25-01-2026 18:40:22] [main] [com.demoblaze.actions.ElementActions] - Found, scrolled, and hovered over element: By.id: city
+[INFO] - [25-01-2026 18:40:22] [main] [com.demoblaze.actions.ElementActions] - Typed text 'New York' into element: By.id: city
+[INFO] - [25-01-2026 18:40:22] [main] [com.demoblaze.actions.ElementActions] - Found, scrolled, and hovered over element: By.id: card
+[INFO] - [25-01-2026 18:40:22] [main] [com.demoblaze.actions.ElementActions] - Typed text '1234567890123456' into element: By.id: card
+[INFO] - [25-01-2026 18:40:22] [main] [com.demoblaze.actions.ElementActions] - Found, scrolled, and hovered over element: By.id: month
+[INFO] - [25-01-2026 18:40:23] [main] [com.demoblaze.actions.ElementActions] - Typed text '12' into element: By.id: month
+[INFO] - [25-01-2026 18:40:23] [main] [com.demoblaze.actions.ElementActions] - Found, scrolled, and hovered over element: By.id: year
+[INFO] - [25-01-2026 18:40:23] [main] [com.demoblaze.actions.ElementActions] - Typed text '2025' into element: By.id: year
+[INFO] - [25-01-2026 18:40:38] [main] [com.demoblaze.listeners.TestNGListeners] - Test Case checkoutE2E failed
+[INFO] - [25-01-2026 18:40:39] [main] [com.demoblaze.tests.BaseTest] - Driver quit successfully
+[INFO] - [25-01-2026 18:40:39] [main] [com.demoblaze.listeners.TestNGListeners] - Test Execution Finished
+[DEBUG] - [25-01-2026 18:41:06] [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\midoh\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml"
+[INFO] - [25-01-2026 18:41:06] [main] [com.demoblaze.listeners.TestNGListeners] - Test Execution started
+[INFO] - [25-01-2026 18:41:06] [main] [com.demoblaze.listeners.TestNGListeners] - Directories cleaned
+[INFO] - [25-01-2026 18:41:06] [main] [com.demoblaze.listeners.TestNGListeners] - Directories created
+[INFO] - [25-01-2026 18:41:06] [main] [com.demoblaze.listeners.TestNGListeners] - Properties loaded
+[INFO] - [25-01-2026 18:41:06] [main] [com.demoblaze.listeners.TestNGListeners] - Allure environment set
+[INFO] - [25-01-2026 18:41:06] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\midoh\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+[DEBUG] - [25-01-2026 18:41:07] [main] [org.apache.poi.openxml4j.opc.PackageRelationshipCollection] - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] - [25-01-2026 18:41:07] [main] [org.apache.poi.openxml4j.opc.PackageRelationshipCollection] - Parsing relationship: /_rels/.rels
+[INFO] - [25-01-2026 18:41:13] [main] [com.demoblaze.tests.BaseTest] - Navigated to base URL
+[DEBUG] - [25-01-2026 18:41:14] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['name']
+[DEBUG] - [25-01-2026 18:41:14] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['password']
+[INFO] - [25-01-2026 18:41:14] [main] [com.demoblaze.actions.ElementActions] - Found, scrolled, and hovered over element: By.id: login2
+[INFO] - [25-01-2026 18:41:14] [main] [com.demoblaze.actions.ElementActions] - initialLocation: (1077, 17)
+[INFO] - [25-01-2026 18:41:14] [main] [com.demoblaze.actions.ElementActions] - finalLocation: (1077, 17)
+[INFO] - [25-01-2026 18:41:14] [main] [com.demoblaze.actions.ElementActions] - Clicked on element: By.id: login2
+[INFO] - [25-01-2026 18:41:15] [main] [com.demoblaze.actions.ElementActions] - Found, scrolled, and hovered over element: By.id: loginusername
+[INFO] - [25-01-2026 18:41:15] [main] [com.demoblaze.actions.ElementActions] - Typed text 'm2022001' into element: By.id: loginusername
+[INFO] - [25-01-2026 18:41:15] [main] [com.demoblaze.actions.ElementActions] - Found, scrolled, and hovered over element: By.id: loginpassword
+[INFO] - [25-01-2026 18:41:15] [main] [com.demoblaze.actions.ElementActions] - Typed text '1' into element: By.id: loginpassword
+[INFO] - [25-01-2026 18:41:16] [main] [com.demoblaze.actions.ElementActions] - Found, scrolled, and hovered over element: By.cssSelector: button[onclick='logIn()']
+[INFO] - [25-01-2026 18:41:16] [main] [com.demoblaze.actions.ElementActions] - initialLocation: (917, 372)
+[INFO] - [25-01-2026 18:41:16] [main] [com.demoblaze.actions.ElementActions] - finalLocation: (917, 372)
+[INFO] - [25-01-2026 18:41:16] [main] [com.demoblaze.actions.ElementActions] - Clicked on element: By.cssSelector: button[onclick='logIn()']
+[INFO] - [25-01-2026 18:41:16] [main] [com.demoblaze.actions.ElementActions] - Found, scrolled, and hovered over element: By.xpath: //a[contains(@href,'idp_=3')]
+[INFO] - [25-01-2026 18:41:16] [main] [com.demoblaze.actions.ElementActions] - initialLocation: (1046, 442)
+[INFO] - [25-01-2026 18:41:16] [main] [com.demoblaze.actions.ElementActions] - finalLocation: (1046, 442)
+[INFO] - [25-01-2026 18:41:17] [main] [com.demoblaze.actions.ElementActions] - Found, scrolled, and hovered over element: By.xpath: //a[contains(@href,'idp_=3')]
+[INFO] - [25-01-2026 18:41:17] [main] [com.demoblaze.actions.ElementActions] - initialLocation: (1046, 442)
+[INFO] - [25-01-2026 18:41:18] [main] [com.demoblaze.actions.ElementActions] - finalLocation: (1046, 442)
+[INFO] - [25-01-2026 18:41:18] [main] [com.demoblaze.actions.ElementActions] - Clicked on element: By.xpath: //a[contains(@href,'idp_=3')]
+[INFO] - [25-01-2026 18:41:19] [main] [com.demoblaze.actions.ElementActions] - Found, scrolled, and hovered over element: By.xpath: //a[text()='Add to cart']
+[INFO] - [25-01-2026 18:41:19] [main] [com.demoblaze.actions.ElementActions] - initialLocation: (636, 393)
+[INFO] - [25-01-2026 18:41:19] [main] [com.demoblaze.actions.ElementActions] - finalLocation: (636, 393)
+[INFO] - [25-01-2026 18:41:19] [main] [com.demoblaze.actions.ElementActions] - Clicked on element: By.xpath: //a[text()='Add to cart']
+[ERROR] - [25-01-2026 18:41:19] [main] [com.demoblaze.actions.AlertActions] - Failed to get alert text: no such alert
+  (Session info: chrome=144.0.7559.97)
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [557e1d484d38f09e7cf61ad2f04309eb, getAlertText {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 144.0.7559.97, chrome: {chromedriverVersion: 144.0.7559.96 (d7b80622cfab..., userDataDir: C:\Users\midoh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51313}, goog:processID: 27212, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51313/devtoo..., se:cdpVersion: 144.0.7559.97, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 557e1d484d38f09e7cf61ad2f04309eb
+[ERROR] - [25-01-2026 18:41:19] [main] [com.demoblaze.actions.AlertActions] - Failed to get alert text: no such alert
+  (Session info: chrome=144.0.7559.97)
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [557e1d484d38f09e7cf61ad2f04309eb, getAlertText {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 144.0.7559.97, chrome: {chromedriverVersion: 144.0.7559.96 (d7b80622cfab..., userDataDir: C:\Users\midoh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51313}, goog:processID: 27212, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51313/devtoo..., se:cdpVersion: 144.0.7559.97, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 557e1d484d38f09e7cf61ad2f04309eb
+[ERROR] - [25-01-2026 18:41:19] [main] [com.demoblaze.actions.AlertActions] - Failed to get alert text: no such alert
+  (Session info: chrome=144.0.7559.97)
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [557e1d484d38f09e7cf61ad2f04309eb, getAlertText {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 144.0.7559.97, chrome: {chromedriverVersion: 144.0.7559.96 (d7b80622cfab..., userDataDir: C:\Users\midoh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51313}, goog:processID: 27212, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51313/devtoo..., se:cdpVersion: 144.0.7559.97, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 557e1d484d38f09e7cf61ad2f04309eb
+[ERROR] - [25-01-2026 18:41:19] [main] [com.demoblaze.actions.AlertActions] - Failed to get alert text: no such alert
+  (Session info: chrome=144.0.7559.97)
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [557e1d484d38f09e7cf61ad2f04309eb, getAlertText {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 144.0.7559.97, chrome: {chromedriverVersion: 144.0.7559.96 (d7b80622cfab..., userDataDir: C:\Users\midoh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51313}, goog:processID: 27212, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51313/devtoo..., se:cdpVersion: 144.0.7559.97, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 557e1d484d38f09e7cf61ad2f04309eb
+[INFO] - [25-01-2026 18:41:20] [main] [com.demoblaze.actions.ElementActions] - Found, scrolled, and hovered over element: By.id: cartur
+[INFO] - [25-01-2026 18:41:20] [main] [com.demoblaze.actions.ElementActions] - initialLocation: (658, 8)
+[INFO] - [25-01-2026 18:41:20] [main] [com.demoblaze.actions.ElementActions] - finalLocation: (658, 8)
+[INFO] - [25-01-2026 18:41:21] [main] [com.demoblaze.actions.ElementActions] - Clicked on element: By.id: cartur
+[INFO] - [25-01-2026 18:41:21] [main] [com.demoblaze.actions.ElementActions] - Found, scrolled, and hovered over element: By.xpath: //button[text()='Place Order']
+[INFO] - [25-01-2026 18:41:21] [main] [com.demoblaze.actions.ElementActions] - initialLocation: (1018, 133)
+[INFO] - [25-01-2026 18:41:21] [main] [com.demoblaze.actions.ElementActions] - finalLocation: (1018, 133)
+[INFO] - [25-01-2026 18:41:21] [main] [com.demoblaze.actions.ElementActions] - Clicked on element: By.xpath: //button[text()='Place Order']
+[INFO] - [25-01-2026 18:41:21] [main] [com.demoblaze.actions.ElementActions] - Found, scrolled, and hovered over element: By.id: totalp
+[INFO] - [25-01-2026 18:41:21] [main] [com.demoblaze.listeners.TestNGListeners] - Test Case checkoutE2E failed
+[INFO] - [25-01-2026 18:41:22] [main] [com.demoblaze.tests.BaseTest] - Driver quit successfully
+[INFO] - [25-01-2026 18:41:22] [main] [com.demoblaze.listeners.TestNGListeners] - Test Execution Finished
+[DEBUG] - [25-01-2026 18:41:58] [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\midoh\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml"
+[INFO] - [25-01-2026 18:41:58] [main] [com.demoblaze.listeners.TestNGListeners] - Test Execution started
+[INFO] - [25-01-2026 18:41:58] [main] [com.demoblaze.listeners.TestNGListeners] - Directories cleaned
+[INFO] - [25-01-2026 18:41:58] [main] [com.demoblaze.listeners.TestNGListeners] - Directories created
+[INFO] - [25-01-2026 18:41:58] [main] [com.demoblaze.listeners.TestNGListeners] - Properties loaded
+[INFO] - [25-01-2026 18:41:58] [main] [com.demoblaze.listeners.TestNGListeners] - Allure environment set
+[INFO] - [25-01-2026 18:41:59] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\midoh\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+[DEBUG] - [25-01-2026 18:41:59] [main] [org.apache.poi.openxml4j.opc.PackageRelationshipCollection] - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] - [25-01-2026 18:41:59] [main] [org.apache.poi.openxml4j.opc.PackageRelationshipCollection] - Parsing relationship: /_rels/.rels
+[INFO] - [25-01-2026 18:42:04] [main] [com.demoblaze.tests.BaseTest] - Navigated to base URL
+[DEBUG] - [25-01-2026 18:42:04] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['name']
+[DEBUG] - [25-01-2026 18:42:04] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['password']
+[INFO] - [25-01-2026 18:42:05] [main] [com.demoblaze.actions.ElementActions] - Found, scrolled, and hovered over element: By.id: login2
+[INFO] - [25-01-2026 18:42:05] [main] [com.demoblaze.actions.ElementActions] - initialLocation: (1077, 17)
+[INFO] - [25-01-2026 18:42:05] [main] [com.demoblaze.actions.ElementActions] - finalLocation: (1077, 17)
+[INFO] - [25-01-2026 18:42:05] [main] [com.demoblaze.actions.ElementActions] - Clicked on element: By.id: login2
+[INFO] - [25-01-2026 18:42:05] [main] [com.demoblaze.actions.ElementActions] - Found, scrolled, and hovered over element: By.id: loginusername
+[INFO] - [25-01-2026 18:42:06] [main] [com.demoblaze.actions.ElementActions] - Typed text 'm2022001' into element: By.id: loginusername
+[INFO] - [25-01-2026 18:42:06] [main] [com.demoblaze.actions.ElementActions] - Found, scrolled, and hovered over element: By.id: loginpassword
+[INFO] - [25-01-2026 18:42:06] [main] [com.demoblaze.actions.ElementActions] - Typed text '1' into element: By.id: loginpassword
+[INFO] - [25-01-2026 18:42:06] [main] [com.demoblaze.actions.ElementActions] - Found, scrolled, and hovered over element: By.cssSelector: button[onclick='logIn()']
+[INFO] - [25-01-2026 18:42:06] [main] [com.demoblaze.actions.ElementActions] - initialLocation: (917, 372)
+[INFO] - [25-01-2026 18:42:06] [main] [com.demoblaze.actions.ElementActions] - finalLocation: (917, 372)
+[INFO] - [25-01-2026 18:42:07] [main] [com.demoblaze.actions.ElementActions] - Clicked on element: By.cssSelector: button[onclick='logIn()']
+[INFO] - [25-01-2026 18:42:07] [main] [com.demoblaze.actions.ElementActions] - Found, scrolled, and hovered over element: By.xpath: //a[contains(@href,'idp_=3')]
+[INFO] - [25-01-2026 18:42:07] [main] [com.demoblaze.actions.ElementActions] - initialLocation: (1046, 442)
+[INFO] - [25-01-2026 18:42:07] [main] [com.demoblaze.actions.ElementActions] - finalLocation: (1046, 442)
+[INFO] - [25-01-2026 18:42:09] [main] [com.demoblaze.actions.ElementActions] - Found, scrolled, and hovered over element: By.xpath: //a[contains(@href,'idp_=3')]
+[INFO] - [25-01-2026 18:42:09] [main] [com.demoblaze.actions.ElementActions] - initialLocation: (1046, 442)
+[INFO] - [25-01-2026 18:42:09] [main] [com.demoblaze.actions.ElementActions] - finalLocation: (1046, 442)
+[INFO] - [25-01-2026 18:42:09] [main] [com.demoblaze.actions.ElementActions] - Clicked on element: By.xpath: //a[contains(@href,'idp_=3')]
+[INFO] - [25-01-2026 18:42:10] [main] [com.demoblaze.actions.ElementActions] - Found, scrolled, and hovered over element: By.xpath: //a[text()='Add to cart']
+[INFO] - [25-01-2026 18:42:10] [main] [com.demoblaze.actions.ElementActions] - initialLocation: (636, 393)
+[INFO] - [25-01-2026 18:42:10] [main] [com.demoblaze.actions.ElementActions] - finalLocation: (636, 393)
+[INFO] - [25-01-2026 18:42:10] [main] [com.demoblaze.actions.ElementActions] - Clicked on element: By.xpath: //a[text()='Add to cart']
+[ERROR] - [25-01-2026 18:42:10] [main] [com.demoblaze.actions.AlertActions] - Failed to get alert text: no such alert
+  (Session info: chrome=144.0.7559.97)
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a44f92746984898575f51f1e6cb2ce2c, getAlertText {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 144.0.7559.97, chrome: {chromedriverVersion: 144.0.7559.96 (d7b80622cfab..., userDataDir: C:\Users\midoh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51277}, goog:processID: 8824, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51277/devtoo..., se:cdpVersion: 144.0.7559.97, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a44f92746984898575f51f1e6cb2ce2c
+[ERROR] - [25-01-2026 18:42:10] [main] [com.demoblaze.actions.AlertActions] - Failed to get alert text: no such alert
+  (Session info: chrome=144.0.7559.97)
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a44f92746984898575f51f1e6cb2ce2c, getAlertText {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 144.0.7559.97, chrome: {chromedriverVersion: 144.0.7559.96 (d7b80622cfab..., userDataDir: C:\Users\midoh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51277}, goog:processID: 8824, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51277/devtoo..., se:cdpVersion: 144.0.7559.97, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a44f92746984898575f51f1e6cb2ce2c
+[ERROR] - [25-01-2026 18:42:10] [main] [com.demoblaze.actions.AlertActions] - Failed to get alert text: no such alert
+  (Session info: chrome=144.0.7559.97)
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a44f92746984898575f51f1e6cb2ce2c, getAlertText {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 144.0.7559.97, chrome: {chromedriverVersion: 144.0.7559.96 (d7b80622cfab..., userDataDir: C:\Users\midoh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51277}, goog:processID: 8824, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51277/devtoo..., se:cdpVersion: 144.0.7559.97, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a44f92746984898575f51f1e6cb2ce2c
+[ERROR] - [25-01-2026 18:42:10] [main] [com.demoblaze.actions.AlertActions] - Failed to get alert text: no such alert
+  (Session info: chrome=144.0.7559.97)
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a44f92746984898575f51f1e6cb2ce2c, getAlertText {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 144.0.7559.97, chrome: {chromedriverVersion: 144.0.7559.96 (d7b80622cfab..., userDataDir: C:\Users\midoh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51277}, goog:processID: 8824, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51277/devtoo..., se:cdpVersion: 144.0.7559.97, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a44f92746984898575f51f1e6cb2ce2c
+[INFO] - [25-01-2026 18:42:11] [main] [com.demoblaze.actions.ElementActions] - Found, scrolled, and hovered over element: By.id: cartur
+[INFO] - [25-01-2026 18:42:11] [main] [com.demoblaze.actions.ElementActions] - initialLocation: (658, 8)
+[INFO] - [25-01-2026 18:42:11] [main] [com.demoblaze.actions.ElementActions] - finalLocation: (658, 8)
+[INFO] - [25-01-2026 18:42:12] [main] [com.demoblaze.actions.ElementActions] - Clicked on element: By.id: cartur
+[INFO] - [25-01-2026 18:42:12] [main] [com.demoblaze.actions.ElementActions] - Found, scrolled, and hovered over element: By.xpath: //button[text()='Place Order']
+[INFO] - [25-01-2026 18:42:12] [main] [com.demoblaze.actions.ElementActions] - initialLocation: (1018, 133)
+[INFO] - [25-01-2026 18:42:12] [main] [com.demoblaze.actions.ElementActions] - finalLocation: (1018, 133)
+[INFO] - [25-01-2026 18:42:12] [main] [com.demoblaze.actions.ElementActions] - Clicked on element: By.xpath: //button[text()='Place Order']
+[INFO] - [25-01-2026 18:42:12] [main] [com.demoblaze.actions.ElementActions] - Found, scrolled, and hovered over element: By.id: totalp
+[INFO] - [25-01-2026 18:42:13] [main] [com.demoblaze.actions.ElementActions] - Found, scrolled, and hovered over element: By.id: name
+[INFO] - [25-01-2026 18:42:13] [main] [com.demoblaze.actions.ElementActions] - Typed text 'John Doe' into element: By.id: name
+[INFO] - [25-01-2026 18:42:13] [main] [com.demoblaze.actions.ElementActions] - Found, scrolled, and hovered over element: By.id: country
+[INFO] - [25-01-2026 18:42:13] [main] [com.demoblaze.actions.ElementActions] - Typed text 'USA' into element: By.id: country
+[INFO] - [25-01-2026 18:42:13] [main] [com.demoblaze.actions.ElementActions] - Found, scrolled, and hovered over element: By.id: city
+[INFO] - [25-01-2026 18:42:14] [main] [com.demoblaze.actions.ElementActions] - Typed text 'New York' into element: By.id: city
+[INFO] - [25-01-2026 18:42:14] [main] [com.demoblaze.actions.ElementActions] - Found, scrolled, and hovered over element: By.id: card
+[INFO] - [25-01-2026 18:42:14] [main] [com.demoblaze.actions.ElementActions] - Typed text '1234567890123456' into element: By.id: card
+[INFO] - [25-01-2026 18:42:14] [main] [com.demoblaze.actions.ElementActions] - Found, scrolled, and hovered over element: By.id: month
+[INFO] - [25-01-2026 18:42:15] [main] [com.demoblaze.actions.ElementActions] - Typed text '12' into element: By.id: month
+[INFO] - [25-01-2026 18:42:15] [main] [com.demoblaze.actions.ElementActions] - Found, scrolled, and hovered over element: By.id: year
+[INFO] - [25-01-2026 18:42:15] [main] [com.demoblaze.actions.ElementActions] - Typed text '2025' into element: By.id: year
+[INFO] - [25-01-2026 18:42:15] [main] [com.demoblaze.actions.ElementActions] - Found, scrolled, and hovered over element: By.xpath: //button[text()='Purchase']
+[INFO] - [25-01-2026 18:42:15] [main] [com.demoblaze.actions.ElementActions] - initialLocation: (885, 594)
+[INFO] - [25-01-2026 18:42:15] [main] [com.demoblaze.actions.ElementActions] - finalLocation: (885, 594)
+[INFO] - [25-01-2026 18:42:15] [main] [com.demoblaze.actions.ElementActions] - Clicked on element: By.xpath: //button[text()='Purchase']
+[INFO] - [25-01-2026 18:42:16] [main] [com.demoblaze.actions.ElementActions] - Found, scrolled, and hovered over element: By.xpath: //h2[text()='Thank you for your purchase!']
+[INFO] - [25-01-2026 18:42:16] [main] [com.demoblaze.listeners.TestNGListeners] - Test Case checkoutE2E passed
+[INFO] - [25-01-2026 18:42:16] [main] [com.demoblaze.tests.BaseTest] - Driver quit successfully
+[INFO] - [25-01-2026 18:42:16] [main] [com.demoblaze.listeners.TestNGListeners] - Test Execution Finished
+[DEBUG] - [25-01-2026 18:52:50] [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\midoh\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml"
+[INFO] - [25-01-2026 18:52:50] [main] [com.demoblaze.listeners.TestNGListeners] - Test Execution started
+[INFO] - [25-01-2026 18:52:50] [main] [com.demoblaze.listeners.TestNGListeners] - Directories cleaned
+[INFO] - [25-01-2026 18:52:50] [main] [com.demoblaze.listeners.TestNGListeners] - Directories created
+[INFO] - [25-01-2026 18:52:50] [main] [com.demoblaze.listeners.TestNGListeners] - Properties loaded
+[INFO] - [25-01-2026 18:52:50] [main] [com.demoblaze.listeners.TestNGListeners] - Allure environment set
+[INFO] - [25-01-2026 18:52:50] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\midoh\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+[DEBUG] - [25-01-2026 18:52:51] [main] [org.apache.poi.openxml4j.opc.PackageRelationshipCollection] - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] - [25-01-2026 18:52:51] [main] [org.apache.poi.openxml4j.opc.PackageRelationshipCollection] - Parsing relationship: /_rels/.rels
+[INFO] - [25-01-2026 18:53:00] [main] [com.demoblaze.tests.BaseTest] - Navigated to base URL
+[DEBUG] - [25-01-2026 18:53:00] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['name']
+[DEBUG] - [25-01-2026 18:53:00] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['password']
+[INFO] - [25-01-2026 18:53:00] [main] [com.demoblaze.actions.ElementActions] - Found, scrolled, and hovered over element: By.id: login2
+[INFO] - [25-01-2026 18:53:00] [main] [com.demoblaze.actions.ElementActions] - initialLocation: (1077, 17)
+[INFO] - [25-01-2026 18:53:00] [main] [com.demoblaze.actions.ElementActions] - finalLocation: (1077, 17)
+[INFO] - [25-01-2026 18:53:00] [main] [com.demoblaze.actions.ElementActions] - Clicked on element: By.id: login2
+[INFO] - [25-01-2026 18:53:01] [main] [com.demoblaze.actions.ElementActions] - Found, scrolled, and hovered over element: By.id: loginusername
+[INFO] - [25-01-2026 18:53:01] [main] [com.demoblaze.actions.ElementActions] - Typed text 'm2022001' into element: By.id: loginusername
+[INFO] - [25-01-2026 18:53:01] [main] [com.demoblaze.actions.ElementActions] - Found, scrolled, and hovered over element: By.id: loginpassword
+[INFO] - [25-01-2026 18:53:01] [main] [com.demoblaze.actions.ElementActions] - Typed text '1' into element: By.id: loginpassword
+[INFO] - [25-01-2026 18:53:02] [main] [com.demoblaze.actions.ElementActions] - Found, scrolled, and hovered over element: By.cssSelector: button[onclick='logIn()']
+[INFO] - [25-01-2026 18:53:02] [main] [com.demoblaze.actions.ElementActions] - initialLocation: (917, 372)
+[INFO] - [25-01-2026 18:53:02] [main] [com.demoblaze.actions.ElementActions] - finalLocation: (917, 372)
+[INFO] - [25-01-2026 18:53:02] [main] [com.demoblaze.actions.ElementActions] - Clicked on element: By.cssSelector: button[onclick='logIn()']
+[INFO] - [25-01-2026 18:53:02] [main] [com.demoblaze.actions.ElementActions] - Found, scrolled, and hovered over element: By.xpath: //a[contains(@href,'idp_=3')]
+[INFO] - [25-01-2026 18:53:02] [main] [com.demoblaze.actions.ElementActions] - initialLocation: (1046, 442)
+[INFO] - [25-01-2026 18:53:02] [main] [com.demoblaze.actions.ElementActions] - finalLocation: (1046, 442)
+[INFO] - [25-01-2026 18:53:04] [main] [com.demoblaze.actions.ElementActions] - Found, scrolled, and hovered over element: By.xpath: //a[contains(@href,'idp_=3')]
+[INFO] - [25-01-2026 18:53:04] [main] [com.demoblaze.actions.ElementActions] - initialLocation: (1046, 442)
+[INFO] - [25-01-2026 18:53:04] [main] [com.demoblaze.actions.ElementActions] - finalLocation: (1046, 442)
+[INFO] - [25-01-2026 18:53:04] [main] [com.demoblaze.actions.ElementActions] - Clicked on element: By.xpath: //a[contains(@href,'idp_=3')]
+[INFO] - [25-01-2026 18:53:05] [main] [com.demoblaze.actions.ElementActions] - Found, scrolled, and hovered over element: By.xpath: //a[text()='Add to cart']
+[INFO] - [25-01-2026 18:53:05] [main] [com.demoblaze.actions.ElementActions] - initialLocation: (636, 393)
+[INFO] - [25-01-2026 18:53:05] [main] [com.demoblaze.actions.ElementActions] - finalLocation: (636, 393)
+[INFO] - [25-01-2026 18:53:05] [main] [com.demoblaze.actions.ElementActions] - Clicked on element: By.xpath: //a[text()='Add to cart']
+[ERROR] - [25-01-2026 18:53:05] [main] [com.demoblaze.actions.AlertActions] - Failed to get alert text: no such alert
+  (Session info: chrome=144.0.7559.97)
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [46e0d3b4c91e28d1af290357489c10e2, getAlertText {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 144.0.7559.97, chrome: {chromedriverVersion: 144.0.7559.96 (d7b80622cfab..., userDataDir: C:\Users\midoh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65497}, goog:processID: 24808, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65497/devtoo..., se:cdpVersion: 144.0.7559.97, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 46e0d3b4c91e28d1af290357489c10e2
+[ERROR] - [25-01-2026 18:53:05] [main] [com.demoblaze.actions.AlertActions] - Failed to get alert text: no such alert
+  (Session info: chrome=144.0.7559.97)
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [46e0d3b4c91e28d1af290357489c10e2, getAlertText {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 144.0.7559.97, chrome: {chromedriverVersion: 144.0.7559.96 (d7b80622cfab..., userDataDir: C:\Users\midoh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65497}, goog:processID: 24808, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65497/devtoo..., se:cdpVersion: 144.0.7559.97, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 46e0d3b4c91e28d1af290357489c10e2
+[ERROR] - [25-01-2026 18:53:05] [main] [com.demoblaze.actions.AlertActions] - Failed to get alert text: no such alert
+  (Session info: chrome=144.0.7559.97)
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [46e0d3b4c91e28d1af290357489c10e2, getAlertText {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 144.0.7559.97, chrome: {chromedriverVersion: 144.0.7559.96 (d7b80622cfab..., userDataDir: C:\Users\midoh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65497}, goog:processID: 24808, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65497/devtoo..., se:cdpVersion: 144.0.7559.97, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 46e0d3b4c91e28d1af290357489c10e2
+[ERROR] - [25-01-2026 18:53:05] [main] [com.demoblaze.actions.AlertActions] - Failed to get alert text: no such alert
+  (Session info: chrome=144.0.7559.97)
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [46e0d3b4c91e28d1af290357489c10e2, getAlertText {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 144.0.7559.97, chrome: {chromedriverVersion: 144.0.7559.96 (d7b80622cfab..., userDataDir: C:\Users\midoh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65497}, goog:processID: 24808, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65497/devtoo..., se:cdpVersion: 144.0.7559.97, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 46e0d3b4c91e28d1af290357489c10e2
+[INFO] - [25-01-2026 18:53:06] [main] [com.demoblaze.actions.ElementActions] - Found, scrolled, and hovered over element: By.id: cartur
+[INFO] - [25-01-2026 18:53:06] [main] [com.demoblaze.actions.ElementActions] - initialLocation: (658, 8)
+[INFO] - [25-01-2026 18:53:06] [main] [com.demoblaze.actions.ElementActions] - finalLocation: (658, 8)
+[INFO] - [25-01-2026 18:53:07] [main] [com.demoblaze.actions.ElementActions] - Clicked on element: By.id: cartur
+[INFO] - [25-01-2026 18:53:07] [main] [com.demoblaze.actions.ElementActions] - Found, scrolled, and hovered over element: By.xpath: //button[text()='Place Order']
+[INFO] - [25-01-2026 18:53:07] [main] [com.demoblaze.actions.ElementActions] - initialLocation: (1018, 133)
+[INFO] - [25-01-2026 18:53:07] [main] [com.demoblaze.actions.ElementActions] - finalLocation: (1018, 133)
+[INFO] - [25-01-2026 18:53:07] [main] [com.demoblaze.actions.ElementActions] - Clicked on element: By.xpath: //button[text()='Place Order']
+[INFO] - [25-01-2026 18:53:07] [main] [com.demoblaze.actions.ElementActions] - Found, scrolled, and hovered over element: By.id: totalp
+[INFO] - [25-01-2026 18:53:07] [main] [com.demoblaze.listeners.TestNGListeners] - Test Case checkoutE2E failed
+[INFO] - [25-01-2026 18:53:08] [main] [com.demoblaze.tests.BaseTest] - Driver quit successfully
+[INFO] - [25-01-2026 18:53:08] [main] [com.demoblaze.listeners.TestNGListeners] - Test Execution Finished
+[DEBUG] - [25-01-2026 18:54:00] [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\midoh\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml"
+[INFO] - [25-01-2026 18:54:00] [main] [com.demoblaze.listeners.TestNGListeners] - Test Execution started
+[INFO] - [25-01-2026 18:54:00] [main] [com.demoblaze.listeners.TestNGListeners] - Directories cleaned
+[INFO] - [25-01-2026 18:54:00] [main] [com.demoblaze.listeners.TestNGListeners] - Directories created
+[INFO] - [25-01-2026 18:54:00] [main] [com.demoblaze.listeners.TestNGListeners] - Properties loaded
+[INFO] - [25-01-2026 18:54:00] [main] [com.demoblaze.listeners.TestNGListeners] - Allure environment set
+[INFO] - [25-01-2026 18:54:00] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\midoh\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+[DEBUG] - [25-01-2026 18:54:01] [main] [org.apache.poi.openxml4j.opc.PackageRelationshipCollection] - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] - [25-01-2026 18:54:01] [main] [org.apache.poi.openxml4j.opc.PackageRelationshipCollection] - Parsing relationship: /_rels/.rels
+[INFO] - [25-01-2026 18:54:05] [main] [com.demoblaze.tests.BaseTest] - Navigated to base URL
+[DEBUG] - [25-01-2026 18:54:06] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['name']
+[DEBUG] - [25-01-2026 18:54:06] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['password']
+[INFO] - [25-01-2026 18:54:06] [main] [com.demoblaze.actions.ElementActions] - Found, scrolled, and hovered over element: By.id: login2
+[INFO] - [25-01-2026 18:54:06] [main] [com.demoblaze.actions.ElementActions] - initialLocation: (1077, 17)
+[INFO] - [25-01-2026 18:54:06] [main] [com.demoblaze.actions.ElementActions] - finalLocation: (1077, 17)
+[INFO] - [25-01-2026 18:54:06] [main] [com.demoblaze.actions.ElementActions] - Clicked on element: By.id: login2
+[INFO] - [25-01-2026 18:54:07] [main] [com.demoblaze.actions.ElementActions] - Found, scrolled, and hovered over element: By.id: loginusername
+[INFO] - [25-01-2026 18:54:07] [main] [com.demoblaze.actions.ElementActions] - Typed text 'm2022001' into element: By.id: loginusername
+[INFO] - [25-01-2026 18:54:07] [main] [com.demoblaze.actions.ElementActions] - Found, scrolled, and hovered over element: By.id: loginpassword
+[INFO] - [25-01-2026 18:54:08] [main] [com.demoblaze.actions.ElementActions] - Typed text '1' into element: By.id: loginpassword
+[INFO] - [25-01-2026 18:54:08] [main] [com.demoblaze.actions.ElementActions] - Found, scrolled, and hovered over element: By.cssSelector: button[onclick='logIn()']
+[INFO] - [25-01-2026 18:54:08] [main] [com.demoblaze.actions.ElementActions] - initialLocation: (917, 372)
+[INFO] - [25-01-2026 18:54:08] [main] [com.demoblaze.actions.ElementActions] - finalLocation: (917, 372)
+[INFO] - [25-01-2026 18:54:08] [main] [com.demoblaze.actions.ElementActions] - Clicked on element: By.cssSelector: button[onclick='logIn()']
+[INFO] - [25-01-2026 18:54:08] [main] [com.demoblaze.actions.ElementActions] - Found, scrolled, and hovered over element: By.xpath: //a[contains(@href,'idp_=3')]
+[INFO] - [25-01-2026 18:54:08] [main] [com.demoblaze.actions.ElementActions] - initialLocation: (1046, 442)
+[INFO] - [25-01-2026 18:54:08] [main] [com.demoblaze.actions.ElementActions] - finalLocation: (1046, 442)
+[INFO] - [25-01-2026 18:54:10] [main] [com.demoblaze.actions.ElementActions] - Found, scrolled, and hovered over element: By.xpath: //a[contains(@href,'idp_=3')]
+[INFO] - [25-01-2026 18:54:10] [main] [com.demoblaze.actions.ElementActions] - initialLocation: (1046, 442)
+[INFO] - [25-01-2026 18:54:10] [main] [com.demoblaze.actions.ElementActions] - finalLocation: (1046, 442)
+[INFO] - [25-01-2026 18:54:10] [main] [com.demoblaze.actions.ElementActions] - Clicked on element: By.xpath: //a[contains(@href,'idp_=3')]
+[INFO] - [25-01-2026 18:54:11] [main] [com.demoblaze.actions.ElementActions] - Found, scrolled, and hovered over element: By.xpath: //a[text()='Add to cart']
+[INFO] - [25-01-2026 18:54:11] [main] [com.demoblaze.actions.ElementActions] - initialLocation: (636, 393)
+[INFO] - [25-01-2026 18:54:11] [main] [com.demoblaze.actions.ElementActions] - finalLocation: (636, 393)
+[INFO] - [25-01-2026 18:54:11] [main] [com.demoblaze.actions.ElementActions] - Clicked on element: By.xpath: //a[text()='Add to cart']
+[ERROR] - [25-01-2026 18:54:11] [main] [com.demoblaze.actions.AlertActions] - Failed to get alert text: no such alert
+  (Session info: chrome=144.0.7559.97)
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9dddc934a1e908166362f9fde408d9a6, getAlertText {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 144.0.7559.97, chrome: {chromedriverVersion: 144.0.7559.96 (d7b80622cfab..., userDataDir: C:\Users\midoh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55367}, goog:processID: 14088, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55367/devtoo..., se:cdpVersion: 144.0.7559.97, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9dddc934a1e908166362f9fde408d9a6
+[ERROR] - [25-01-2026 18:54:11] [main] [com.demoblaze.actions.AlertActions] - Failed to get alert text: no such alert
+  (Session info: chrome=144.0.7559.97)
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9dddc934a1e908166362f9fde408d9a6, getAlertText {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 144.0.7559.97, chrome: {chromedriverVersion: 144.0.7559.96 (d7b80622cfab..., userDataDir: C:\Users\midoh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55367}, goog:processID: 14088, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55367/devtoo..., se:cdpVersion: 144.0.7559.97, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9dddc934a1e908166362f9fde408d9a6
+[ERROR] - [25-01-2026 18:54:11] [main] [com.demoblaze.actions.AlertActions] - Failed to get alert text: no such alert
+  (Session info: chrome=144.0.7559.97)
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9dddc934a1e908166362f9fde408d9a6, getAlertText {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 144.0.7559.97, chrome: {chromedriverVersion: 144.0.7559.96 (d7b80622cfab..., userDataDir: C:\Users\midoh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55367}, goog:processID: 14088, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55367/devtoo..., se:cdpVersion: 144.0.7559.97, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9dddc934a1e908166362f9fde408d9a6
+[INFO] - [25-01-2026 18:54:12] [main] [com.demoblaze.actions.ElementActions] - Found, scrolled, and hovered over element: By.id: cartur
+[INFO] - [25-01-2026 18:54:12] [main] [com.demoblaze.actions.ElementActions] - initialLocation: (658, 8)
+[INFO] - [25-01-2026 18:54:12] [main] [com.demoblaze.actions.ElementActions] - finalLocation: (658, 8)
+[INFO] - [25-01-2026 18:54:13] [main] [com.demoblaze.actions.ElementActions] - Clicked on element: By.id: cartur
+[INFO] - [25-01-2026 18:54:13] [main] [com.demoblaze.actions.ElementActions] - Found, scrolled, and hovered over element: By.xpath: //button[text()='Place Order']
+[INFO] - [25-01-2026 18:54:13] [main] [com.demoblaze.actions.ElementActions] - initialLocation: (1018, 133)
+[INFO] - [25-01-2026 18:54:13] [main] [com.demoblaze.actions.ElementActions] - finalLocation: (1018, 133)
+[INFO] - [25-01-2026 18:54:13] [main] [com.demoblaze.actions.ElementActions] - Clicked on element: By.xpath: //button[text()='Place Order']
+[INFO] - [25-01-2026 18:54:13] [main] [com.demoblaze.actions.ElementActions] - Found, scrolled, and hovered over element: By.id: totalp
+[INFO] - [25-01-2026 18:54:14] [main] [com.demoblaze.actions.ElementActions] - Found, scrolled, and hovered over element: By.id: name
+[INFO] - [25-01-2026 18:54:14] [main] [com.demoblaze.actions.ElementActions] - Typed text 'John Doe' into element: By.id: name
+[INFO] - [25-01-2026 18:54:14] [main] [com.demoblaze.actions.ElementActions] - Found, scrolled, and hovered over element: By.id: country
+[INFO] - [25-01-2026 18:54:14] [main] [com.demoblaze.actions.ElementActions] - Typed text 'USA' into element: By.id: country
+[INFO] - [25-01-2026 18:54:15] [main] [com.demoblaze.actions.ElementActions] - Found, scrolled, and hovered over element: By.id: city
+[INFO] - [25-01-2026 18:54:15] [main] [com.demoblaze.actions.ElementActions] - Typed text 'New York' into element: By.id: city
+[INFO] - [25-01-2026 18:54:15] [main] [com.demoblaze.actions.ElementActions] - Found, scrolled, and hovered over element: By.id: card
+[INFO] - [25-01-2026 18:54:15] [main] [com.demoblaze.actions.ElementActions] - Typed text '1234567890123456' into element: By.id: card
+[INFO] - [25-01-2026 18:54:15] [main] [com.demoblaze.actions.ElementActions] - Found, scrolled, and hovered over element: By.id: month
+[INFO] - [25-01-2026 18:54:16] [main] [com.demoblaze.actions.ElementActions] - Typed text '12' into element: By.id: month
+[INFO] - [25-01-2026 18:54:16] [main] [com.demoblaze.actions.ElementActions] - Found, scrolled, and hovered over element: By.id: year
+[INFO] - [25-01-2026 18:54:16] [main] [com.demoblaze.actions.ElementActions] - Typed text '2025' into element: By.id: year
+[INFO] - [25-01-2026 18:54:16] [main] [com.demoblaze.actions.ElementActions] - Found, scrolled, and hovered over element: By.xpath: //button[text()='Purchase']
+[INFO] - [25-01-2026 18:54:16] [main] [com.demoblaze.actions.ElementActions] - initialLocation: (885, 594)
+[INFO] - [25-01-2026 18:54:16] [main] [com.demoblaze.actions.ElementActions] - finalLocation: (885, 594)
+[INFO] - [25-01-2026 18:54:17] [main] [com.demoblaze.actions.ElementActions] - Clicked on element: By.xpath: //button[text()='Purchase']
+[INFO] - [25-01-2026 18:54:17] [main] [com.demoblaze.actions.ElementActions] - Found, scrolled, and hovered over element: By.xpath: //h2[text()='Thank you for your purchase!']
+[INFO] - [25-01-2026 18:54:17] [main] [com.demoblaze.listeners.TestNGListeners] - Test Case checkoutE2E passed
+[INFO] - [25-01-2026 18:54:17] [main] [com.demoblaze.tests.BaseTest] - Driver quit successfully
+[INFO] - [25-01-2026 18:54:17] [main] [com.demoblaze.listeners.TestNGListeners] - Test Execution Finished

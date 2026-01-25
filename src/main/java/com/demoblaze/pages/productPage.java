@@ -27,9 +27,10 @@ public class productPage extends BasePage {
         return this;
     }
 
-    public void validateAddToCart() {
+    public productPage validateAddToCart() {
         AlertActions alert = new AlertActions(driver);
         Assert.assertEquals(alert.getAlertText(), "Product added.");
+        return this;
     }
 
 }
