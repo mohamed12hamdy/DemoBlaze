@@ -12,7 +12,7 @@ public class TestNGListeners implements ISuiteListener, IExecutionListener, IInv
         LogsManager.info("Directories cleaned");
 //        createTestOutputDirectories();
         LogsManager.info("Directories created");
-        PropertyReader.loadProperties();
+         PropertyReader.loadProperties();
         LogsManager.info("Properties loaded");
 //        AllureEnvironmentManager.setEnvironmentVariables();
         LogsManager.info("Allure environment set");
