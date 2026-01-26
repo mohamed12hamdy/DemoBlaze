@@ -10,14 +10,14 @@ import org.testng.annotations.Test;
 
 public class ContactUsPageTest extends BaseTest {
 
-    @BeforeClass
+    @BeforeClass(alwaysRun = true)
     public void setUpClassContactUs() {
         email = PropertyReader.getProperty("email");
         name = PropertyReader.getProperty("name");
         message = PropertyReader.getProperty("message");
     }
 
-    @Test(groups = {"Regression"})
+    @Test(groups ="Regression")
     public void contactUsTest() {
        String msg = new ContactUsPage(DriverManager.getDriver())
                .openContactForm()
@@ -27,8 +27,8 @@ public class ContactUsPageTest extends BaseTest {
        assert msg.equals("Thanks for the message!!");
     }
 
-    //this is negative test case and it will fail because email is mandatory field
-    @Test(groups = {"Regression", "Negative"})
+
+    @Test(groups = "Regression")
     public void contactUsWithoutEmailTest() {
 
         String msg = new ContactUsPage(DriverManager.getDriver())
@@ -40,7 +40,7 @@ public class ContactUsPageTest extends BaseTest {
     }
 
     //this is negative test case and it will fail because email is mandatory field
-    @Test(groups = {"Regression", "Negative"})
+    @Test(groups = "Regression")
     public void contactUsWithoutNameTest() {
         String msg = new ContactUsPage(DriverManager.getDriver())
                 .openContactForm()
@@ -51,7 +51,7 @@ public class ContactUsPageTest extends BaseTest {
     }
 
     //this is negative test case and it will fail because email is mandatory field
-    @Test(groups = {"Regression", "Negative"})
+    @Test(groups = "Regression")
     public void contactUsWithoutMessageTest() {
 
         String msg = new ContactUsPage(DriverManager.getDriver())
@@ -62,7 +62,7 @@ public class ContactUsPageTest extends BaseTest {
         assert msg.equals("Please fill out Message");
     }
 
-    @Test(groups = {"Regression", "Negative"})
+    @Test(groups = "Regression")
     public void contactUsAllFieldsEmptyTest() {
 
         String msg = new ContactUsPage(DriverManager.getDriver())
@@ -73,7 +73,7 @@ public class ContactUsPageTest extends BaseTest {
         assert msg.equals("Please fill out required fields");
     }
 
-    @Test(groups = {"Regression", "Negative"})
+    @Test(groups = "Regression")
     public void contactUsInvalidEmailTest() {
 
         String msg = new ContactUsPage(DriverManager.getDriver())

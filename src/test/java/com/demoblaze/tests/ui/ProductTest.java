@@ -13,13 +13,7 @@ import org.testng.annotations.Test;
 
 public class ProductTest extends BaseTest {
 
-    private JsonReader validlogindata;
-
-    private String productId;
-
-    private String[]orderData;
-
-    @BeforeClass
+    @BeforeClass(alwaysRun = true)
     public void setUpClassProduct() {
         validlogindata = new JsonReader("validLogin-data");
         productId = ExcelDataHelper.getProductId(2);
@@ -44,12 +38,12 @@ public class ProductTest extends BaseTest {
                .addToCart().validateAddToCart();
     }
 
-    @Test(groups = {"Smoke", "Regression"})
+    @Test(groups = "Regression")
     public void addItemToCartTest() {
         loginAndAddItemToCart();
     }
 
-    @Test(groups = {"Smoke", "Regression"})
+    @Test(groups = "Regression")
     // End-to-End Checkout Test with logged-in user
     public void checkoutE2ETest() {
         loginAndAddItemToCart();
@@ -63,7 +57,7 @@ public class ProductTest extends BaseTest {
                 .verifyThankYouMessage();
     }
 
-    @Test(groups = {"Regression"})
+    @Test(groups = "Regression")
     public void CheckoutGuestUserTest() {
         AddItemToCart();
         new CheckoutPage(DriverManager.getDriver())

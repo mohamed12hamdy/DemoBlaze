@@ -12,14 +12,12 @@ import org.testng.annotations.Test;
 
 public class LogoutTest extends BaseTest {
 
-    private JsonReader validlogindata;
-
-    @BeforeClass
+    @BeforeClass(alwaysRun = true)
     public void setUpClassLogout() {
         validlogindata = new JsonReader("validLogin-data");
     }
 
-    @Test(groups = {"Regression"})
+    @Test(groups = "Regression")
     public void logoutTest() {
        new LoginPage(DriverManager.getDriver()).login(validlogindata.getJsonData("name"),
                validlogindata.getJsonData("password"));

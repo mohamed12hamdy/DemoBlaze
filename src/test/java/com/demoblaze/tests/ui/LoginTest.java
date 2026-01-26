@@ -11,17 +11,9 @@ import org.testng.annotations.Test;
 
 public class LoginTest extends BaseTest {
 
-    private JsonReader validlogindata;
-
-    private JsonReader invalidloginNameData;
-
-    private JsonReader invalidLoginPasswordData;
-
-    private JsonReader invalidLoginBothData;
-
     private WaitManager waitManager;
 
-    @BeforeClass
+    @BeforeClass(alwaysRun = true)
     public void setUpClassLogin() {
         validlogindata = new JsonReader("validLogin-data");
         invalidloginNameData = new JsonReader("InvalidLoginName-data");
@@ -29,7 +21,7 @@ public class LoginTest extends BaseTest {
         invalidLoginBothData = new JsonReader("InvalidLoginBoth-data");
     }
 
-    @Test(groups = {"Smoke", "Regression"})
+    @Test(groups = "Regression")
     public void validLoginTest() {
 
         String username = validlogindata.getJsonData("name");
@@ -41,7 +33,7 @@ public class LoginTest extends BaseTest {
         Assert.assertTrue(ActualName.contains(username), "Logged in username does not match.");
     }
 
-    @Test(groups = {"Regression"})
+    @Test(groups = "Regression")
     public void invalidLoginNameTest() {
 
         String username = invalidloginNameData.getJsonData("name");
@@ -55,7 +47,7 @@ public class LoginTest extends BaseTest {
         Assert.assertEquals("User does not exist.", alertMessage);
     }
 
-    @Test(groups = {"Regression"})
+    @Test(groups = "Regression")
     public void invalidLoginPasswordTest() {
 
         String username = invalidLoginPasswordData.getJsonData("name");
@@ -69,7 +61,7 @@ public class LoginTest extends BaseTest {
         Assert.assertEquals("Wrong password.", alertMessage);
     }
 
-    @Test(groups = {"Regression"})
+    @Test(groups = "Regression")
     public void invalidLoginBothTest() {
 
         String username = invalidLoginBothData.getJsonData("name");

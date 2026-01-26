@@ -1,4 +1,7 @@
 package com.demoblaze.tests;
+import com.demoblaze.datareader.CSVReaderHelper;
+import com.demoblaze.datareader.ExcelDataHelper;
+import com.demoblaze.datareader.JsonReader;
 import com.demoblaze.datareader.PropertyReader;
 import com.demoblaze.drivers.DriverFactory;
 import com.demoblaze.drivers.DriverManager;
@@ -17,19 +20,28 @@ public class BaseTest {
 
     protected String message;
 
+    protected  JsonReader validlogindata;
+
+    protected JsonReader invalidloginNameData;
+
+    protected JsonReader invalidLoginPasswordData;
+
+    protected JsonReader invalidLoginBothData;
+
+    protected String productId;
+
+    protected String[]orderData;
+
+
+    protected JsonReader validregisterdata;
+
+    protected JsonReader Invalidregisterdata;
+
     @BeforeSuite(alwaysRun = true)
     public void setUpSuite() {
         browser = PropertyReader.getProperty("browser");
         baseUrl = PropertyReader.getProperty("baseUrl");
         LogsManager.info("Properties loaded: browser=" + browser + ", baseUrl=" + baseUrl);
-    }
-
-    @BeforeGroups("Negative")
-    public void beforeNegativeTests() {
-        LogsManager.info("Starting Negative Test Group");
-        email = PropertyReader.getProperty("email");
-        name = PropertyReader.getProperty("name");
-        message = PropertyReader.getProperty("message");
     }
 
     @BeforeMethod(alwaysRun = true)
