@@ -17,7 +17,7 @@ public class RegisterTest extends BaseTest {
         Invalidregisterdata = new JsonReader("Invalidregister-data");
     }
 
-    @Test(groups = "Regression")
+    @Test(groups = {"Regression","Smoke"})
     public void validRegisterTest() {
 
        String alertText = new RegisterPage(DriverManager.getDriver()).signup(
@@ -28,7 +28,7 @@ public class RegisterTest extends BaseTest {
         Assert.assertEquals(alertText, "Sign up successful.");
     }
 
-    @Test(groups = "Regression")
+    @Test(groups = {"Regression","Smoke"})
     public void invalidRegisterTest() {
 
         String alertText = new RegisterPage(DriverManager.getDriver()).signup(

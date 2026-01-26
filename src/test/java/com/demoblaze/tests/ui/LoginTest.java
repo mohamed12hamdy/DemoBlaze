@@ -21,7 +21,7 @@ public class LoginTest extends BaseTest {
         invalidLoginBothData = new JsonReader("InvalidLoginBoth-data");
     }
 
-    @Test(groups = "Regression")
+    @Test(groups = {"Regression","Smoke"})
     public void validLoginTest() {
 
         String username = validlogindata.getJsonData("name");
@@ -33,7 +33,7 @@ public class LoginTest extends BaseTest {
         Assert.assertTrue(ActualName.contains(username), "Logged in username does not match.");
     }
 
-    @Test(groups = "Regression")
+    @Test(groups = {"Regression","Smoke"})
     public void invalidLoginNameTest() {
 
         String username = invalidloginNameData.getJsonData("name");
@@ -47,7 +47,7 @@ public class LoginTest extends BaseTest {
         Assert.assertEquals("User does not exist.", alertMessage);
     }
 
-    @Test(groups = "Regression")
+    @Test(groups = {"Regression","Smoke"})
     public void invalidLoginPasswordTest() {
 
         String username = invalidLoginPasswordData.getJsonData("name");
@@ -61,7 +61,7 @@ public class LoginTest extends BaseTest {
         Assert.assertEquals("Wrong password.", alertMessage);
     }
 
-    @Test(groups = "Regression")
+    @Test(groups = {"Regression","Smoke"})
     public void invalidLoginBothTest() {
 
         String username = invalidLoginBothData.getJsonData("name");
