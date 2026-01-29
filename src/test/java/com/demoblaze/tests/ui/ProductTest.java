@@ -8,9 +8,12 @@ import com.demoblaze.pages.CheckoutPage;
 import com.demoblaze.pages.LoginPage;
 import com.demoblaze.pages.productPage;
 import com.demoblaze.tests.BaseTest;
+import io.qameta.allure.*;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
-
+@Epic("E-Commerce")
+@Feature("Product Management & Checkout")
+@Owner("Mohamed Hamdy")
 public class ProductTest extends BaseTest {
 
     @BeforeClass(alwaysRun = true)
@@ -39,12 +42,17 @@ public class ProductTest extends BaseTest {
     }
 
     @Test(groups = "Regression")
+    @Story("Add Product to Cart")
+    @Severity(SeverityLevel.CRITICAL)
+    @Description("Verify that a logged-in user can successfully add a product to the cart.")
     public void addItemToCartTest() {
         loginAndAddItemToCart();
     }
 
     @Test(groups = "Regression")
-    // End-to-End Checkout Test with logged-in user
+    @Story("End-to-End Checkout for Logged-in User")
+    @Severity(SeverityLevel.CRITICAL)
+    @Description("Verify that a logged-in user can complete the full checkout process and see the thank you message.")
     public void checkoutE2ETest() {
         loginAndAddItemToCart();
         new CheckoutPage(DriverManager.getDriver())
@@ -58,6 +66,10 @@ public class ProductTest extends BaseTest {
     }
 
     @Test(groups = "Regression")
+    @Story("Checkout as Guest User")
+    @Severity(SeverityLevel.CRITICAL)
+    @Description("Verify that a guest user can complete the checkout process without logging in and see " +
+            "the thank you message.")
     public void CheckoutGuestUserTest() {
         AddItemToCart();
         new CheckoutPage(DriverManager.getDriver())
