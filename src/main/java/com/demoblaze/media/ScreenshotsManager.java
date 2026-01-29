@@ -1,14 +1,14 @@
 package com.demoblaze.media;
 
+import com.demoblaze.report.AllureAttachmentManager;
 import com.demoblaze.utils.LogsManager;
 import com.demoblaze.utils.TimeManager;
+import io.qameta.allure.Allure;
 import org.apache.commons.io.FileUtils;
-import org.openqa.selenium.By;
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
-import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.*;
 
 import java.io.File;
+import java.nio.file.Files;
 
 public class ScreenshotsManager {
 
@@ -22,16 +22,17 @@ public class ScreenshotsManager {
 
             // Save screenshot to a file if needed
             File screenshotFile = new File(SCREENSHOTS_PATH + screenshotName + "-" + TimeManager.getTimestamp() + ".png");
-
             FileUtils.copyFile(screenshotSrc, screenshotFile);
 
-            //AllureAttachmentManager.attachScreenshot(screenshotName,screenshotFile.getAbsolutePath());
+
+            AllureAttachmentManager.attachScreenshot(screenshotName,screenshotFile.getAbsolutePath());
 
             LogsManager.info("Capturing Screenshot Succeeded");
         } catch (Exception e) {
             LogsManager.error("Failed to Capture Screenshot " + e.getMessage());
         }
     }
+
 
     //take screenshot of a specific element
     public static void takeElementScreenshot(WebDriver driver, By elementSelector) {

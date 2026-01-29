@@ -3,7 +3,7 @@ target/
 !**/src/main/**/target/
 !**/src/test/**/target/
 src/test/resources/test-data/~*.xlsx
-
+src/test/test-output/
 ### IntelliJ IDEA ###
 .idea/modules.xml
 .idea/jarRepositories.xml
