@@ -1,0 +1,71 @@
+name: Regression E2E Tests
+
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+    branches:
+      - master
+  workflow_dispatch:
+
+jobs:
+  Chrome_Linux_Regression:
+    runs-on: ubuntu-latest
+    permissions:
+      checks: write
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Setup Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: 'zulu'
+          java-version: '21'
+
+      - name: Setup Maven
+        uses: stCarolas/setup-maven@v5
+        with:
+          maven-version: 3.9.9
+
+      - name: Run Regression Tests (Chrome)
+        continue-on-error: true
+        run: mvn clean test -DsuiteXmlFile=regression.xml -DexecutionType=LocalHeadless -DbrowserType=Chrome
+
+      - name: Upload Allure Results (Chrome)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: Chrome_Linux_Allure_Results
+          path: test/test-output/allure-results
+
+  Edge_Windows_Regression:
+    runs-on: windows-latest
+    permissions:
+      checks: write
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Setup Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: 'zulu'
+          java-version: '21'
+
+      - name: Setup Maven
+        uses: stCarolas/setup-maven@v5
+        with:
+          maven-version: 3.9.9
+
+      - name: Run Regression Tests (Edge)
+        continue-on-error: true
+        run: mvn clean test -DsuiteXmlFile=regression.xml -DexecutionType=LocalHeadless -DbrowserType=Edge
+
+      - name: Upload Allure Results (Edge)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: Edge_Windows_Allure_Results
+          path: test/test-output/allure-results
