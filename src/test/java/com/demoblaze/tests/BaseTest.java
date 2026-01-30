@@ -39,16 +39,28 @@ public class BaseTest implements WebDriverProvider {
     protected JsonReader Invalidregisterdata;
 
     protected  WebDriver driver;
+
     @BeforeSuite(alwaysRun = true)
     public void setUpSuite() {
         browser = PropertyReader.getProperty("browser");
         baseUrl = PropertyReader.getProperty("baseUrl");
         LogsManager.info("Properties loaded: browser=" + browser + ", baseUrl=" + baseUrl);
+        validlogindata = new JsonReader("validLogin-data");
+        invalidloginNameData = new JsonReader("InvalidLoginName-data");
+        invalidLoginPasswordData = new JsonReader("InvalidLoginPassword-data");
+        invalidLoginBothData = new JsonReader("InvalidLoginBoth-data");
+        validregisterdata = new JsonReader("Validregister-data");
+        Invalidregisterdata = new JsonReader("Invalidregister-data");
+        productId = ExcelDataHelper.getProductId(2);
+        email = PropertyReader.getProperty("email");
+        name = PropertyReader.getProperty("name");
+        message = PropertyReader.getProperty("message");
+        orderData = CSVReaderHelper.getOrderData("src/test/resources/test-data/placeOrderData.csv", 0);
     }
 
     @BeforeMethod(alwaysRun = true)
     public void setUpMethod() {
-       driver = DriverFactory.createDriver(browser);
+        driver = DriverFactory.createDriver(browser);
         DriverManager.setDriver(driver);
         driver.get(baseUrl);
         LogsManager.info("Navigated to base URL");

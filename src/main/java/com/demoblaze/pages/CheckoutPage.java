@@ -96,7 +96,6 @@ public class CheckoutPage extends BasePage {
         String actualMessage = new ElementActions(driver)
                 .findElement(thankYouMessage)
                 .getText();
-
         Assert.assertEquals(actualMessage, "Thank you for your purchase!", "Thank you message does not match!");
         return this;
     }
