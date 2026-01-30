@@ -42,7 +42,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: Chrome_Linux_Allure_Results
-          path: test/test-output/allure-results
+          path: test-output/allure-results
 
   Edge_Windows_Regression:
     runs-on: windows-latest
@@ -78,5 +78,5 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: Edge_Windows_Allure_Results
-          path: test/test-output/allure-results
+          path: test-output/allure-results
 
