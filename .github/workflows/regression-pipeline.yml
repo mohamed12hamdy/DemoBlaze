@@ -14,9 +14,13 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       checks: write
+
     steps:
       - name: Checkout Code
         uses: actions/checkout@v4
+
+      - name: List project files (Linux)
+        run: ls -R
 
       - name: Setup Java
         uses: actions/setup-java@v4
@@ -30,7 +34,7 @@ jobs:
           maven-version: 3.9.9
 
       - name: Run Regression Tests (Chrome)
-        continue-on-error: true
+        continue-on-error: false
         run: mvn clean test -DsuiteXmlFile=regression.xml -DexecutionType=LocalHeadless -DbrowserType=Chrome
 
       - name: Upload Allure Results (Chrome)
@@ -38,15 +42,20 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: Chrome_Linux_Allure_Results
-          path: test-output/allure-results
+          path: test/test-output/allure-results
 
   Edge_Windows_Regression:
     runs-on: windows-latest
     permissions:
       checks: write
+
     steps:
       - name: Checkout Code
         uses: actions/checkout@v4
+
+      - name: List project files (Windows)
+        run: dir
+        shell: cmd
 
       - name: Setup Java
         uses: actions/setup-java@v4
@@ -60,7 +69,8 @@ jobs:
           maven-version: 3.9.9
 
       - name: Run Regression Tests (Edge)
-        continue-on-error: true
+        continue-on-error: false
+        shell: cmd
         run: mvn clean test -DsuiteXmlFile=regression.xml -DexecutionType=LocalHeadless -DbrowserType=Edge
 
       - name: Upload Allure Results (Edge)
@@ -68,4 +78,5 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: Edge_Windows_Allure_Results
-          path: test-output/allure-results
+          path: test/test-output/allure-results
+
