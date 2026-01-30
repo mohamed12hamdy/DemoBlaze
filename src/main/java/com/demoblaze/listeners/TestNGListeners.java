@@ -7,10 +7,7 @@ import com.demoblaze.drivers.UITest;
 import com.demoblaze.drivers.WebDriverProvider;
 import com.demoblaze.drivers.WebDriverProvider;
 import com.demoblaze.media.ScreenshotsManager;
-import com.demoblaze.report.AllureAttachmentManager;
-import com.demoblaze.report.AllureConstants;
-import com.demoblaze.report.AllureEnvironmentManager;
-import com.demoblaze.report.AllureReportGenerator;
+import com.demoblaze.report.*;
 import com.demoblaze.utils.FileUtils;
 import com.demoblaze.utils.LogsManager;
 import org.openqa.selenium.Alert;
@@ -37,9 +34,10 @@ public class TestNGListeners implements ISuiteListener, IExecutionListener, IInv
 
     public void onExecutionFinish() {
 
-        AllureReportGenerator.generateReports(false);
-        //AllureReportGenerator.generateReports(true);
-        AllureReportGenerator.openReport(AllureReportGenerator.renameReport());
+        if (!OSUtils.isCI()) {
+            AllureReportGenerator.generateReports(false);
+            AllureReportGenerator.openReport(AllureReportGenerator.renameReport());
+        }
         LogsManager.info("Test Execution Finished");
     }
 

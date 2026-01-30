@@ -25,15 +25,9 @@ public class ExcelReader {
         }
     }
 
-    /**
-     * Read single cell value while skipping header row
-     * @param rowIndex index without counting header (0 = first data row)
-     * @param columnIndex column index (0-based)
-     * @return cell value as String
-     */
     public String getCellDataWithoutHeader(int rowIndex, int columnIndex) {
 
-        // +1 to skip header
+
         Row row = sheet.getRow(rowIndex + 1);
         if (row == null) return "";
 

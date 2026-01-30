@@ -12,4 +12,8 @@ public class OSUtils {
         if (os.contains("nix") || os.contains("nux")) return OS.LINUX;
         return OS.OTHER;
     }
+
+    public static boolean isCI() {
+        return System.getenv("CI") != null;
+    }
 }

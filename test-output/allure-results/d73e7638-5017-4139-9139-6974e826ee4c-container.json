@@ -1,0 +1,1 @@
+{"uuid":"d73e7638-5017-4139-9139-6974e826ee4c","name":"com.demoblaze.tests.ui.LogoutTest","children":["cd60c777-c2c1-41f1-90fe-9b35cd1a9b6e"],"befores":[{"name":"setUpClassLogout","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1769784891100,"stop":1769784891127}],"afters":[],"start":1769784891027,"stop":1769784903100}
