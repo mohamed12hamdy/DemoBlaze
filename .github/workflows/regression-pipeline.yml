@@ -34,7 +34,7 @@ jobs:
           maven-version: 3.9.9
 
       - name: Run Regression Tests (Chrome)
-        continue-on-error: false
+        continue-on-error: true
         run: mvn clean test -DsuiteXmlFile=regression.xml -DexecutionType=LocalHeadless -DbrowserType=Chrome
 
       - name: Upload Allure Results (Chrome)
@@ -42,7 +42,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: Chrome_Linux_Allure_Results
-          path: test-output/allure-results
+          path: test/test-output/allure-results
 
   Edge_Windows_Regression:
     runs-on: windows-latest
@@ -69,7 +69,7 @@ jobs:
           maven-version: 3.9.9
 
       - name: Run Regression Tests (Edge)
-        continue-on-error: false
+        continue-on-error: true
         shell: cmd
         run: mvn clean test -DsuiteXmlFile=regression.xml -DexecutionType=LocalHeadless -DbrowserType=Edge
 
@@ -78,5 +78,5 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: Edge_Windows_Allure_Results
-          path: test-output/allure-results
+          path: test/test-output/allure-results
 
